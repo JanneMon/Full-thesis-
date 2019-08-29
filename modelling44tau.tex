@@ -1,0 +1,404 @@
+\chapter{Modeling 44 Tau and Superstar}
+\label{modeling}
+In this chapter the process of modeling the stars 44 Tau and Superstar in MESA and GYRE is described. The methods for comparing the models to  observations is introduced and discussed.
+
+\section{Choosing a grid}
+\label{sec:grid}
+For this project models are created in order to compare to observations and ultimately narrow down the parameter space for 44 Tau and HD 187547. More than one approach can be taken in order to reach this goal, each with their own advantages and disadvantages. \citep{lenz2010delta} narrows down the grid size by first calculating the best mass for each stage. I.e. it is an approach where the star is assumed to be in either ms, post-ms contraction or post-ms expansion phase, and these results in three different grids where the best model is found for each stage. This method has the advantage that is it forces a result on all the relevant possibilities. However, it is a process that requires the grid to be narrowed through several steps, including a separate analysis of the mass range. 
+
+In this project, a slightly different approach is used. Instead of dividing the models into different stages and narrowing it down, a wide grid stretching over the entire instability domain is calculated, and of these the best models are found. To find not only the best overall model, but also consider their tracks and initial input parameter combination, the best model for each track is found. This choice is discussed in \secref{bestmodel}. 
+
+As discussed in \secref{compute}, the initial set of parameters chosen has a great influence of the further evolution of the star. Therefore, a grid needs to be chosen with care in order to get a big enough grid to not only cover the observationally determined parameter space, but adequately beyond this in order to include the uncertainties on the observations.
+Since the mass has not been observationally determined, a good place to start is the instability strip. Usually, the intermediate mass stars have masses between 1.5-2.5 \msun in order to cover the strip where pulsations are expected. Therefore this mass range is chosen to be from 1.5\msun to 2.2 \msun, where the most important part is to include masses all the way down to 1.5\msun since these star in particular mark the transition to convective cores. The  initial abundances are chosen to be within the numerical boundaries of \texttt{MESA}, as discussed in \chapref{compute}. This yields a range of 0.65<X<0.70 and 0.01<Z<0.03. Numerical results for two different masses and $Z$ can be seen on \figref{diffz}. Here, the red color correspond to masses of $M=1.75M_\odot$ and black lines $M=1.85M_\odot$. The different values of $Z$ are represented with full and dashed lines respectively. There is a clear difference between tracks with different $Z$. Higher values of $Z$ yields a high opacity which blocks the radiation from the inner layers. Hence, stars with higher metallicity will be less luminous. In this case, the luminosity difference is in the order of \l = 0.2 within the three sigma uncertainties on the luminosity.  
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{test_z_2.png}
+	\caption{Stellar evolution tracks for two different masses with two different metal abundances. Each track has $X=0.70$, $\alpha_{mlt}=0.5$ and $\alpha_{ov}=0.3$. The red lines indicates tracks with masses of $M=1.75M_\odot$, and black lines indicate $M=1.85M_\odot$. The full lines have $Z = 0.03$ and dashed lines $Z = 0.01$. The black dashed box shows the three sigma uncertainties on \l and \teff (from \citet{lenz2010delta}). }
+	\label{diffz}
+\end{figure}
+
+Numerical results for the initial hydrogen abundances can be seen on \figref{diffx}. The line and color convention corresponds to that of \figref{diffz}, with the difference being the line type indicating the values of $X$ instead. Here it is also clear that the initial hydrogen abundance affects the luminosity (however less than the $Z$). Higher hydrogen abundances causes a smaller helium abundance (when $Z$ is held constant) HVORFOR ER LUM STØRRE?. 
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{test_x.png}
+	\caption{Stellar evolution tracks for two different masses with two different metal abundances. Each track has $Z=0.01$, $\alpha_{mlt}=0.5$ and $\alpha_{ov}=0.3$. The red lines indicates tracks with masses of $M=1.75M_\odot$, and black lines indicate $M=1.85M_\odot$. The full lines have $X = 0.65$ and dashed lines $X = 0.75$. The black dashed box indicates the three sigma uncertainties on \l and \teff (from \citet{lenz2010delta}).}
+	\label{diffx}
+\end{figure}
+
+ $\alpha_{mlt}$ and $\alpha_{ov}$ are parameters that are not easily chosen, since they are purely empirical and depend strongly on the prescription used in the modeling (see \secref{sec:conv_prescriptions}. For the $\alpha_{mlt}$ the standard value in \texttt{MESA} is around 1.8. The Warsaw-New Jersey stellar evolution code used to calculate models for 44 Tau by \citep{lenz2010delta} has the same mixing-length prescription as \texttt{MESA}. Their results showed that models with mixing length of $\alpha_{mlt} > 0.2$ gave the best fits, confirming the assumption that smaller mixing lengths than the sun is needed in order to model these stars. However, \texttt{MESA} is not computationally capable of handling a mixing length below 0.2 which is not surprising as it would mean that energy transport by convection in the outer layers is almost non existing. This also underlines the fact that convection is treated differently in each stellar evolution code, and parameters such as $\alpha_{mlt}$ needs to be carefully examined in the grid. It can also be argued that since $\delta$ Sct stars have a much smaller convection layer than that of the Sun, the convection will not be as efficient.  \citet{trampedach2011mass} calculated a range of mixing lengths through a grid simulation of solar type structures. One of the results can be seen on \figref{tramp}. 
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{tramper.png}
+	\caption{Mass mixing lengths in units of pressure scale height $H_p$ in the \teff - $\log g$ plane. \citep{trampedach2011mass}.}
+	\label{tramp}
+\end{figure}
+
+The mixing length is predicted to be smaller for higher values of \teff, as expected. Both 44 Tau and HD 187547 are out of range in \teff space, since the mixing length range here is calculated based on solar-like structures. However, the trend in mixing length is still applicable to intermediate mass stars. As an initial grid we therefore choose values of $\alpha_{mlt}$ between 0.2 and 0.8. Analogous to the mixing length, the convective overshoot near the core is described with the convective core overshoot parameter $\alpha_{ov}$. As it is typically in the order of 0.1-0.2 \citep{kippenhahn1990stellar}, we here choose values between 0.1-0.3.  
+
+Some models in the grid were not possible to compute with the current equations in MESA. For 1.5\msun it was not possible to compute models with a metallicity higher than 0.02, it the initial He abundance is low. For 1.80\msun three tracks were excluded as they could not be computed either. The initial grid used here can be seen in \tabref{grid}.
+\begin{table}[htbp]
+  \centering
+  \caption{Values and step sizes for all parameters in the grid calculated in this work. }
+  \label{grid}
+  \begin{tabular}{|l|ll|}\toprule
+    & values    & stepsize \\ \midrule
+    X                         & 0.65-0.75 & 0.05     \\
+    Z                         & 0.01-0.03 & 0.01     \\
+    Mass/\msun                & 1.5-2.2   & 0.05     \\
+    $\alpha_{mlt}$            & 0.2-0.8   & 0.3      \\
+    $\alpha_{ov}$             & 0.1-0.3   & 0.1      \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+Some of these combinations did however not converge properly, and could therefore not be included in the grid. These models are:
+\begin{itemize}
+	\item $M=1.50M_\odot$: combinations with $X=0.75$ and $Z=0.02$ or $Z=0.03$
+	\item $M=1.55M_\odot$: combinations with $X=0.75$ and $Z=0.03$
+	\item $M=1.95M_\odot$: combinations with $X=0.75$ and $Z=0.03$
+	\item $M=1.80M_\odot$: combinations with $X=0.75$ and $Z=0.02$ and $\alpha_{mlt} = 0.2$
+	\item $M=1.90M_\odot$: combinations with $X=0.75$ and $Z=0.02$ and $\alpha_{mlt} = 0.8$ 
+\end{itemize}
+
+It is unclear why these exact combinations have numerical issues, since it would require an investigation beyond the scope of this work. However, they all have in common that the initial hydrogen abundance is very high at $X=0.75$. This might explain most of the issues since this value is in fact higher than the initial value of the interstellar medium it was born in, which can practically never be true. However, the reason for still including them is that models might still reproduce these high values due to the numerical calculations. So if a model has this value it can be interpreted as an example of the imperfect theory behind the codes.  
+
+\section{Resolution and varcontrol}
+\label{sec:res}
+
+As mentioned previously in \secref{sec:mesa}, they way MESA works is to fulfill calculations in time steps that are non-equidistant. As a result of this, models on a track can be far apart if the evolution is fast. This means that models on the main-sequence are well resolved, while the models on fast stages (particularly post-ms contraction phase) are fare apart in terms of structure. Since every model calculated in MESA yields one model in GYRE, this also results in the frequencies being very different from one model to another, which should be considered when calculating the \chis (see \secref{sec:chis}). An example can be seen on \figref{resstage} where, the radial fundamental mode is plotted as a function of timestep. The lower panel of \figref{resstage} is the same models corresponding to middle panel but where the radial fundamental mode frequency difference between models, $f_1(i+1) - f_1(i)$, is plotted as a function of time. This shows that the resolution in the frequency space is as high as ~0.18 cyc/day for this track (some tracks go up to ~0.2). The highest point is, however, in the very beginning of the main sequence, and not on the post-main sequence contraction phase, where it is favorable to have a high resolution.     
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\textwidth]{resolution_stages.png}
+    \caption{Resolution at different stages of an evolution of a track with M=1.85\msun, X=0.75, Z=0.02, $\alpha_{mlt} = 0.5$, $\alpha_{ov} = 0.3$. The begininng of the main sequence is marked with a bold "1", continuing until "2" where the post-main sequence contraction phase starts. At "3" all hydrogen has been exhausted in the core, and the star is in the post-main sequence expansion phase. Middle panel: Here the fundamental frequency is plotted as a function of time. The dashed lines indicate the stages corresponding to those in the middle panel. Lower panel: Shows the absolute difference in fundamental frequency between two subsequent models.}
+    \label{resstage}
+\end{figure}
+
+Since 44 Tau has earlier been identified to be in the post-ms contraction phase (and since we cannot exclude that possibility for Superstar either) the resolution of the models in MESA needs to be adjusted to allow for a higher chance of finding a good fit. It is possible to simply force smaller timesteps, but this is not ideal since it would not only increase the computation time on the fast evolutionary stages, but the entire track. Since a better resolution is not really needed on the ms, it is therefore better consider an alternative parameter that does not waste computation in areas where it is not needed. 
+
+There are more than one way of doing so. It is possible to set a limit for magnitude of max change in temperature and photosphere with the \texttt{delta\_lgTeff\_limit}, or alter the minimum and maximum number of grid points in a model with \texttt{mesh\_delta\_coeff} (a higher values decreases number). These parameters need to increase the resolution in the right area, but also within a resonable amount of computation time. The parameter found to be most efficient in this project is the \texttt{varcontrol\_target} parameter. This parameter is assigned a value describing the relative variation in the structure from one model to the next. The timestep then adjust accordingly, depending if the variation is smaller or larger than the value. Increasing the resolution through this value does also increase the computation time, however, reasonably. An example of this can be seen on \figref{varcontrol} where the same track is plotted with different values of \texttt{varcontrol\_target}. It is here found that a value of 5e-5 is sufficient in making the resolution satisfactory for this work. 
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\textwidth]{varcontrol_res.eps}
+    \caption{Evolution of three tracks with same initial parameters, but different values of \texttt{varcontrol\_target} where 1d-4 is default in \texttt{MESA}. It can be seen that the resolution drops significantly for the value 5d-4. Therefore, a slightly smaller value of 5d-5 is chosen for this work.}
+    \label{varcontrol}
+\end{figure}
+
+
+Some tracks are still better resolved than others. A general tendency from the computed tracks are that models with overshoot below 0.2 are not resolved nearly as well as models with high overshoot of 0.3, which can also be seen on \figref{ovresol}. Particularly the Henyey hook cannot be reproduced very well for overshoot of 0.1. The details as to why this occurs is beyond the scope of this work, however it is very important to take into consideration when evaluating results as tracks with low overshoot will automatically have fewer models and therefore limited chances of fitting well to observations. 
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\textwidth]{resolution_overshoot.eps}
+    \caption{Two models of the same track, but with different overshoot.}
+    \label{ovresol}
+  \end{figure}
+
+
+\section{chi2 testing}
+\label{sec:chis}
+
+\subsection{Finding the best model}
+\label{bestmodel}
+
+
+In order to find out how well/fitted a model is, a comparison with stellar parameters is needed. By just comparing models to luminosity, effective temperature and surface gravity, it is difficult to find an estimate on the evolutionary stage as the best model on one track might be on the main sequence, whereas the best model on a different track is on the post-main sequence. Therefore, frequencies are need as additional observational parameters for comparison (as they, as discussed in \secref{chap:asteroseismology}, change with evolution). There is more than one way of doing the comparisons, but in this work a \chis test is used. \chis yields a value for each models, allowing us to find models with lowest \chis values. The Pearson's goodness of fit test is commonly written as 
+
+\begin{align}
+\label{standard_chi}
+\chi^2_j = \sum^I_{i=1}\left(\frac{v^{theo}_{i,j}-v^{obs}_i}{\sigma_i}\right)^2,
+\end{align}
+
+\noindent where $\nu^i_{obs}$ is the observed parameter for model i, $\nu^i_{theo}$ is the corresponding theoretical parameter and $\sigma^i$ is the uncertainty for the parameter. It provides a number that somewhat describes how close the fitting parameters are tp the corresponding observed parameters. However, there is more than one way of doing a \chis test, as its implementation depends on the work, and particularly the goal that is desired. There are a few assumption that needs to be taken into consideration before implementing a \chis test. Most importantly, statistically speaking, a \chis test does not provide any information on how well individual parameters fit, or how likely a model is to be good. As the goal of this project is to find the most likely evolutionary stage, the \chis values can simply be used as a way of \textit{comparing} between the different models. So models with the lowest \chis are the models with parameters closest to the observed parameters. These thereby provide an age span and a likely evolutionary stage. 
+If the \chis values are to be compared between the different models, then they need to be calculated under the same conditions. This means that calculations should be done with the same number of fitting parameters for all models (since they otherwise are not comparable). For instance, if one model have more fitted frequencies than another, the \chis with the model with more fitting parameters will have an extra link, causing it to naturally be larger than the \chis for the model with fewer fitted frequencies, making their \chis incomparable. 
+
+%GYRE produces an output file for the chosen MESA profiles. Since it computationally takes time to produce the output files, a constraint is needed in order to determine which profiles are within the range where we wish to produce a GYRE output file. This is done by defining a parameter space of size three sigma, based on observed parameters \teff, \lum, and \grav.
+
+%In order to test how well the computed frequencies match observed frequencies a \chis prescription is applied to every profile. 
+\subsection{44 Tau}
+\label{sec:chi44}
+
+\subsubsection{l=0 modes}
+
+For 44 Tau, the frequencies of the fundamental mode and first overtone are well-determined. These frequencies act as a constraint for the l=0 mode models. Initially the l=0 modes are computed using GYRE for the entire grid described in \secref{sec:grid}. Here, we have an initial constraint from only the frequencies corresponding to the radial fundamental mode and first overtone and the global parameters. The \chis for this initial run then becomes
+
+\begin{align}
+\chi^2_j & = & \left(\frac{\nu^{\text{fund,obs}}-\nu_j^{\text{fund,theo}}}{\sigma_{\text{fund},j}}\right)^2 
+ + \left(\frac{\nu^{\text{first,obs}}-\nu_j^{\text{first,theo}}}{\sigma_{\text{first},j}}\right)^2 
+ +
+\left(\frac{\text{T}_\text{eff}^{obs}-\text{T}_{\text{eff},j}^{\text{theo}}}{\sigma_{\text{T}_\text{eff},j}}\right)^2 \\
+& & +
+\left(\frac{\log \text{g}^\text{obs}-\log \text{g}^\text{theo}_j}{\sigma_{\log \text{g},j}}\right)^2 
+ + \left(\frac{\log \text{L}^{\text{obs}}-\log \text{L}^\text{theo}_j}{\sigma_{\log \text{L},j}}\right)^2, 
+ \label{eq:chis}
+\end{align}
+
+\noindent where $\chi^2_j$ is the \chis for the j'th model. For $\text{T}_{\text{eff}}$, $\log \text{g}$ and $\log \text{L}$ the $\sigma$ used is simply the uncertainties from observations. Notice here that even though the frequencies are calculated for the entire track, the \chis is not calculated for models on the pre-main sequence. 
+
+For the frequencies the $\sigma$ is naturally very small (in the order of $10^{-6} \text{Cyc}/\text{day}$, since the uncertainty on observations depend only on the observation time. Long observation times of 44 Tau therefore results in very narrow peaks. It is very nice to know a parameter to this precision, but as shown in \eqref{eq:chis} a small uncertainty will results in high values of \chis. This is not a problem on its own, as the \chis only represent how well the model fits observation. If this value is extremely high it does not necessarily mean that the models are not good models for the star, but that a model precision is simply not comparable to frequency precision. In other words, no model will ever get close to fitting well. Also, by only dividing by the uncertainties the resolution of the track is not taken into consideration. As shown in \secref{sec:res} the resolution of the track is important as fewer models in one area decreases the possibility of having a good fit. This also means that a model frequency can change a lot between two time steps if the resolution is low, and this should be taken into account. In this work the following is prescription is therefore applied to the frequencies: 
+\begin{equation}
+\label{sigma}
+    \chi^2  = \frac{1}{\alpha}\sum^I_{i=1}\frac{\left(v^{\text{obs}}_{i}-v^{\text{theo}}_{i,j}\right)^2}{(\sigma^{\text{obs}}_i)^2 f_i(\Delta\nu_{i,j})}
+\end{equation}
+
+\noindent where i in this case is the different frequencies (i.e I=2 for l=0 calculations where we only compare to fundamental frequency and first overtone),j is the j'th model, and $\alpha$ is a scaling parameter. $f_i(\Delta \nu_{i,j})$ is a function that artificially increases the sigmas on the frequencies
+
+\begin{equation}
+\label{function}
+    f_i(\Delta \nu_{i,j}) = \frac{\nu_j - \nu_{j-1}}{\sigma_{\text{obs},i}},
+\end{equation}
+ 
+\noindent where the distance in frequency space is taken into consideration for the j'th model. Smaller distances in the frequency space between model means a higher $f_i(\Delta \nu_{i,j})$, hence, as smaller \chis. Runs both with and without the uncertainty pump will be made to test the difference in the main result. 
+
+%Alternatively, the \chis for the frequencies can be calculated as \eqref{standard_chi}, but with an expanded $\sigma$ similar to that of a standard deviation
+
+%\begin{equation}
+%\label{m2}
+   % \sigma_{i,j} = \frac{1}{I}\sqrt{\sum_{i=1}^I \left(\nu_{i,j}^{\text{theo}} - \nu_{i}^{\text{obs}}\right)^2}.
+%\end{equation}
+
+%There are both advantages and disadvantages for both methods. The first method does take the spacing into consideration, but it follows from this that the since the \chis are artificially enhanced, the scaling between the frequency \chis and rest of the parameters is off by the scaling factor $\alpha$. This can be found by finding the ratio $\frac{\chi_{freqs}}{\chi_{freqs}}$ for each model, j, and finding the mean. This method is slightly more complicated than the second method, however, the second method does not take the spacing in frequency between models into account, and the standard deviation is based only on two different frequencies. The order of magnitude of the \chis is different for the methods, but as mentioned earlier the numbers themselves are not representative of how well a model fits. 
+
+As of yet only l=0 modes have been fitted. Calculating corresponding l=1 and l=2 modes for all models is time consuming, and therefore a selection criteria is needed. This is done by first finding the model with the lowest \chis is for each track. From all of these the best 5\% are found for both methods, respectively. These models and their initial parameters are shown in \tabref{bestchi_m1} and \tabref{bestchi_m2}. 
+
+\begin{table}[htbp]
+  \caption{hest}
+  \label{bestchi_m1}
+  \begin{tabular}{lllllllllll}
+ Model & X & Z & Y & $M[M_\odot]$ & $\alpha_{mlt}$ & $\alpha_{ov}$ & $\log \text{T}_\text{eff}$  & $\log \text{L}$  & $\log \text{g}$ & $\chi^2 (method 1)$ \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+  \caption{skinke}
+  \label{bestchi_m2}
+  \begin{tabular}{lllllllllll}
+    \toprule
+    Model & X & Z  & $M[M_\odot]$ & $\alpha_{mlt}$ & $\alpha_{ov}$ & $\log \text{T}_\text{eff}$  & $\log \text{L}$  & $\log \text{g}$ & $\chi^2$ & $\chi^2_{pum}$\\
+    \midrule
+          1356 & 1.50 & 0.65  & 0.01  & 0.2  & 0.1  &  &  &  &  &  \\
+          1247 & 1.50 & 0.65  & 0.01  & 0.5  & 0.1 &  &  &  &  &  \\
+          1218 & 1.50 & 0.65  & 0.01  & 0.8  & 0.1 &  &  &  &  &  \\
+          1443 & 1.55 & 0.70 & 0.01  & 0.2  & 0.3  &  &  &  &  &  \\
+          1297 & 1.55 & 0.70 & 0.01   & 0.5  & 0.3  &  &  &  &  &  \\
+          1257 & 1.55 & 0.70  & 0.01  & 0.8  & 0.3 &  &  &  &  &  \\
+         
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+          &  &  &  &  &  &  &  &  &  &  \\
+    \bottomrule
+\end{tabular}
+\end{table}
+
+It is possible that the 5\% best models from the overall grid (and not by first selecting the best from each track) might more than one model on each tracks that are in the 5\% range. But by first selecting the model with the lowest \chis value for each track, a wide range of parameter combinations is ensured. It forces an estimate on the evolutionary stage at all areas of the grid, including the very outskirts. The disadvantage of this is that it makes it more difficult to identify a more possible parameter combination, since there cannot be more than one model in the 5\% range on a track. However, as the end goal is to find an estimated evolutionary stage and a single best model, the method is adequate.
+
+%The selection of the 5\% best models is illustrated on \textbf{LAV REFERENCE}
+%and \textbf{LAV REFERENCE} for the two different luminosities and methods respectively. Upper panels shows models with \chis calculated from \eqref{sigma} and lower panels \eqref{m2}. The \chis are plotted as a function of mass. The red line represents the 5\% line, where models below the lines are marked with red, meaning that they are amongst the 5\% models with the lowest \chis value. The different method does show slight differences in the distribution of \chis values. However, what can be seen on all the plots is that the spread in the \chis values is higher for the outskirt values of the mass, particularly towards the lower end, whereas models with a mass of 1.95\msun generally have lower \chis values. This indicates that a mass of 1.95\msun leaves more room to change the rest of the parameters without changing the \chis significantly, including the frequencies. However, a mass of 1.5\msun have a significantly smaller range where it matches the observed parameters.
+
+% \begin{figure}
+%      \centering
+%      \begin{subfigure}[b]{0.3\textwidth}
+%          \centering
+%          \includegraphics[width=\textwidth]{graph1}
+%          \caption{$y=x$}
+%          \label{fig:y equals x}
+%      \end{subfigure}
+%      \hfill
+%      \begin{subfigure}[b]{0.3\textwidth}
+%          \centering
+%          \includegraphics[width=\textwidth]{graph2}
+%          \caption{$y=3sinx$}
+%          \label{fig:three sin x}
+%      \end{subfigure}
+%         \label{5pl1}
+% \end{figure}
+
+% \begin{figure}
+%      \centering
+%      \begin{subfigure}[b]{0.3\textwidth}
+%          \centering
+%          \includegraphics[width=\textwidth]{graph1}
+%          \caption{$y=x$}
+%          \label{}
+%      \end{subfigure}
+%      \hfill
+%      \begin{subfigure}[b]{0.3\textwidth}
+%          \centering
+%          \includegraphics[width=\textwidth]{graph2}
+%          \caption{$y=3sinx$}
+%          \label{}
+%      \end{subfigure}
+%         \label{5pl2}
+% \end{figure}
+
+One thing that could cause a the best model to be shifted towards a different
+parameter combination is if the grid. Since \chis only provide a value to
+compare to other models, it does not give an indication of how likely a
+parameter space is. This also means that the \chis for the frequency space can
+deviate a lot from the \chis from the other observable parameters. To ensure
+that the 5\% models are also within the observable parameter space of \logg and
+\teff, a scatter plot is made which can be seen on \figref{scatter}. 
+
+\begin{figure}[htbp]
+	\centering
+	%\includegraphics[width=1\textwidth]{scatter_all_v2.eps}
+	\makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{scatter_all_v2.eps}}%
+	\caption{Scatter plots showing \teff, \logg color coded with nine different parameters for the 5\% best models (without resolution control). The plots color coded with \teff and \logg are plotted to show that the plotting method works correctly. The run was made with the Lenz obsevational parameters set. }
+	\label{scatter}
+\end{figure}
+
+
+Here, \logg is plotted as a function of \teff and color coded with the corresponding \chis. The 1$\sigma$ uncertainty on \logg and \teff is marked with a black stippled line. There is a gap in models around \teff = 3.79 in the 5\% selection criteria. Some of the scatter plots shows expected tendencies such as \l, \logg, \teff and profile numbers. Since higher profile number is at a later stage\footnote{Note that the profile number does only indicate the stage of that individual track i.e profile number 900 on one tracks is not necessarily at the same stage for the same profile number on a different track. }, the effective temperature is much lower for lower profile numbers. 
+
+ssh 
+
+
+
+
+\subsubsection{l=0,1,2 modes}
+A new calculation was conducted in GYRE for l=0, l=1 and l=2 modes for all of these models. The frequencies produced gives a further constrain of the best models as all frequencies can now be compared with observations. Since mode identification is not complete for 44 Tau the radial n,l,m for the frequencies are not finally determined. Therefore they cannot be compared to the individual frequencies calculated in the model without first giving an estimated guess on the n,l and m. Therefore a calculation is conducted based on the fact that n,l and m is known for the models. To ensure that the \chis are comparable between each model, as mentioned earlier, the models all need to have the same amount of fitting parameters. This is not an issue in the first \chis calculations with l=0, since the initial \chis is only based on the same two frequencies for all models. But for l=1 and l=2 the picture is less simple as the number of fitting parameters may vary from model to model, unless it is taken into consideration. The first way to do so is to weight each frequency individually and take the likelihood into account. Though this method probably provides a more detailed and statistically stringent result, it is does require a  very thorough estimate and evaluation of the single frequencies. This is beyond the scope of this work, and instead it is therefore made sure in the way the code is constructed, that this can only be an issue if the number of theoretically produced frequencies is lower than the observed number 8and this is unlikely to happen as these models have already been sorted out in the first \chis round. 
+
+It is carried out in the following way: for each model, each individual model-frequency is compared to all observed frequencies and the best match (i.e. the smallest difference) is thereby assumed to be the closest frequency. This is repeated from the lowest to highest frequency until all model-frequencies has been given a best match observation frequency. This means that the observed frequency will be given the n.l and m of the best -matching model-frequency. Each model then has an estimated set of frequencies where \chis can be computed. This off course does not take into consideration that some frequencies have an estimated radial order and spherical degree. Nor does it take into consideration that the radial fundamental mode and first overtone are already determined (and might match it to n that are higher, however these models should be excluded as their match will not be good if the two first frequencies do not match expectations). This yields a \chis 
+
+\begin{align}
+\chi^2 &= \left(\frac{\nu_{\text{all,obs}}^i-\nu^i_{\text{all,theo}}}{\sigma^i_{\text{first}}}\right)^2
+ +
+         \left(\frac{\text{T}_\text{eff,obs}^i-\text{T}_\text{eff,theo}^i}{\sigma^i_{\text{T}_\text{eff}}}\right)^2  \nonumber \\
+  & \quad +
+\left(\frac{\log \text{g}_\text{obs}^i-\log \text{g}_\text{theo}^i}{\sigma^i_{\log \text{g}}}\right)^2  + \left(\frac{\log \text{L}_\text{obs}^i-\log \text{L}_\text{theo}^i}{\sigma^i_{\log \text{L}}}\right)^2, 
+ \label{eq:chis_all}
+\end{align}
+
+From these, the models with the lowest \chis is found for the two different luminosities respectively. . 
+
+\subsection{Results}
+
+\begin{figure}[htbp]
+	\centering
+	%\includegraphics[width=1\textwidth]{scatter_all_v2.eps}
+	\makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{final_hrd_44tau_lum1.eps}}%
+	\caption{}
+	\label{hrd44taulenz}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	%\includegraphics[width=1\textwidth]{scatter_all_v2.eps}
+	\makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{frequency_fit.eps}}%
+	\caption{}
+	\label{freqfit}
+\end{figure}
+
+\section{Superstar}
+
+On the contrary to 44 Tau, no modes are well enough determined to use an initial constraint for the models of this star. Instead of fitting the frequencies it is therefore more favourable to fit the large frequency separation, introduced in \secref{chap:asteroseismology}. This can be calculated as
+
+\begin{equation}
+    \Delta\nu = \nu_{n+1} - \nu_{n},
+\end{equation}
+
+\noindent the frequency difference between two (l=0).  The \chis can now be calculated using the observed large frequency separation of 3.5 cycles per day \citep{antoci2014role}, calculated the same way as  \eqref{sigma}, with method one \eqref{sigma}. Employing the standard deviation as \eqref{m2} cannot be done the same way as for 44 Tau since there is only one parameter to sum over. Therefore, the 5\% models with the smallest \chis are found only through the first method, and results are shown shown in \tabref{tab:superstar}.
+
+\begin{table}[htbp]
+  \caption{hest}
+  \label{tab:superstar}
+
+\begin{tabular}{lllllllllll}
+\label{bestchi}
+ Model & X & Z & Y & $M[M_\odot]$ & $\alpha_{mlt}$ & $\alpha_{ov}$ & $\log \text{T}_\text{eff}$  & $\log \text{L}$  & $\log \text{g}$ & $\chi^2$ \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  & 
+\end{tabular}
+\end{table}
+
+For modes higher than l=0, calculating the \chis for Superstar is significantly more complicated for Superstar, since it is based on the large frequency separation. When l becomes larger than zero, the frequency separation depends significantly on the mixed modes and radial order. Therefore, this part is beyond the scope of this work. 
+
+\subsection{Results}
+
+%\begin{figure}[htbp]
+%	\centering
+%	%\includegraphics[width=1\textwidth]{scatter_all_v2.eps}
+%	\makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{frequency_fit.eps}}%
+%	\caption{}
+%	\label{}
+%\end{figure}

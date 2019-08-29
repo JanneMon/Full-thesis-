@@ -1,0 +1,289 @@
+\documentclass[a4paper,twoside,11pt]{memoir}
+%pdflatex = 'pdflatex --halt-on-error %O %S';
+
+% This preamble is written by Amalie Stokholm with the help and inspiration from Steffen Videbæk, Mathias Rav, Rasmus Villemoes and Lars 'daleif' Madsen.
+
+% Check input
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Fonts and microtype
+\usepackage[final]{microtype}
+\usepackage[danish,english]{babel}
+\renewcommand\danishhyphenmins{22}
+\selectlanguage{english}
+
+% Fonts
+\usepackage{lmodern}
+% \usepackage{libertine}            % Linux Libertine as text font
+% \usepackage{libertinust1math}     % Math support for Linux Libertine
+\usepackage[scaled=.95]{newtxtt}    % Pretty teletype in correct size
+
+% Sideopsætning (memoir-style)
+\setlrmarginsandblock{3.2cm}{*}{1.5}
+\setulmarginsandblock{*}{3.7cm}{1}
+\setlength{\topskip}{1.6\topskip}
+\checkandfixthelayout
+\sloppybottom
+\strictpagechecktrue
+
+% Ting
+\usepackage{siunitx}
+\usepackage{url}
+\usepackage{xspace}
+
+% Graphics
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{dirtytalk}
+\usepackage{csquotes}
+
+% Mathematics
+\usepackage{amsmath,amsfonts,amssymb}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+
+% SI-units
+\usepackage{siunitx}
+\sisetup{separate-uncertainty=true, % uses \pm instead of parenthesis
+			per-mode=symbol}
+% https://github.com/EdwinChan/latex-hacks/blob/master/astro.sty
+\DeclareSIUnit\solarradius{\ensuremath{\mathit{R}_\odot}}
+
+% BibLaTeX, needs installation of Biber
+\usepackage[style=authoryear-comp,
+			backend=biber,
+			hyperref=true,
+			natbib=true,
+            url=false,
+            doi=false,
+            isbn=false,
+            uniquelist=false,
+            uniquename=false,
+            maxcitenames=2,mincitenames=1,
+            ]{biblatex}
+\bibliography{bib}
+% Space in bibliography
+\setlength\bibitemsep{1.5\itemsep}
+
+% Replaces 'and' with ' &' http://tex.stackexchange.com/questions/68053/use-ampersand-in-citations-and-bibliography-in-biblatex
+\renewcommand*{\finalnamedelim}{%
+  \ifnumgreater{\value{liststop}}{2}{\finalandcomma}{}%
+  \addspace\&\space}
+
+
+% Syntaxmarking: python
+% Defining colors
+\usepackage{color}
+	\definecolor{deepblue}{rgb}{0,0,0.5}
+	\definecolor{deepred}{rgb}{0.6,0,0}
+	\definecolor{deepgreen}{rgb}{0,0.5,0}
+\usepackage{listings}
+% PDF accessibility support for literate listings
+\usepackage{accsupp}
+	\lstset{
+			language=Python,
+			basicstyle=\small\sffamily,
+			keywordstyle=\color{deepblue},  
+			emphstyle=\color{deepred},    
+			stringstyle=\color{deepgreen},
+			commentstyle=\color{red},        
+			showstringspaces=false,
+			columns=fullflexible,
+			keepspaces=true,
+			numbers=left,
+			numbersep=20pt,
+			numberstyle=\tiny,
+			% escapeinside={$}{$},
+			% mathescape=true,
+			literate=
+			{_}{%
+			  \makebox[0pt][l]{%
+			    \makebox[4pt][c]{%
+			      \textcolor{white}{\_}}}%
+			  \rule[-0.4pt]{4pt}{0.4pt}%
+			}1
+			{-}{%
+			  % http://tex.stackexchange.com/a/18509/76220
+			  % Use accessibility support to change what text
+			  % is copied out of the PDF: ASCII hyphen
+			  % instead of Unicode minus
+			  \BeginAccSupp{
+			    method=escape,
+			    ActualText={-}
+			  }%
+			  $-$%
+			  \EndAccSupp{}%
+			}1
+			{*}{%
+			  % http://tex.stackexchange.com/a/18509/76220
+			  % Use accessibility support to change what text
+			  % is copied out of the PDF: ASCII hyphen
+			  % instead of Unicode minus
+			  \BeginAccSupp{
+			    method=escape,
+			    ActualText={*}
+			  }%
+			  $*$%
+			  \EndAccSupp{}%
+			}1
+			{µ}{$\mu$}1
+			{É}{{\'E}}1,
+}
+% Filler text
+\usepackage{lipsum}
+
+% Fix-me
+\usepackage[final]{fixme}
+	\fxsetup{layout=footnote}
+
+% Appendix i ToC
+\renewcommand\cftappendixname{\appendixname~}
+
+% For front page design
+% \usepackage[some]{background}
+% \usepackage[skins]{tcolorbox}
+% \usetikzlibrary{spy}
+% \backgroundsetup{
+% 	scale=1,
+% 	angle=0,
+% 	opacity=1,
+% 	contents={\begin{tikzpicture} [remember picture,overlay,spy using outlines={circle,yellow,magnification=4,size=7.5cm, connect spies,
+% 	spy connection path={\draw[ultra thick] (tikzspyonnode) -- (tikzspyinnode);},
+% 	every spy on node/.append style={ultra thick}
+% 	}]
+% 	\path [fill overzoom image=masshd] (current page.west) rectangle (current page.north east);
+% 	\spy on (0,7.4) in node [right, line width=1mm] at (1,-7);
+% 	\end{tikzpicture}}
+% }
+
+% Margins (with help from Steffen Videbæk)
+%\setlxvchars
+%\settypeblocksize{*}{1.03\lxvchars}{1.6181}
+%\setulmargins{*}{*}{1.0}
+%\setlrmargins{*}{*}{1.0}
+%\checkandfixthelayout[nearest] % needed in order for memoir to compile these settings correctly.
+
+% TÅGEKAMMERET package allowing the right naming of tk
+%\usepackage{tket}
+\pagestyle{headings}
+
+% For default values, search for \makechapterstyle{default} in memoir.cls.
+% Find memoir.cls with kpsewhich memoir.cls
+\makechapterstyle{hangnumtight}{%
+  \chapterstyle{hangnum}
+  % hangnum by default has \beforechapskip=50pt 
+  \setlength{\beforechapskip}{-20pt}
+  % hangnum by default has \afterchapskip=40pt
+  \setlength{\afterchapskip}{20pt}
+}
+\chapterstyle{hangnumtight}
+
+%\let\realchapter\chapter
+%\renewcommand{\chapter}[1]{\realchapter{#1}\vspace{-10pt}}
+
+% References
+\usepackage{varioref}
+\usepackage[colorlinks=true,
+			allcolors=black
+			]{hyperref}
+\usepackage{cleveref}
+
+% Macros
+\newcommand{\hdformat}[1]{HD~\@{#1}\xspace}
+\newcommand{\mystar}{\hdformat{181096}}
+\newcommand{\figref}[1]{Fig.\@~\ref{#1}\xspace}
+\newcommand{\secref}[1]{Sec.\@~\ref{#1}\xspace}
+\newcommand{\chapref}[1]{Chap.\@~\ref{#1}\xspace}
+\newcommand{\tabref}[1]{Table~\ref{#1}\xspace}
+\renewcommand{\eqref}[1]{Eq.\@~\ref{#1}\xspace}
+\newcommand{\atlas}{\textsc{Atlas}\xspace}
+\newcommand{\phoe}{\textsc{Phoenix}\xspace}
+\newcommand{\stagger}{\textsc{Stagger}\xspace}
+\newcommand{\kepler}{\emph{Kepler}\xspace}
+\newcommand{\hipparcos}{Hipparcos\xspace}
+\newcommand{\gaia}{Gaia\xspace}
+\newcommand{\loli}{\textsc{L0L1}\xspace}
+\newcommand{\lilii}{\textsc{L1L2}\xspace}
+\newcommand{\aap}{Astronomy \& Astrophysics\xspace}
+\newcommand{\araa}{Annual Review of Astronomy and Astrophysics\xspace}
+\newcommand{\apj}{The Astrophysical Journal\xspace}
+
+
+% Mathematics macros
+\newcommand{\dx}[1]{\,\text{d}#1}
+\newcommand{\vecb}[1]{\boldsymbol{{#1}}}
+\newcommand{\dn}{\ensuremath{\Delta \nu}\xspace}
+\newcommand{\nmax}{\ensuremath{\nu_{\textup{max}}}\xspace}
+\newcommand{\msun}{\ensuremath{M_{\odot}}\xspace}
+\newcommand{\chis}{\ensuremath{\chi^2}\xspace}
+\newcommand{\teff}{\ensuremath{T_{\textup{eff}}}\xspace}
+\newcommand{\lum}{\ensuremath{\log L / L_{\odot}}\xspace}
+\newcommand{\logg}{\ensuremath{\log g}\xspace}
+
+
+
+% Includeonly
+%\includeonly{solutions}
+
+\title{Asteroseismic modeling of delta Scuti stars: The cases of 44 Tau and HD 187547}
+\author{Janne Højmark Mønster, 201405523\\ Aarhus University, Department of Physics and Astronomy}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\vspace{0.5cm}
+\newpage
+\chapter{Acknowledgements}
+
+First and foremost, I would like to express my sincere gratitude to the people who have helped me through my research, making this thesis possible. 
+A very special thanks my co-supervisor Victoria Antoci, who not only opened my eyes to the exciting field of adteroseismology, but made the project entirely possible. She has guided me to become a better researcher, and this thesis is a product of that. 
+Also a big thanks to my main supervisor Günter Houdek who helped me during the enormous task of grasping the concepts behind numerical simulations and the theory of stellar structure and evolution.  
+
+I am also extremely grateful for the help provided by Earl Bellinger, without whom I would have probably still been stuck in a forloop. His knowledge in computer science has helped me on countless occasions to  increase my coding skills.  
+
+This research would not have been carried out without the help of my office mates who have lend an ear to many frustrated hours of writing, coding and reattempting. Thanks to Simon Banerjee for always being ready to discuss problems, to Rasmus Lind Bjerre for putting a smile back onto my face when I was struggling and to Dorte Thrige Plauborg who has been my rock to lean on throughout the entire process. 
+Finally, I wish to thank all my friends and my family for the support and understanding I have received. A heartfelt thanks to my boyfriend Emil Christensen who always kept understanding, supporting and loving me. 
+
+\newpage
+\tableofcontents
+\include{motivation}
+\include{stellar_evol}
+\include{Introduction}
+\include{Delta_Scuti_variables}
+
+\include{Stellar_modelling}
+\include{modelling44tau}
+\include{discussion}
+\include{conclusion}
+
+
+
+%\section{The asteroseismic package}
+
+% The astero module is an addition to the stellar evolution calculation tool MESA. It links to the two different stellar oscillation codes that calculate the stellar oscillation frequencies within MESA: ADIPLS and GYRE. It is specified within the ASTERO inlist files which should be used to create the oscillation frequencies. Even though these two packages serves the same purpose, their input physics are slighty different from each other. The ADIPLS package does not have non-adiabatic prescriptions, so for a $\delta$ Sct star the GYRE code is preferable. When the oscillation frequencies have been calculated, the ASTERO module implements algorithms to search for model parameters that best fit chosen observations. This gives an idea of how well the calculated frequencies reproduce observations.
+
+% \subsection{Content}
+
+% The ASTERO package consists of both log files, inlist files and executables and a mod file for the pre-main sequence model. The most relevant for this project being the inlist files, which are the files used to specify the parameters for 44 Tau. \texttt{Inlist\_3} is the relevant file regarding the MESA stellar evolution calculation. Here it is possible to specify the pre main-sequence model, opacities used, timestep, atmosphere prescription and plot specifics. For the asteroseismic part of the run, the inlist file used is \texttt{inlist\_astero\_search\_controls}. The input here should be the observables of 44 Tau, specifically $T_eff$, $log g$, $log L$, $[Fe/H]$ and the observed observation frequencies. It is possible to add more observables if they are known, but it should be kept in mind that the code can be slowed down significantly for every new input.
+
+% It is also possible to specify the method to which the chi$^2$ terms are calculated, the most simple being \texttt{use\_first\_value}, meaning that calculation of stellar evolution and oscillation frequencies are based on start guesses. The variables that are guestimated are stellar Mass $M$, Helium abundance $Y_i$, metal abundance $Z_i$, mixing-length paramter $\alpha_{MLT}$ and finally the age of the star $T_{age}$. Using the first guesses for these variables a chi$^2$ fit is calculated for each variable seperately, and eventually the combination of parameters that results in the best chi$^2$ fit. The boundary conditions for the chi$^2$ fitting run can similarly be specified in the \texttt{inlist\_astero\_search\_controls}. 
+
+% Besides from the inlist files, there are also a couple of executables. Before running the code, all files should be constructed by writing \texttt{./mk} in the linux terminal. This constructs all files needed for the code to run. This is done by typing $/.rn$. The code might take a long time depending on the input, which can be solved by making the timesteps larger. This does, however, correspond to calculating a larger chunk of the star in each step, which might not be favorable if the star is suspected to behave differently from others of the same type, or if it contains complicated processes. For instance it takes much longer to calculate the parameters for a very heavy star, as the processeses inside requries small timesteps to be resolved.
+
+% When the code is has finished the run, the results are saved to different output files. The \texttt{LOGS} directory contains stellar parameters for all profiles calculated during the evolution run. All can be found in the \texttt{history} file, which can be used to create various plots including an HR-diagram. These are only result for the stellar evolution, but the ASTERO module also calculates and compares frequencies to observations by chi$^2$ fitting, and result for these can be found in the \texttt{outputs} directory. The file \texttt{sample\_0001.data} contains observed and calculated frequencies, chi$^2$ terms and estimated stellar parameters parameters that should reproduce the observed ones.  
+
+% \subsection{44 Tau with ASTERO module}
+
+% A run was made with parameters for 44 Tau. The start guesses and observables used in the inlist files can be seen in Table. What should be noticed is that only two frequencies are used in this inlist. The reason for this is that the ASTERO module is optimized for solar-like oscillators, which does not include $\delta$ Sct and therefore not 44 tau either. The input physics in the ASTERO module assumes that the star is a perfect sphere, meaning that non-radial oscillation frequencies are not reliable as input because rotation influences the symmetry and the spherical symmetry approximation becomes invalid. 
+
+
+
+\printbibliography
+
+%\appendix
+%\include{appendix}
+
+\end{document}
