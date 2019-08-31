@@ -3,18 +3,6 @@
 
 In this chapter the results will be discussed in more detail for the purpose of proposing any issues and aspects that needs to be addressed in future work for obtaining further knowledge and improvement. 
 
-Discussion points, and future stuff:
-
-\begin{itemize}
-    \item Testing opacities and element abundances
-    \item Rotation in models (both mesa and GYRE)
-    \item Further analysis of mlt and overshoot in particular - different prescriptions
-    \item a few models could simply not be converted
-    \item a more thorough analysis on the grid and which models work
-    \item Additional varcontrol!
-    \item non-adiabatic treatment and excited frequency range
-    \item further mass analysis with petersen diagrams
-
 \section{Grid considerations}
 
 The grid of tracks constructed for this project proves sufficient for providing an estimate on the range in the evolutionary stage for 44 Tau and HD 187547. It stretches from a mass of 1.5 to 2.2 \msun to cover up most of the instability strip in the parameters space. However, as $\delta$ Sct pulsators have been observed even outside of the instability strip, it is important to include that possibility of more extreme parameter space possibilities. Therefore, further analysis in the future should include a more detailed evaluation of the outer grid bounds to analyse the probability of the best fit models in those ranges. As the mass boundary for $\kappa$ mechanism is still an ongoing discussion (reference), a larger grid including masses up to 2.5 \msun should be included in the grid to ensure full coverage. 
@@ -33,8 +21,17 @@ Throughout this project, the grid constructed was only calculated using gs98 ele
 
 \section{Stringent statistics}
 
-From a statistical point of view, the \chis test carried out in this work is crudely simplified for the purpose of answering the question of which evolutionary stages the stars are in. The \chis is merely a number that gives the sum of differences for the parameters, but a small \chis does not necessarily mean that that model has the highest \textbf{likelihood}. In order to compare \chis between all models in the grid, strictly speaking, the conditions should not change between the models as the individual parameters are then weighted differently. Therefore, since \eqref{sigma} and \eqref{m2} are not weighted the same way as the rest of the parameters, the sum of parameters depends on two different weighting methods (even though the $\alpha$ does somewhat act as a translation between them). This is not a problem in itself, but it is more statistically correct to calculate \chis independantly from the restt of the parameter  This means that comparing the same tracks for a different observed luminosity needs to be done very carefully since the uncertainties of the luminosities are different, and the \chis are thereby automatically weighted differently.
+From a statistical point of view, the \chis test carried out in this work is crudely simplified for the purpose of answering the question of which evolutionary stages the stars are in. The \chis is merely a number that gives the sum of differences for the parameters, but a small \chis does not necessarily mean that that model has the highest \textbf{likelihood}. In order to compare \chis between all models in the grid, strictly speaking, the conditions should not change between the models as the individual parameters are then weighted differently. Therefore, since \eqref{sigma} and \eqref{m2} are not weighted the same way as the rest of the parameters, the sum of parameters depends on two different weighting methods (even though the $\alpha$ does somewhat act as a translation between them). This is not a problem in itself, but it is more statistically correct to calculate \chis independantly from the rest of the parameter  This means that comparing the same tracks for a different observed luminosity needs to be done very carefully since the uncertainties of the luminosities are different, and the \chis are thereby automatically weighted differently.
 
-More on if it is actually a problem. 
+In order to use the \chis as a way of determining how well a fit the parameters provide,  the reduced \chis should be used instead. This is defined as 
 
-\end{itemize}
+\begin{equation}
+	\chi_{Red}^2 = \frac{\chi^2}{K} ,
+\end{equation}
+
+where K is the number of degrees of freedom. If the \chis is larger than 1, the fit is considered "bad" in the sense that the value is high compared to degrees of freedom. However, if \chis is smaller than one, it is considered an overfit. The reduced \chis is commonly used in astronomy. However, determining the number of degrees is trivial at all. For linear models it is simply given by N-P, where N is the number of datapoints and P is the number of fit parameters. For the most this is works in practice. But it is strictly speaking not true  since K can only be defined so if the basis functions are linearly independent in the sampled regime. Even though this is not the case for the modeling in this work, a reduced \chis $\chi_{red}^2$ should be considered to make a more complete evaluation of the \chis methods. 
+
+\section{Non-adiabatic calculations}
+
+Implementing non-adiabatic calculations of the most relevant models should be considered for future work in order to get a full discription of the frequencies. This includes information of whether modes are excited or not, and a fuller picture of the excited frequency range. This is very useful for modeling since the range can be compared to the observed frequency range. Pure adiabatic calculations assume adiabadicity and solves linear equations. However, the non-adiabatic case is non-linear and therefore more complicated and time consuming. Making non-adiabatic solutions for every model in a grid would be unnecessarily  time consuming. Therefore, as mentioned earlier in this chapter, models should be initially evaluated to choose a set of models the calculations should be conducted on. First and foremost the pre-ms models should not be considered as there is no evidence to support that this is the evolutionary stage of 44 Tau and HD 187547. If the possibility is to be considered, the \texttt{MESA} tracks should be recalculated with the main purpose of optimizing them for stellar pulsations.  Secondly, models outside the instability strip should not be included unless there is evidence that they are within reasonable fitting area. A way of doing so could be to calculate the adiabatic tracks and evaluate those (like here), and then additionally calculating the non-adiabatic values for the 5\% or 10\% best models. 
+
