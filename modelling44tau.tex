@@ -327,50 +327,89 @@ It is carried out in the following way: for each model, each individual model-fr
 From these, the models with the lowest \chis is found for the two different luminosities respectively. . 
 
 \subsection{Results}
-The best models found for different runs of 44 Tau are shown in \tabref{bestmodels}. It can here be seen that the variation from GAIA run and Lenz run does not affect the total result. It does however shift the best found model if only including the observational parameters. The reason for this is that the frequencies weigh more in the \chis than the observational parameters. Artificially enhancing the uncertainties on the frequencies does shift the best model, but the total \chis is ...WORSE/BETTER?.
+The best models found for different runs of 44 Tau are shown in \tabref{bestmodels} and \tabref{bestmodels_continued}. The variation from GAIA run and Lenz run does not affect the total result, as the $\chi_{tot}$ does not differ down until a factor $10^{-13}$. It does however shift the best found model if only including the observational parameters. The reason for this is that the frequencies weigh more in the \chis than the observational parameters. Artificially enhancing the frequencies does shift the model to a higher mass, but the $\chi_{ tot}^2$ is higher for this model. Enhancing the uncertainties corresponds to adding a weight to the frequencies. However, the difference between the weighted and unweighted results is of order 1, not changing overall result that frequencies still dominates the run. 
 
 \begin{sidewaystable}
-	\caption{Best models for the two different observed parameter sets for 44 Tau. }
+	\caption{Best models for the two different observed parameter sets for 44 Tau. The two different parameter sets yielded the same overall result for best model. The difference in the \chis between the two parameter sets insignificant (in the order of $10\cdot^{-13}$ except for the best $\chi_{obs}^2$: The best frequency model is also not listed since it the $\chi_{freqs}^2$ completely dominates the $\chi_{tot}^2$, and there therefore is no significant difference between best $\chi{tot}^2$ and $\chi_{freqs}^2$. }
 	\label{bestmodels}
 	
-	\begin{tabular}{lllllllllllllll}
-		Model & X & Z & $M[M_\odot]$ & $\alpha_{mlt}$ & $\alpha_{ov}$ & \teff  & \logg  & \lum & Age [Gyrs] & $\chi_{tot}^2$ &$\chi_{obs}^2$ & $\chi_{freqs}^2$ & $\chi_{pumped}^2$ & Parameter set\\
-		profile &1. 55 & 0.65  & 0.01  & 0.8  & 0.1  &  &  &  &  &  $6.2814 \cdot 10^{9}$ &  $6.2814 \cdot 10^{9}$ & \textcolor{red}{0.2238} & $3.1659 \cdot 10^{9}$ &  \citet{lenz2010delta}\\
-		&  &  &  &  &  &  &  &  &  &  \\
-		&  &  &  &  &  &  &  &  &  &  \\
-		&  &  &  &  &  &  &  &  &  &  \\
-		&  &  &  &  &  &  &  &  &  &  \\
-		&  &  &  &  &  &  &  &  &  &  \\
-		&  &  &  &  &  &  &  &  &  &  \\
-		&  &  &  &  &  &  &  &  &  &  \\
-		&  &  &  &  &  &  &  &  &  &  \\
-		&  &  &  &  &  &  &  &  &  &  \\
-		&  &  &  &  &  &  &  &  &  &  \\
-		&  &  &  &  &  &  &  &  &  &  \\
+	\begin{tabular}{lllllllllll}
+		\toprule
+		Profile & $M[M_\odot]$  & X & Z & $\alpha_{mlt}$ & $\alpha_{ov}$ & $\chi_{tot}^2$ &$\chi_{freqs}^2$ & $\chi_{obs}^2$ & $\chi_{p}^2$ & Observation\\
+		\midrule
+		1190 &1. 55 & 0.65  & 0.01  & 0.8  & 0.1  & \textcolor{red}{$6.2814 \cdot 10^{9}$} &  \textcolor{red}{$6.2814 \cdot 10^{9}$} & 5.5763 & $6.1377 \cdot 10^{9}$ &  \citet{lenz2010delta}/\citet{brown2018gaia}\\
+		1411 & 1.60 & 0.70  & 0.01  & 0.2  & 0.2 &  $9.0844\cdot 10^{10}$ & $9.0844\cdot 10^{10}$ & \textcolor{red}{0.2238} & $1.6366 \cdot^{10}$ &  \citet{lenz2010delta}  \\
+		1384 & 1.65 & 0.70 & 0.01 & 0.2  & 0.2  & $1.6275\cdot10^{10}$    & $1.6275 \cdot 10^{10} $ & 3.75058  & \textcolor{red}{$3.1659 \cdot 10^{9} $} & \citet{lenz2010delta}/\citet{brown2018gaia}\\
+		1090 & 2.10 & 0.70 & 0.03 & 0.5  & 0.3  &  $1.6487\cdot10^{10}$    & $1.6487 \cdot 10^{10} $ & \textcolor{red}{1.3523}  & $3.1659 \cdot 10^{9} $ & \citet{brown2018gaia}\\
+	\bottomrule
 	\end{tabular}
 \end{sidewaystable}
-The best model results for the Lenz parameter run can be seen on \figref{hrd44taulenz}. The hrd shows the tracks for masses $M = 1.5,1.6,1.7,1.8,1.9,2.0,2.0$ with the combination of $X$ = $Z=$, $\alpha_{mlt}$, $\alpha_{ov}$. The best total model is marked with a cyan blue dot, on the track marked with red. The green points shows the best 5\% models if the criteria is the total \chis\footnote{The total \chis is the \chis from all frequencies, including $l=1$ and $l=2$ modes plus the \chis from observational parameters.}. Blue dots are the 5\% best models if only observational parameters \logg, \teff, \l is included in the \chis, whereas the red dots is the 5\% if the \chis is only calculated from the frequency fits. The green tracks shows the best track with the black dot marking the best model if the frequency uncertainties have been artificially enhanced as in \eqref{sigma}. This track has the parameter combination of $M = 1.5,1.6,1.7,1.8,1.9,2.0,2.0$ with the combination of $X$ = $Z=$, $\alpha_{mlt}$, $\alpha_{ov}$. 
 
-The green points tend to overlap the red points, which indicates that the frequencies are highly more weighted than the observational parameters. The frequencies thereby controls the final outcome, explaining why there is no difference in the main result by changing between GAIA or Lenz observations. The best 5\% models from frequencies seems to be divided into two groups whereas the group near lower temperatures are models on the pre-ms. Since the pre-ms models were loaded from pre-calculated models as discussed in \chapref{compute}, causing different relaxation of the models, the pre-ms and particularly the frequencies on the pre-ms should not be trusted. Since the best model is between the other group it does not make a difference for the main result, but if further tests should be done with the 5\%, they should be excluded from the sample. 
+\begin{table}
+	\centering
+	\caption{Continued table from \tabref{bestmodels}, containing the theoretically produced parameters for the best models. }
+	\label{bestmodels_continued}
+	
+	\begin{tabular}{lllll}
+		\toprule
+		Profile &  \teff & \logg & \lum & age \\
+		\midrule
+		1190 &1.55 & 0.65  & 0.01  &\\
+		1411 & 1.60 & 0.70  & 0.01  &\\
+		1384 & 1.65 & 0.70 & 0.01 &\\
+		1090 & 2.10 & 0.70 & 0.03 &\\
+		\bottomrule
+	\end{tabular}
+\end{table}
 
-The best model is placing 44 Tau on the post-ms shortly after hydrogen exhaustion in the core. It is not within the three-sigma errorbars from the observations (whereas the best model with artificially pumped frequencies is), which is also clear since there are other models that are closer to the observed parameters. However, since the frequencies weigh much more, the overall \chis is lower. The frequency fit can be seen on \figref{freqfit}. Here, the observational frequencies are plotted with dimensionless power on the y-axis. They color-coded are color-coded by the spherical degree as follows: $l=0$ are red, $l=1$ are blue and  $l=2$ are green, with dimensionless powers of 1,2 and 3. The black lines indicate the matched theoretical frequency, and the gray lines at the bottom represents all theoretically produced frequencies. The naming of the frequencies are defined as in \tabref{freqs44tau}. Stippled lines are lines of uncertainty on the frequencies, although these are so small that they are not visible. Since the uncertainty is so small, technically none of the theoretical frequencies are matched within the uncertainties. However, they are all matched within a range of $0.2 d^{-1}$. The red named text are two modes for which mode identification differs from the theoretically predicted with the \chis fitting code for the frequencies. This is for $f_10$ and $f_2$ where the estimated modes from mode identification is $l=2$ and $l=1$, whereas they were here estimated to be $l=1$ and $l=2$, respectively. This could be due to different reasons: 1) The pulsation code does not calculated the theoretically produced frequencies correctly. At this point it is already a well-known issue that the theory behind these type of oscillations does not comply well with observations. \citet{lenz2010delta} was indeed successfull with modeling 44 Tau, but this example is the first one of its kind where all modes where reproduced theoretically. More often, pulsation codes does not match observations. 
-2)  The \chis routine used in this project does not match the frequencies correctly, resulting in the spherical degrees to be found incorrectly. As discussed earlier in this chapter, the routine only considers the best match frequency, and does not take spherical degree into account at any point. It only guesses it based on the theoretically produced ones. 
-3) Due to the high uncertainty in mode identification, some of the modes have been done incorrectly. This is the more likely scenario since 1) and 2) would probably cause issues for more than two modes, and would not have been able to fit the rest either. There is also strong evidence that some modes could be identified wrongly due to the model dependency of the mode identification. It can be seen on \figref{lenzdiss} that the choice of mixing length affects the mode identification significantly. EXPLAIN FIGURE. These models are based on frozen convection where the mixing length describes the local convection. However, time-dependent convection is needed in order to describe the full picture of convection, and the difference in mode identification is significant \citep{dupret2005time}, (Victoria Antoci 2019, private communication).
-
+The best model results for the Lenz parameter run can be seen on \figref{hrd44taulenz}. The hrd shows the tracks for masses $M = 1.5,1.6,1.7,1.8,1.9,2.0,2.0$ with the combination of $X=0.65 $, $Z= 0.01$, $\alpha_{mlt} = 0.8$, $\alpha_{ov} = 0.1$. The best total model is marked with a cyan blue dot, on the track marked with red. The green points shows the best 5\% models if the criteria is the total \chis\footnote{The total \chis is the \chis from all frequencies, including $l=1$ and $l=2$ modes plus the \chis from observational parameters.}. Blue dots are the 5\% best models if only observational parameters \logg, \teff, \l is included in the \chis, whereas the red dots is the 5\% if the \chis is only calculated from the frequency fits. The green tracks shows the best track with the black dot marking the best model if the frequency uncertainties have been artificially enhanced as in \eqref{sigma}. This track has the parameter combination of $M = 1.5,1.6,1.7,1.8,1.9,2.0,2.0$ with the combination of $X = 0.70$, $Z=0.03$, $\alpha_{mlt}=0.5$, $\alpha_{ov}=0.3$. 
 \begin{figure}[htbp]
 	\centering
 	%\includegraphics[width=1\textwidth]{scatter_all_v2.eps}
-	\makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{final_hrd_44tau_lum1.eps}}%
+	\makebox[\textwidth][c]{\includegraphics[width=1.3\textwidth]{final_44tau.eps}}%
 	\caption{}
 	\label{hrd44taulenz}
 \end{figure}
+The green points tend to overlap the red points, which indicates that the frequencies are highly more weighted than the observational parameters. The frequencies thereby controls the final outcome, explaining why there is no difference in the main result by changing between GAIA or Lenz observations. The best 5\% models from frequencies seems to be divided into two groups whereas the group near lower temperatures are models on the pre-ms. Since the pre-ms models were loaded from pre-calculated models as discussed in \chapref{compute}, causing different relaxation of the models, the pre-ms and particularly the frequencies on the pre-ms should not be trusted. Since the best model is between the other group it does not make a difference for the main result, but if further tests should be done with the 5\%, they should be excluded from the sample. The best model is placing 44 Tau on the post-ms, evolved further than \citet{lenz2010delta} whereas the best model with artificially pumped frequencies is earlier in its evolution. Both of these are within the three-sigma uncertainty of the observations. 
+
+ The frequency fit for the best model and best pumped model can be seen on \figref{freqfitbest}, \figref{freqfitpumped}, respectively. 
+ 
+ \begin{figure}[htbp]
+ 	\centering
+ 	%\includegraphics[width=1\textwidth]{scatter_all_v2.eps}
+ 	\makebox[\textwidth][c]{\includegraphics[width=1.3\textwidth]{freqsfit_bestmodel.eps}}%
+ 	\caption{Color-coded frequency plot of the best total model.  These are color-coded by the spherical degree as follows: $l=0$ are red, $l=1$ are blue and  $l=2$ are green, with dimensionless powers of 1,2 and 3. The black lines indicate the matched theoretical frequency, and the gray lines at the bottom represents all theoretically produced frequencies. The naming of the modes correspond to that of \citet{lenz2010delta}. Stippled lines are lines of uncertainty on the frequencies, although these are so small that they are not visible.}
+ 	\label{freqfitbest}
+ \end{figure}
+\begin{figure}[htbp]
+	\centering
+	%\includegraphics[width=1\textwidth]{scatter_all_v2.eps}
+	\makebox[\textwidth][c]{\includegraphics[width=1.3\textwidth]{freqsfit_bestpumped_2.eps}}%
+	\caption{Frequency fit for best model with artificially enhanced uncertainties on the frequencies. Same color coding as \figref{freqfitbest}.}
+	\label{freqfitpumped}
+\end{figure}
+ 
+ 
+ 
+ 
+ 
+ Here, the observational frequencies are plotted with dimensionless power on the y-axis. They color-coded are color-coded by the spherical degree as follows: $l=0$ are red, $l=1$ are blue and  $l=2$ are green, with dimensionless powers of 1,2 and 3. The black lines indicate the matched theoretical frequency, and the gray lines at the bottom represents all theoretically produced frequencies. The naming of the frequencies are defined as in \tabref{freqs44tau}. Stippled lines are lines of uncertainty on the frequencies, although these are so small that they are not visible. Since the uncertainty is so small, technically none of the theoretical frequencies are matched within the uncertainties. However, they are all matched within a range of $0.2 d^{-1}$. The red named text are the modes for which mode identification differs from the theoretically predicted with the \chis fitting code for the frequencies. This is where the estimated modes from mode identification is different from the theoretically calculated spherical degrees. To indicate that the routine does not take spherical degree into consideration, a frequency fit of the track $M=1.65$, $X=0.70$, $Z=0.01$, $\alpha_{mlt} = 0.5$, $\alpha_{ov}=0.3$ is shown of \figref{freqfit}. Here, only two modes could differ in spherical degree from the mode identification. Therefore, for future work it is necessary to implement a routine weighing the different frequencies depending on the mode identification as well. The corresponding hrd is shown on \figref{hrd44old}. Here, the evolutionary stage is pushed back to the Henyey hook, closer to the results of \citet{lenz2010delta}.
+ 
+  There can be several reasons for the contradictions in spherical degree : 1) The pulsation code does not calculate the theoretically produced frequencies correctly. At this point it is already a well-known issue that the theory behind these type of oscillations does not comply well with observations. \citet{lenz2010delta} was indeed successful with modeling 44 Tau, but this example is the first one of its kind where all modes where reproduced theoretically. More often, pulsation codes does not match observations. 2)  The \chis routine used in this project does not match the frequencies correctly, resulting in the spherical degrees to be found incorrectly. As discussed earlier in this chapter, the routine only considers the best match frequency, and does not take spherical degree into account at any point. It only guesses it based on the theoretically produced ones. 3) Due to the high uncertainty in mode identification, some of the modes have been done incorrectly. This is the more likely scenario since 1) and 2) would probably cause issues for more than two modes, and would not have been able to fit the rest either. There is also strong evidence that some modes could be identified wrongly due to the model dependency of the mode identification. It can be seen on \figref{lenzdiss} that the choice of mixing length affects the mode identification significantly. These models are based on frozen convection where the mixing length describes the local convection. However, time-dependent convection is needed in order to describe the full picture of convection, and the difference in mode identification is significant \citep{dupret2005time}, (Victoria Antoci 2019, private communication).
 
 \begin{figure}[htbp]
 	\centering
 	%\includegraphics[width=1\textwidth]{scatter_all_v2.eps}
-	\makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{frequency_fit.eps}}%
-	\caption{}
+	\makebox[\textwidth][c]{\includegraphics[width=1.3\textwidth]{frequency_fit.eps}}%
+	\caption{Frequency fit for $M=1.65$\msun, $X=0.70$, $Y=0.01$, $\alpha_{mlt} = 0.5$, $alpha_{ov} = 0.3$. Color coding as \figref{freqfitbest}. }
 	\label{freqfit}
+\end{figure}
+\begin{figure}[htbp]
+	\centering
+	%\includegraphics[width=1\textwidth]{scatter_all_v2.eps}
+	\makebox[\textwidth][c]{\includegraphics[width=1.3\textwidth]{final_hrd_44tau_lum1.eps}}%
+	\caption{Hrd where the best model is estimated to be $M=1.65$\msun, $X=0.70$, $Y=0.01$, $\alpha_{mlt} = 0.5$, $alpha_{ov} = 0.3$.}
+	\label{hrd44old}
 \end{figure}
 
 \section{Superstar}
