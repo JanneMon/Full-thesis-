@@ -1973,6 +1973,45 @@
       \field{title}{First asteroseismic results from CoRoT}
       \field{year}{2008}
     \endentry
+    \entry{murphy2019gaia}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0e0be6f7f91c4dbec87388ecce389d97}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Simon\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9c8551c54270a202c18ff0bd55e2102e}{%
+           family={Hey},
+           familyi={H\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=daec6e173c40f821b05cf04bc098804b}{%
+           family={Van\bibnamedelima Reeth},
+           familyi={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=caf48183c8ce1a2c770147f65297f2e4}{%
+           family={Bedding},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima R},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0fe9034b2991d66e8eb0d8da8363877}
+      \strng{fullhash}{f031756e8a494e8e56e11c600c9d9716}
+      \strng{bibnamehash}{c0fe9034b2991d66e8eb0d8da8363877}
+      \strng{authorbibnamehash}{c0fe9034b2991d66e8eb0d8da8363877}
+      \strng{authornamehash}{c0fe9034b2991d66e8eb0d8da8363877}
+      \strng{authorfullhash}{f031756e8a494e8e56e11c600c9d9716}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{title}{Gaia-derived luminosities of Kepler A/F stars and the pulsator fraction across the $\delta$ Scuti instability strip}
+      \field{year}{2019}
+    \endentry
     \entry{nendwich2004interpolation}{article}{}
       \name{author}{5}{}{%
         {{hash=b6fedfca2705f04094543676d622d76b}{%
