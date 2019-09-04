@@ -12,7 +12,7 @@
 \contentsline {chapter}{\chapternumberline {4}The Delta Scuti stars}{27}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}The pulsation HR-diagram and the driving mechanisms}{27}{section.4.1}% 
 \contentsline {section}{\numberline {4.2}Why Delta Sct stars?}{29}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}The delta Scuti stars 44 Tau and Superstar}{30}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}The delta Scuti stars 44 Tau and HD 187547}{30}{section.4.3}% 
 \contentsline {subsection}{\numberline {4.3.1}44 Tau}{30}{subsection.4.3.1}% 
 \contentsline {subsection}{\numberline {4.3.2}HD 187547}{32}{subsection.4.3.2}% 
 \contentsline {chapter}{\chapternumberline {5}Computational tools}{35}{chapter.5}% 
@@ -25,7 +25,7 @@
 \contentsline {subsection}{\numberline {5.1.6}Opacity data}{41}{subsection.5.1.6}% 
 \contentsline {section}{\numberline {5.2}GYRE}{41}{section.5.2}% 
 \contentsline {subsection}{\numberline {5.2.1}Input and output options}{42}{subsection.5.2.1}% 
-\contentsline {chapter}{\chapternumberline {6}Modeling 44 Tau and Superstar}{45}{chapter.6}% 
+\contentsline {chapter}{\chapternumberline {6}Modeling 44 Tau and HD 187547}{45}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}Choosing a grid}{45}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Resolution and varcontrol}{49}{section.6.2}% 
 \contentsline {section}{\numberline {6.3}chi2 testing}{51}{section.6.3}% 
@@ -34,11 +34,11 @@
 \contentsline {subsubsection}{\numberline {6.3.2.1}l=0 modes}{52}{subsubsection.6.3.2.1}% 
 \contentsline {subsubsection}{\numberline {6.3.2.2}l=0,1,2 modes}{56}{subsubsection.6.3.2.2}% 
 \contentsline {subsection}{\numberline {6.3.3}Results}{57}{subsection.6.3.3}% 
-\contentsline {section}{\numberline {6.4}Superstar}{62}{section.6.4}% 
+\contentsline {section}{\numberline {6.4}HD 187547}{62}{section.6.4}% 
 \contentsline {subsection}{\numberline {6.4.1}Results}{64}{subsection.6.4.1}% 
-\contentsline {chapter}{\chapternumberline {7}Discussion and future work}{69}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Grid considerations}{69}{section.7.1}% 
-\contentsline {section}{\numberline {7.2}Stringent statistics}{70}{section.7.2}% 
-\contentsline {section}{\numberline {7.3}Non-adiabatic calculations}{71}{section.7.3}% 
-\contentsline {chapter}{\chapternumberline {8}Conclusion}{73}{chapter.8}% 
-\contentsline {chapter}{Bibliography}{75}{section*.44}% 
+\contentsline {chapter}{\chapternumberline {7}Discussion and future work}{71}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Grid considerations}{71}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Stringent statistics}{72}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}Non-adiabatic calculations}{73}{section.7.3}% 
+\contentsline {chapter}{\chapternumberline {8}Conclusion}{75}{chapter.8}% 
+\contentsline {chapter}{Bibliography}{77}{section*.46}% 

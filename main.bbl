@@ -1696,6 +1696,33 @@
       \field{pages}{L79}
       \range{pages}{1}
     \endentry
+    \entry{lenz2009diss}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=79e354cd29bbb22a57206da3c2c9a681}{%
+           family={Lenz},
+           familyi={L\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universit{ä}t Wien}%
+      }
+      \strng{namehash}{79e354cd29bbb22a57206da3c2c9a681}
+      \strng{fullhash}{79e354cd29bbb22a57206da3c2c9a681}
+      \strng{bibnamehash}{79e354cd29bbb22a57206da3c2c9a681}
+      \strng{authorbibnamehash}{79e354cd29bbb22a57206da3c2c9a681}
+      \strng{authornamehash}{79e354cd29bbb22a57206da3c2c9a681}
+      \strng{authorfullhash}{79e354cd29bbb22a57206da3c2c9a681}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pulsation models of selected delta Scuti stars}
+      \field{type}{phdthesis}
+      \field{year}{2009}
+    \endentry
     \entry{lenz2008asteroseismic}{article}{}
       \name{author}{4}{}{%
         {{hash=ae754cf9b04ce49614913717e802316a}{%

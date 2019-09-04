@@ -1,21 +1,21 @@
-[0] Config.pm:304> INFO - This is Biber 2.12
-[0] Config.pm:307> INFO - Logfile is 'main.blg'
-[22] biber:315> INFO - === Sun Sep  1, 2019, 23:18:05
-[39] Biber.pm:371> INFO - Reading 'main.bcf'
-[113] Biber.pm:889> INFO - Found 78 citekeys in bib section 0
-[124] Biber.pm:4093> INFO - Processing section 0
-[132] Biber.pm:4254> INFO - Looking for bibtex format file 'bib.bib' for section 0
-[135] bibtex.pm:1523> INFO - LaTeX decoding ...
-[247] bibtex.pm:1340> INFO - Found BibTeX data source 'bib.bib'
-[252] Utils.pm:193> WARN - Duplicate entry key: 'dupret2005time' in file 'bib.bib', skipping ...
-[252] Utils.pm:193> WARN - Duplicate entry key: 'hog2000tycho' in file 'bib.bib', skipping ...
-[781] Utils.pm:193> WARN - BibTeX subsystem: /tmp/UxnwQEbcXg/bib.bib_19359.utf8, line 922, warning: 2 characters of junk seen at toplevel
-[781] Utils.pm:193> WARN - BibTeX subsystem: /tmp/UxnwQEbcXg/bib.bib_19359.utf8, line 932, warning: 2 characters of junk seen at toplevel
-[781] Utils.pm:193> WARN - I didn't find a database entry for 'kjeldsen' (section 0)
-[858] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[858] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[859] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[859] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[921] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[948] bbl.pm:739> INFO - Output to main.bbl
-[948] Biber.pm:110> INFO - WARNINGS: 5
+[3] Config.pm:304> INFO - This is Biber 2.12
+[4] Config.pm:307> INFO - Logfile is 'main.blg'
+[124] biber:315> INFO - === Tue Sep  3, 2019, 12:58:05
+[213] Biber.pm:371> INFO - Reading 'main.bcf'
+[609] Biber.pm:889> INFO - Found 79 citekeys in bib section 0
+[675] Biber.pm:4093> INFO - Processing section 0
+[709] Biber.pm:4254> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[723] bibtex.pm:1523> INFO - LaTeX decoding ...
+[1439] bibtex.pm:1340> INFO - Found BibTeX data source 'bib.bib'
+[1491] Utils.pm:193> WARN - Duplicate entry key: 'dupret2005time' in file 'bib.bib', skipping ...
+[1496] Utils.pm:193> WARN - Duplicate entry key: 'hog2000tycho' in file 'bib.bib', skipping ...
+[4969] Utils.pm:193> WARN - BibTeX subsystem: /tmp/egRvPuSF1G/bib.bib_13509.utf8, line 922, warning: 2 characters of junk seen at toplevel
+[4969] Utils.pm:193> WARN - BibTeX subsystem: /tmp/egRvPuSF1G/bib.bib_13509.utf8, line 932, warning: 2 characters of junk seen at toplevel
+[4969] Utils.pm:193> WARN - I didn't find a database entry for 'kjeldsen' (section 0)
+[5325] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5326] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5327] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[5327] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[5596] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[5720] bbl.pm:739> INFO - Output to main.bbl
+[5720] Biber.pm:110> INFO - WARNINGS: 5

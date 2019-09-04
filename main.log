@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.8.20)  2 SEP 2019 22:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.8.20)  4 SEP 2019 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1726,12 +1726,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 <iben.png, id=349, 943.525pt x 1133.23375pt>
 File: iben.png Graphic file (type png)
 <use iben.png>
-Package pdftex.def Info: iben.png  used on input line 136.
+Package pdftex.def Info: iben.png  used on input line 137.
 (pdftex.def)             Requested size: 295.20113pt x 354.54968pt.
 <STAGES.png, id=354, 1333.98375pt x 1093.08376pt>
 File: STAGES.png Graphic file (type png)
 <use STAGES.png>
-Package pdftex.def Info: STAGES.png  used on input line 143.
+Package pdftex.def Info: STAGES.png  used on input line 144.
 (pdftex.def)             Requested size: 295.20113pt x 241.8802pt.
  [15 <./iben.png>] [16 <./STAGES.png>]
 Package epstopdf Info: Source file: <stellar_params.eps>
@@ -1742,13 +1742,13 @@ Package epstopdf Info: Source file: <stellar_params.eps>
 (epstopdf)                    size: 24237 bytes
 (epstopdf)             Command: <repstopdf --outfile=stellar_params-eps-convert
 ed-to.pdf stellar_params.eps>
-(epstopdf)             \includegraphics on input line 167.
+(epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
 <stellar_params-eps-converted-to.pdf, id=374, 2081.3761pt x 1046.46967pt>
 File: stellar_params-eps-converted-to.pdf Graphic file (type pdf)
 <use stellar_params-eps-converted-to.pdf>
 Package pdftex.def Info: stellar_params-eps-converted-to.pdf  used on input lin
-e 167.
+e 168.
 (pdftex.def)             Requested size: 516.59775pt x 259.73256pt.
 Package epstopdf Info: Source file: <conv_cores.eps>
 (epstopdf)                    date: 2019-08-27 13:10:12
@@ -1758,13 +1758,13 @@ Package epstopdf Info: Source file: <conv_cores.eps>
 (epstopdf)                    size: 43027 bytes
 (epstopdf)             Command: <repstopdf --outfile=conv_cores-eps-converted-t
 o.pdf conv_cores.eps>
-(epstopdf)             \includegraphics on input line 175.
+(epstopdf)             \includegraphics on input line 176.
 Package epstopdf Info: Output file is already uptodate.
 <conv_cores-eps-converted-to.pdf, id=375, 2081.3761pt x 1046.46967pt>
 File: conv_cores-eps-converted-to.pdf Graphic file (type pdf)
 <use conv_cores-eps-converted-to.pdf>
 Package pdftex.def Info: conv_cores-eps-converted-to.pdf  used on input line 17
-5.
+6.
 (pdftex.def)             Requested size: 516.59775pt x 259.73256pt.
 ) [17 <./stellar_params-eps-converted-to.pdf>] [18 <./conv_cores-eps-converted-
 to.pdf>]
@@ -1820,59 +1820,54 @@ File: propagationrays.png Graphic file (type png)
 <use propagationrays.png>
 Package pdftex.def Info: propagationrays.png  used on input line 124.
 (pdftex.def)             Requested size: 295.20113pt x 280.92859pt.
- [23] [24 <./propagation1.png> <./propagation2.png> <./propagation3.png>]) [25 
-<./propagationrays.png>]
+ [23] [24 <./propagation1.png> <./propagation2.png> <./propagation3.png>] [25 <
+./propagationrays.png>]) [26]
 \openout2 = `Delta_Scuti_variables.aux'.
 
- (./Delta_Scuti_variables.tex
-[26
 
-
-
-]
-<hrpuls.png, id=581, 872.25874pt x 1101.11375pt>
+(./Delta_Scuti_variables.tex
+<hrpuls.png, id=582, 872.25874pt x 1101.11375pt>
 File: hrpuls.png Graphic file (type png)
 <use hrpuls.png>
 Package pdftex.def Info: hrpuls.png  used on input line 6.
 (pdftex.def)             Requested size: 332.09775pt x 419.21725pt.
- [27 <./hrpuls.png>] [28] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
-
- []
+ [27
 
 
-Overfull \hbox (31.8959pt too wide) in paragraph at lines 57--76
+
+ <./hrpuls.png>] [28] [29]
+Overfull \hbox (31.8959pt too wide) in paragraph at lines 55--75
 [][] 
  []
 
 
-LaTeX Warning: Command \L invalid in math mode on input line 92.
+LaTeX Warning: Command \L invalid in math mode on input line 89.
 
 [30]
 
-LaTeX Warning: Reference `tab:parameters' on page 31 undefined on input line 10
-1.
+LaTeX Warning: Reference `tab:parameters' on page 31 undefined on input line 98
+.
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
-<superstarspectrum.jpg, id=667, 28.45276pt x 11.19142pt>
+<superstarspectrum.jpg, id=672, 28.45276pt x 11.19142pt>
 File: superstarspectrum.jpg Graphic file (type jpg)
 <use superstarspectrum.jpg>
-Package pdftex.def Info: superstarspectrum.jpg  used on input line 151.
+Package pdftex.def Info: superstarspectrum.jpg  used on input line 150.
 (pdftex.def)             Requested size: 369.0pt x 145.2174pt.
-<superstar2.jpg, id=672, 28.45276pt x 41.82555pt>
+<superstar2.jpg, id=677, 28.45276pt x 41.82555pt>
 File: superstar2.jpg Graphic file (type jpg)
 <use superstar2.jpg>
-Package pdftex.def Info: superstar2.jpg  used on input line 158.
+Package pdftex.def Info: superstar2.jpg  used on input line 157.
 (pdftex.def)             Requested size: 369.0pt x 542.71895pt.
 
-LaTeX Warning: Float too large for page by 113.51868pt on input line 174.
+LaTeX Warning: Float too large for page by 113.51868pt on input line 173.
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
 
  []
 
@@ -1891,7 +1886,7 @@ Overfull \hbox (22.02997pt too wide) in paragraph at lines 65--66
  []
 
 [37]
-<mlt.png, id=781, 2081.376pt x 1053.6966pt>
+<mlt.png, id=786, 2081.376pt x 1053.6966pt>
 File: mlt.png Graphic file (type png)
 <use mlt.png>
 Package pdftex.def Info: mlt.png  used on input line 84.
@@ -1907,7 +1902,7 @@ Package epstopdf Info: Source file: <overshoots_example.eps>
 verted-to.pdf overshoots_example.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
-<overshoots_example-eps-converted-to.pdf, id=793, 2081.3761pt x 1046.46967pt>
+<overshoots_example-eps-converted-to.pdf, id=798, 2081.3761pt x 1046.46967pt>
 File: overshoots_example-eps-converted-to.pdf Graphic file (type pdf)
 <use overshoots_example-eps-converted-to.pdf>
 Package pdftex.def Info: overshoots_example-eps-converted-to.pdf  used on input
@@ -1921,46 +1916,58 @@ Package pdftex.def Info: overshoots_example-eps-converted-to.pdf  used on input
 
 
 
-]
-<test_z_2.png, id=924, 2081.376pt x 1046.4696pt>
-File: test_z_2.png Graphic file (type png)
-<use test_z_2.png>
-Package pdftex.def Info: test_z_2.png  used on input line 16.
-(pdftex.def)             Requested size: 332.09775pt x 166.95952pt.
- [45]
-<test_x.png, id=934, 2081.376pt x 1046.4696pt>
+] [45]
+Package epstopdf Info: Source file: <test_z.eps>
+(epstopdf)                    date: 2019-09-04 12:42:15
+(epstopdf)                    size: 51024 bytes
+(epstopdf)             Output file: <test_z-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-09-04 12:42:27
+(epstopdf)                    size: 23828 bytes
+(epstopdf)             Command: <repstopdf --outfile=test_z-eps-converted-to.pd
+f test_z.eps>
+(epstopdf)             \includegraphics on input line 17.
+Package epstopdf Info: Output file is already uptodate.
+<test_z-eps-converted-to.pdf, id=937, 2081.3761pt x 1046.46967pt>
+File: test_z-eps-converted-to.pdf Graphic file (type pdf)
+<use test_z-eps-converted-to.pdf>
+Package pdftex.def Info: test_z-eps-converted-to.pdf  used on input line 17.
+(pdftex.def)             Requested size: 369.0pt x 185.51413pt.
+<test_x.png, id=942, 2081.376pt x 1046.4696pt>
 File: test_x.png Graphic file (type png)
 <use test_x.png>
-Package pdftex.def Info: test_x.png  used on input line 25.
-(pdftex.def)             Requested size: 332.09775pt x 166.95952pt.
-<tramper.png, id=941, 1174.3875pt x 1132.23pt>
+Package pdftex.def Info: test_x.png  used on input line 26.
+(pdftex.def)             Requested size: 369.0pt x 185.51413pt.
+ [46 <./test_z-eps-converted-to.pdf>]
+<tramper.png, id=1002, 1174.3875pt x 1132.23pt>
 File: tramper.png Graphic file (type png)
 <use tramper.png>
-Package pdftex.def Info: tramper.png  used on input line 34.
+Package pdftex.def Info: tramper.png  used on input line 35.
 (pdftex.def)             Requested size: 295.20113pt x 284.5944pt.
- [46 <./test_z_2.png>] [47 <./test_x.png> <./tramper.png>] [48]
-<resolution_stages.png, id=968, 2081.376pt x 1053.6966pt>
+ [47 <./test_x.png>] [48 <./tramper.png>]
+<resolution_stages.png, id=1024, 2081.376pt x 1053.6966pt>
 File: resolution_stages.png Graphic file (type png)
 <use resolution_stages.png>
 Package pdftex.def Info: resolution_stages.png  used on input line 74.
 (pdftex.def)             Requested size: 369.0pt x 186.7953pt.
  [49 <./resolution_stages.png>]
-Package epstopdf Info: Source file: <varcontrol_res.eps>
-(epstopdf)                    date: 2019-08-29 12:24:35
-(epstopdf)                    size: 58079 bytes
-(epstopdf)             Output file: <varcontrol_res-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-29 12:24:59
-(epstopdf)                    size: 139045 bytes
-(epstopdf)             Command: <repstopdf --outfile=varcontrol_res-eps-convert
-ed-to.pdf varcontrol_res.eps>
-(epstopdf)             \includegraphics on input line 85.
+Package epstopdf Info: Source file: <varcontrol_res_2.eps>
+(epstopdf)                    date: 2019-09-04 15:12:33
+(epstopdf)                    size: 58654 bytes
+(epstopdf)             Output file: <varcontrol_res_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-09-04 15:12:54
+(epstopdf)                    size: 138260 bytes
+(epstopdf)             Command: <repstopdf --outfile=varcontrol_res_2-eps-conve
+rted-to.pdf varcontrol_res_2.eps>
+(epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
-<varcontrol_res-eps-converted-to.pdf, id=977, 2081.3761pt x 1046.46967pt>
-File: varcontrol_res-eps-converted-to.pdf Graphic file (type pdf)
-<use varcontrol_res-eps-converted-to.pdf>
-Package pdftex.def Info: varcontrol_res-eps-converted-to.pdf  used on input lin
-e 85.
-(pdftex.def)             Requested size: 369.0pt x 185.51413pt.
+<varcontrol_res_2-eps-converted-to.pdf, id=1035, 2081.3761pt x 1046.46967pt>
+File: varcontrol_res_2-eps-converted-to.pdf Graphic file (type pdf)
+<use varcontrol_res_2-eps-converted-to.pdf>
+Package pdftex.def Info: varcontrol_res_2-eps-converted-to.pdf  used on input l
+ine 86.
+(pdftex.def)             Requested size: 442.79887pt x 222.62335pt.
+
+[50 <./varcontrol_res_2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <resolution_overshoot.eps>
 (epstopdf)                    date: 2019-08-29 12:21:24
 (epstopdf)                    size: 53451 bytes
@@ -1970,60 +1977,48 @@ Package epstopdf Info: Source file: <resolution_overshoot.eps>
 (epstopdf)                    size: 155249 bytes
 (epstopdf)             Command: <repstopdf --outfile=resolution_overshoot-eps-c
 onverted-to.pdf resolution_overshoot.eps>
-(epstopdf)             \includegraphics on input line 95.
+(epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
-<resolution_overshoot-eps-converted-to.pdf, id=979, 2081.3761pt x 1046.46967pt>
-
+<resolution_overshoot-eps-converted-to.pdf, id=1099, 2081.3761pt x 1046.46967pt
+>
 File: resolution_overshoot-eps-converted-to.pdf Graphic file (type pdf)
 <use resolution_overshoot-eps-converted-to.pdf>
 Package pdftex.def Info: resolution_overshoot-eps-converted-to.pdf  used on inp
-ut line 95.
+ut line 96.
 (pdftex.def)             Requested size: 369.0pt x 185.51413pt.
- [50 <./varcontrol_res-eps-converted-to.pdf>] [51 <./resolution_overshoot-eps-c
-onverted-to.pdf>]
-Overfull \hbox (3.45474pt too wide) detected at line 137
+ [51 <./resolution_overshoot-eps-converted-to.pdf>]
+Overfull \hbox (3.45474pt too wide) detected at line 138
 []
  []
 
-
-Overfull \hbox (3.26064pt too wide) in paragraph at lines 141--142
-[]\T1/lmr/m/n/10.95 (-20) For the fre-quen-cies the $\OML/lmm/m/it/10.95 ^^[$ \
-T1/lmr/m/n/10.95 (-20) is nat-u-rally very small (in the or-der of $\OT1/lmr/m/
-n/10.95 (-20) 10[][]\OML/lmm/m/it/10.95 =[]$\T1/lmr/m/n/10.95 (-20) ,
- []
-
 [52]
-Overfull \hbox (27.28735pt too wide) in paragraph at lines 170--203
+Overfull \hbox (27.28735pt too wide) in paragraph at lines 171--204
 [][] 
  []
 
 
-Overfull \hbox (17.19923pt too wide) in paragraph at lines 208--245
+Overfull \hbox (17.19923pt too wide) in paragraph at lines 209--246
 [][] 
  []
 
-Package epstopdf Info: Source file: <scatter_all_v2.eps>
-(epstopdf)                    date: 2019-08-29 12:27:10
-(epstopdf)                    size: 474337 bytes
-(epstopdf)             Output file: <scatter_all_v2-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-29 12:33:53
-(epstopdf)                    size: 93145 bytes
-(epstopdf)             Command: <repstopdf --outfile=scatter_all_v2-eps-convert
-ed-to.pdf scatter_all_v2.eps>
-(epstopdf)             \includegraphics on input line 299.
+Package epstopdf Info: Source file: <scatter_v2.eps>
+(epstopdf)                    date: 2019-09-03 14:14:19
+(epstopdf)                    size: 629906 bytes
+(epstopdf)             Output file: <scatter_v2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-09-03 14:26:09
+(epstopdf)                    size: 107564 bytes
+(epstopdf)             Command: <repstopdf --outfile=scatter_v2-eps-converted-t
+o.pdf scatter_v2.eps>
+(epstopdf)             \includegraphics on input line 295.
 Package epstopdf Info: Output file is already uptodate.
-<scatter_all_v2-eps-converted-to.pdf, id=1108, 2079.77pt x 1094.0875pt>
-File: scatter_all_v2-eps-converted-to.pdf Graphic file (type pdf)
-<use scatter_all_v2-eps-converted-to.pdf>
-Package pdftex.def Info: scatter_all_v2-eps-converted-to.pdf  used on input lin
-e 299.
-(pdftex.def)             Requested size: 553.5pt x 291.16719pt.
-[53]
-
-LaTeX Warning: Reference `meanmol' on page 54 undefined on input line 308.
-
-[54] [55] [56 <./scatter_all_v2-eps-converted-to.pdf>]
-Overfull \hbox (21.30241pt too wide) in paragraph at lines 336--346
+<scatter_v2-eps-converted-to.pdf, id=1170, 2184.16pt x 1322.9425pt>
+File: scatter_v2-eps-converted-to.pdf Graphic file (type pdf)
+<use scatter_v2-eps-converted-to.pdf>
+Package pdftex.def Info: scatter_v2-eps-converted-to.pdf  used on input line 29
+5.
+(pdftex.def)             Requested size: 553.5pt x 335.25658pt.
+[53] [54] [55] [56 <./scatter_v2-eps-converted-to.pdf>]
+Overfull \hbox (21.30241pt too wide) in paragraph at lines 339--349
 [][] 
  []
 
@@ -2035,15 +2030,15 @@ Package epstopdf Info: Source file: <final_44tau.eps>
 (epstopdf)                    size: 52594 bytes
 (epstopdf)             Command: <repstopdf --outfile=final_44tau-eps-converted-
 to.pdf final_44tau.eps>
-(epstopdf)             \includegraphics on input line 369.
+(epstopdf)             \includegraphics on input line 372.
 Package epstopdf Info: Output file is already uptodate.
-<final_44tau-eps-converted-to.pdf, id=1214, 2184.16pt x 1322.9425pt>
+<final_44tau-eps-converted-to.pdf, id=1278, 2184.16pt x 1322.9425pt>
 File: final_44tau-eps-converted-to.pdf Graphic file (type pdf)
 <use final_44tau-eps-converted-to.pdf>
 Package pdftex.def Info: final_44tau-eps-converted-to.pdf  used on input line 3
-69.
+72.
 (pdftex.def)             Requested size: 479.70113pt x 290.5436pt.
-[57] [58]
+[57] [58] [59 <./final_44tau-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <freqsfit_bestmodel.eps>
 (epstopdf)                    date: 2019-09-02 19:02:37
 (epstopdf)                    size: 40754 bytes
@@ -2052,14 +2047,14 @@ Package epstopdf Info: Source file: <freqsfit_bestmodel.eps>
 (epstopdf)                    size: 14903 bytes
 (epstopdf)             Command: <repstopdf --outfile=freqsfit_bestmodel-eps-con
 verted-to.pdf freqsfit_bestmodel.eps>
-(epstopdf)             \includegraphics on input line 380.
+(epstopdf)             \includegraphics on input line 383.
 Package epstopdf Info: Output file is already uptodate.
-<freqsfit_bestmodel-eps-converted-to.pdf, id=1230, 2184.16pt x 1322.9425pt>
+<freqsfit_bestmodel-eps-converted-to.pdf, id=1366, 2184.16pt x 1322.9425pt>
 File: freqsfit_bestmodel-eps-converted-to.pdf Graphic file (type pdf)
 <use freqsfit_bestmodel-eps-converted-to.pdf>
 Package pdftex.def Info: freqsfit_bestmodel-eps-converted-to.pdf  used on input
- line 380.
-(pdftex.def)             Requested size: 479.70113pt x 290.5436pt.
+ line 383.
+(pdftex.def)             Requested size: 442.79887pt x 268.19719pt.
 Package epstopdf Info: Source file: <freqsfit_bestpumped_2.eps>
 (epstopdf)                    date: 2019-09-02 19:18:49
 (epstopdf)                    size: 39558 bytes
@@ -2069,23 +2064,20 @@ Package epstopdf Info: Source file: <freqsfit_bestpumped_2.eps>
 (epstopdf)                    size: 14853 bytes
 (epstopdf)             Command: <repstopdf --outfile=freqsfit_bestpumped_2-eps-
 converted-to.pdf freqsfit_bestpumped_2.eps>
-(epstopdf)             \includegraphics on input line 387.
+(epstopdf)             \includegraphics on input line 390.
 Package epstopdf Info: Output file is already uptodate.
-<freqsfit_bestpumped_2-eps-converted-to.pdf, id=1233, 2184.16pt x 1322.9425pt>
+<freqsfit_bestpumped_2-eps-converted-to.pdf, id=1369, 2184.16pt x 1322.9425pt>
 File: freqsfit_bestpumped_2-eps-converted-to.pdf Graphic file (type pdf)
 <use freqsfit_bestpumped_2-eps-converted-to.pdf>
 Package pdftex.def Info: freqsfit_bestpumped_2-eps-converted-to.pdf  used on in
-put line 387.
-(pdftex.def)             Requested size: 479.70113pt x 290.5436pt.
-
-
-LaTeX Warning: Reference `freqs44tau' on page 59 undefined on input line 396.
-
-[59]
-
-LaTeX Warning: Reference `lenzdiss' on page 60 undefined on input line 398.
-
-[60 <./final_44tau-eps-converted-to.pdf>]
+put line 390.
+(pdftex.def)             Requested size: 442.79887pt x 268.19719pt.
+ [60 <./freqsfit_bestmodel-eps-converted-to.pdf>]
+<lenzdiss.png, id=1425, 1693.32625pt x 1288.815pt>
+File: lenzdiss.png Graphic file (type png)
+<use lenzdiss.png>
+Package pdftex.def Info: lenzdiss.png  used on input line 401.
+(pdftex.def)             Requested size: 369.0pt x 280.84598pt.
 Package epstopdf Info: Source file: <frequency_fit.eps>
 (epstopdf)                    date: 2019-08-29 13:22:03
 (epstopdf)                    size: 38239 bytes
@@ -2094,14 +2086,14 @@ Package epstopdf Info: Source file: <frequency_fit.eps>
 (epstopdf)                    size: 14766 bytes
 (epstopdf)             Command: <repstopdf --outfile=frequency_fit-eps-converte
 d-to.pdf frequency_fit.eps>
-(epstopdf)             \includegraphics on input line 403.
+(epstopdf)             \includegraphics on input line 408.
 Package epstopdf Info: Output file is already uptodate.
-<frequency_fit-eps-converted-to.pdf, id=1324, 2184.16pt x 1322.9425pt>
+<frequency_fit-eps-converted-to.pdf, id=1428, 2184.16pt x 1322.9425pt>
 File: frequency_fit-eps-converted-to.pdf Graphic file (type pdf)
 <use frequency_fit-eps-converted-to.pdf>
 Package pdftex.def Info: frequency_fit-eps-converted-to.pdf  used on input line
- 403.
-(pdftex.def)             Requested size: 479.70113pt x 290.5436pt.
+ 408.
+(pdftex.def)             Requested size: 442.79887pt x 268.19719pt.
 Package epstopdf Info: Source file: <final_hrd_44tau_lum1.eps>
 (epstopdf)                    date: 2019-08-29 13:13:13
 (epstopdf)                    size: 167222 bytes
@@ -2111,20 +2103,17 @@ Package epstopdf Info: Source file: <final_hrd_44tau_lum1.eps>
 (epstopdf)                    size: 52117 bytes
 (epstopdf)             Command: <repstopdf --outfile=final_hrd_44tau_lum1-eps-c
 onverted-to.pdf final_hrd_44tau_lum1.eps>
-(epstopdf)             \includegraphics on input line 410.
+(epstopdf)             \includegraphics on input line 415.
 Package epstopdf Info: Output file is already uptodate.
-<final_hrd_44tau_lum1-eps-converted-to.pdf, id=1327, 2184.16pt x 1322.9425pt>
+<final_hrd_44tau_lum1-eps-converted-to.pdf, id=1431, 2184.16pt x 1322.9425pt>
 File: final_hrd_44tau_lum1-eps-converted-to.pdf Graphic file (type pdf)
 <use final_hrd_44tau_lum1-eps-converted-to.pdf>
 Package pdftex.def Info: final_hrd_44tau_lum1-eps-converted-to.pdf  used on inp
-ut line 410.
-(pdftex.def)             Requested size: 479.70113pt x 290.5436pt.
- [61 <./freqsfit_bestmodel-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `m2' on page 62 undefined on input line 423.
-
-[62 <./freqsfit_bestpumped_2-eps-converted-to.pdf>] [63] [64 <./frequency_fit-e
-ps-converted-to.pdf>]
+ut line 415.
+(pdftex.def)             Requested size: 442.79887pt x 268.19719pt.
+ [61 <./freqsfit_bestpumped_2-eps-converted-to.pdf>]
+[62 <./lenzdiss.png>] [63 <./frequency_fit-eps-converted-to.pdf> <./final_hrd_4
+4tau_lum1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <final_superstar_35.eps>
 (epstopdf)                    date: 2019-09-01 13:16:35
 (epstopdf)                    size: 198222 bytes
@@ -2133,16 +2122,16 @@ Package epstopdf Info: Source file: <final_superstar_35.eps>
 (epstopdf)                    size: 57276 bytes
 (epstopdf)             Command: <repstopdf --outfile=final_superstar_35-eps-con
 verted-to.pdf final_superstar_35.eps>
-(epstopdf)             \includegraphics on input line 456.
+(epstopdf)             \includegraphics on input line 457.
 Package epstopdf Info: Output file is already uptodate.
-<final_superstar_35-eps-converted-to.pdf, id=1472, 2079.77pt x 1094.0875pt>
+<final_superstar_35-eps-converted-to.pdf, id=1603, 2079.77pt x 1094.0875pt>
 File: final_superstar_35-eps-converted-to.pdf Graphic file (type pdf)
 <use final_superstar_35-eps-converted-to.pdf>
 Package pdftex.def Info: final_superstar_35-eps-converted-to.pdf  used on input
- line 456.
-(pdftex.def)             Requested size: 553.5pt x 291.16719pt.
+ line 457.
+(pdftex.def)             Requested size: 442.79887pt x 232.93709pt.
 
-Overfull \hbox (29.8488pt too wide) in paragraph at lines 464--478
+Overfull \hbox (30.97597pt too wide) in paragraph at lines 467--481
 [][] 
  []
 
@@ -2154,35 +2143,60 @@ Package epstopdf Info: Source file: <final_superstar_7_2.eps>
 (epstopdf)                    size: 55377 bytes
 (epstopdf)             Command: <repstopdf --outfile=final_superstar_7_2-eps-co
 nverted-to.pdf final_superstar_7_2.eps>
-(epstopdf)             \includegraphics on input line 484.
+(epstopdf)             \includegraphics on input line 487.
 Package epstopdf Info: Output file is already uptodate.
-<final_superstar_7_2-eps-converted-to.pdf, id=1476, 2079.77pt x 1094.0875pt>
+<final_superstar_7_2-eps-converted-to.pdf, id=1607, 2079.77pt x 1094.0875pt>
 File: final_superstar_7_2-eps-converted-to.pdf Graphic file (type pdf)
 <use final_superstar_7_2-eps-converted-to.pdf>
 Package pdftex.def Info: final_superstar_7_2-eps-converted-to.pdf  used on inpu
-t line 484.
-(pdftex.def)             Requested size: 553.5pt x 291.16719pt.
-[65 <./final_hrd_44tau_lum1-eps-converted-to.pdf>] [66]) [67 <./final_superstar
-_35-eps-converted-to.pdf>] [68 <./final_superstar_7_2-eps-converted-to.pdf>]
+t line 487.
+(pdftex.def)             Requested size: 442.79887pt x 232.93709pt.
+
+LaTeX Warning: Reference `plotfreqsvsevol' on page 64 undefined on input line 4
+95.
+
+
+LaTeX Warning: Reference `plotfreqsvsevol' on page 64 undefined on input line 4
+95.
+
+[64] [65] [66]
+Package epstopdf Info: Source file: <freqsvsevol.eps>
+(epstopdf)                    date: 2019-09-03 12:57:10
+(epstopdf)                    size: 44929 bytes
+(epstopdf)             Output file: <freqsvsevol-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-09-03 13:07:27
+(epstopdf)                    size: 159737 bytes
+(epstopdf)             Command: <repstopdf --outfile=freqsvsevol-eps-converted-
+to.pdf freqsvsevol.eps>
+(epstopdf)             \includegraphics on input line 499.
+Package epstopdf Info: Output file is already uptodate.
+<freqsvsevol-eps-converted-to.pdf, id=1628, 2079.77pt x 1094.0875pt>
+File: freqsvsevol-eps-converted-to.pdf Graphic file (type pdf)
+<use freqsvsevol-eps-converted-to.pdf>
+Package pdftex.def Info: freqsvsevol-eps-converted-to.pdf  used on input line 4
+99.
+(pdftex.def)             Requested size: 442.79887pt x 232.93709pt.
+) [67 <./final_superstar_35-eps-converted-to.pdf>] [68 <./final_superstar_7_2-e
+ps-converted-to.pdf>] [69 <./freqsvsevol-eps-converted-to.pdf>]
 \openout2 = `discussion.aux'.
 
 
-(./discussion.tex [69
+(./discussion.tex [70
 
 
 
-]
+] [71]
 
-LaTeX Warning: Reference `m2' on page 70 undefined on input line 24.
+LaTeX Warning: Reference `m2' on page 72 undefined on input line 24.
 
-[70]) [71]
+[72]) [73]
 \openout2 = `conclusion.aux'.
 
- (./conclusion.tex [72
+ (./conclusion.tex [74
 
 
 
-] [73]) [74] [75
+] [75]) [76] [77
 
 
 ]
@@ -2191,7 +2205,7 @@ Overfull \hbox (2.68095pt too wide) in paragraph at lines 298--298
  ex-tremely metal-poor intermediate-
  []
 
-[76] [77] [78] [79]
+[78] [79] [80] [81]
 
 FiXme Summary: Number of notes: 0,
 (FiXme)        Number of warnings: 0,
@@ -2199,7 +2213,7 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[80]
+[82]
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -2211,7 +2225,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BC4D6D2443A6A12826107D4F1A7C4596;2722.
+(rerunfilecheck)             Checksum: 27ED8FDB9C77D1BD38F8B83F57D297F1;2722.
 
 
 LaTeX Warning: There were undefined references.
@@ -2221,19 +2235,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37878 strings out of 492623
- 692075 string characters out of 6135669
- 1319287 words of memory out of 5000000
- 40740 multiletter control sequences out of 15000+600000
- 659080 words of font info for 236 fonts, out of 8000000 for 9000
+ 37918 strings out of 492623
+ 692870 string characters out of 6135669
+ 1322353 words of memory out of 5000000
+ 40765 multiletter control sequences out of 15000+600000
+ 659258 words of font info for 238 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,92p,2401b,2911s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
 st, replaced by a fixed one
 
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/font
-s/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.en
-c}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dis
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/
+fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathi
+t.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dis
 t/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ma
 thex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/newtxtt/txttAec.enc}</usr/share
 /texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1
@@ -2247,14 +2261,15 @@ i9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf
 ublic/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/t
 ype1/public/lm/lmro10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.p
-fb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dis
-t/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/newtxtt/newt
-xtt.pfb>
-Output written on main.pdf (80 pages, 7494752 bytes).
+fb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf-dis
+t/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/
+lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/
+fonts/type1/public/newtxtt/newtxtt.pfb>
+Output written on main.pdf (82 pages, 7693483 bytes).
 PDF statistics:
- 1893 PDF objects out of 2073 (max. 8388607)
- 1139 compressed objects within 12 object streams
- 289 named destinations out of 1000 (max. 500000)
- 45041 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 2022 PDF objects out of 2073 (max. 8388607)
+ 1183 compressed objects within 12 object streams
+ 298 named destinations out of 1000 (max. 500000)
+ 45051 words of extra memory for PDF output out of 51595 (max. 10000000)
 

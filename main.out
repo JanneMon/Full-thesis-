@@ -9,7 +9,7 @@
 \BOOKMARK [0][-]{chapter.4}{The Delta Scuti stars}{}% 9
 \BOOKMARK [1][-]{section.4.1}{The pulsation HR-diagram and the driving mechanisms}{chapter.4}% 10
 \BOOKMARK [1][-]{section.4.2}{Why Delta Sct stars?}{chapter.4}% 11
-\BOOKMARK [1][-]{section.4.3}{The delta Scuti stars 44 Tau and Superstar}{chapter.4}% 12
+\BOOKMARK [1][-]{section.4.3}{The delta Scuti stars 44 Tau and HD 187547}{chapter.4}% 12
 \BOOKMARK [2][-]{subsection.4.3.1}{44 Tau}{section.4.3}% 13
 \BOOKMARK [2][-]{subsection.4.3.2}{HD 187547}{section.4.3}% 14
 \BOOKMARK [0][-]{chapter.5}{Computational tools}{}% 15
@@ -22,7 +22,7 @@
 \BOOKMARK [2][-]{subsection.5.1.6}{Opacity data}{section.5.1}% 22
 \BOOKMARK [1][-]{section.5.2}{GYRE}{chapter.5}% 23
 \BOOKMARK [2][-]{subsection.5.2.1}{Input and output options}{section.5.2}% 24
-\BOOKMARK [0][-]{chapter.6}{Modeling 44 Tau and Superstar}{}% 25
+\BOOKMARK [0][-]{chapter.6}{Modeling 44 Tau and HD 187547}{}% 25
 \BOOKMARK [1][-]{section.6.1}{Choosing a grid}{chapter.6}% 26
 \BOOKMARK [1][-]{section.6.2}{Resolution and varcontrol}{chapter.6}% 27
 \BOOKMARK [1][-]{section.6.3}{chi2 testing}{chapter.6}% 28
@@ -31,11 +31,11 @@
 \BOOKMARK [3][-]{subsubsection.6.3.2.1}{l=0 modes}{subsection.6.3.2}% 31
 \BOOKMARK [3][-]{subsubsection.6.3.2.2}{l=0,1,2 modes}{subsection.6.3.2}% 32
 \BOOKMARK [2][-]{subsection.6.3.3}{Results}{section.6.3}% 33
-\BOOKMARK [1][-]{section.6.4}{Superstar}{chapter.6}% 34
+\BOOKMARK [1][-]{section.6.4}{HD 187547}{chapter.6}% 34
 \BOOKMARK [2][-]{subsection.6.4.1}{Results}{section.6.4}% 35
 \BOOKMARK [0][-]{chapter.7}{Discussion and future work}{}% 36
 \BOOKMARK [1][-]{section.7.1}{Grid considerations}{chapter.7}% 37
 \BOOKMARK [1][-]{section.7.2}{Stringent statistics}{chapter.7}% 38
 \BOOKMARK [1][-]{section.7.3}{Non-adiabatic calculations}{chapter.7}% 39
 \BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 40
-\BOOKMARK [0][-]{section*.44}{Bibliography}{}% 41
+\BOOKMARK [0][-]{section*.46}{Bibliography}{}% 41

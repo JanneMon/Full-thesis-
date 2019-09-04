@@ -36,13 +36,9 @@ For studying the intermediate mass pulsators it is favorable if the $\delta$ Sct
     \item As mentioned earlier, rotation causes numerous effects that needs to be taken into consideration both for mode identification (rotational splitting) and modeling. 
 \end{itemize}
 
-For these reasons 44 tau is a good candidate for studying and modeling. The results and methods can then be applied to stars where mode id was less sucessfull and modeling is needed. In this study, this will be HD which will from now on be referred to as Superstar \citet{antoci2014role}. 
+For these reasons 44 tau is a good candidate for studying and modeling. The results and methods can then be applied to stars where mode id has been less sucessful and modeling is needed. In this study, this will be HD 187547 \citet{antoci2014role}. 
 
-\section{The delta Scuti stars 44 Tau and Superstar}
-
-The $\delta Sct$ stars analysed in this work is shortly presented in the following section. Both stars are shown in %\figref{hrins} with the red and blue edge from \citet{murphy2019gaia}. 
-\\
- 
+\section{The delta Scuti stars 44 Tau and HD 187547}
 
 \subsection{44 Tau}
 
@@ -54,9 +50,11 @@ The $\delta Sct$ stars analysed in this work is shortly presented in the followi
 
  %A revision of the initial Strömgren indices lead to the determination of an effective temperature of $T_{eff} = 7000 \pm 200$ and \logg value of $3.7\pm 0.1$. 
 \begin{table}[htbp]
+	\caption{}
+	\label{freqs}
 \begin{tabular}{lllllll}
-\hline
-       & Frequency {[}$cd^(-1)]$ & $\sigma$ {[}$cd^(-1)${]}             & \begin{tabular}[c]{@{}l@{}}$A_y$\\ {[}millimag{]}\end{tabular} & $(l,m)$ & $A_w/A_y$ & \multicolumn{1}{l|}{} \\ \hline
+\toprule
+       & Frequency {[}$cd^(-1)]$ & $\sigma$ {[}$cd^(-1)${]}             & \begin{tabular}[c]{@{}l@{}}$A_y$\\ {[}millimag{]}\end{tabular} & $(l,m)$ & $A_w/A_y$ & \multicolumn{1}{l|}{} \\ \midrule
 $f_1$  & 6.89802097              & 2.762223525*10\textasciicircum{}(-7) & 27.25                                                          & (0,0)   &           &                       \\
 $f_2$  & 7.00599425              & 1.212730436*10\textasciicircum{}(-6) & 6.206                                                          & (1,1)   &           &                       \\
 $f_3$  & 9.11743254              & 3.311156496*10\textasciicircum{}(-6) & 2.273                                                          & (1,1)   &           &                       \\
@@ -71,10 +69,9 @@ $f_11$ & 8.63914838              & 5.442115161*10\textasciicircum{}(-6) & 1.383 
 $f_12$ & 11.2947181              & 6.202960588*10\textasciicircum{}(-6) & 1.213                                                          &         &           &                       \\
 $f_13$ & 12.6914745              & 1.844227733*10\textasciicircum{}(-5) & 0.408                                                          &         &           &                       \\
 $f_14$ & 5.30468666              & 7.280114276*10\textasciicircum{}(-6) & 1.033                                                          &         &           &                       \\
-$f_15$ & 7.789734                & 4.504308690*10\textasciicircum{}(-6) & 1.671                                                          &         &           &                      
+$f_15$ & 7.789734                & 4.504308690*10\textasciicircum{}(-6) & 1.671 
+             
 \end{tabular}
-\caption{}
-\label{freqs}
 \end{table}
 
 %For a full asteroseismic analysis, knowledge on the stellar parameters is needed. These can be derived from the results of Strömgren and Geneva photometry. The Strömgren indices of uvby$\beta$ \citep{hauck1997vizier} are shown in \tabref{stromgren}.
@@ -101,15 +98,17 @@ The luminosity can be derived through the G-band magnitude $M_G$ and bolometric 
 Some systematic errors were detected by \citet{andrae2018gaia}. Estimates on the reddening and extinction are not applied in all cases due to non-reliable estimates. The GAIA atmospheric parameters for 44 Tau is listed along with the HIPPARCOS and spectroscopic values in \tabref{tab:parameters}. 
 
 \begin{table}[htbp]
+	\caption{Observational parameters listed as given by \citet{lenz2010delta} and \citet{brown2018gaia}. The "parameter set column" divides the observationaæ parameters into to consecutive runs done for 44 Tau.}
+	\label{obsparams}
 \centering
-\begin{tabular}{|l|ll|}
+\begin{tabular}{|l|lll|}
 \hline
-                                                   & Value                                             & Reference \\ \hline
-$\log g$                                  &  $3.6 \pm 0.01$                            & \citep{zima2007high}    \\
-$\log T_\text{eff}$             & $3.839  \pm 0.007$                   &   \citep{lenz2010delta}   \\
-$\log T_\text{eff, GAIA}$ &  $3.843^{+0.003}_{-0.007}$ & \citep{brown2018gaia} \\
-$\log L/L_\odot$                  &  $1.305 \pm 0.065$                          & \citep{lenz2010delta}     \\
-$\log (L/L_\odot)_{GAIA}$& $1.383 \pm 0.004$                        &  \citep{brown2018gaia}   \\ \hline
+                                                   & Value                                             & Reference  & Parameter set\\ \hline
+$\log g$                                  &  $3.6 \pm 0.01$                            & \citep{zima2007high} & 1 and 2   \\
+$\log T_\text{eff}$             & $3.839  \pm 0.007$                   &   \citep{lenz2010delta}  & 1 \\
+$\log T_\text{eff, GAIA}$ &  $3.843^{+0.003}_{-0.007}$ & \citep{brown2018gaia} & 2\\
+$\log L/L_\odot$                  &  $1.305 \pm 0.065$                          & \citep{lenz2010delta}  & 1   \\
+$\log (L/L_\odot)_{GAIA}$& $1.383 \pm 0.004$                        &  \citep{brown2018gaia}  & 2 \\ \hline
 \end{tabular}
 \end{table}
 
