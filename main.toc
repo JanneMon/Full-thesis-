@@ -1,44 +1,45 @@
 \babel@toc {english}{}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\contentsline {chapter}{Contents}{4}{section*.2}% 
+\contentsline {chapter}{Contents}{4}{section*.3}% 
 \contentsline {chapter}{\chapternumberline {1}Introduction}{7}{chapter.1}% 
 \contentsline {chapter}{\chapternumberline {2}Stellar Structure and Evolution}{9}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}Energy transport by convection}{10}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Stellar evolution through the HR-diagram}{13}{section.2.2}% 
-\contentsline {chapter}{\chapternumberline {3}An introduction to asteroseismology}{19}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Stellar pulsations}{19}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}Pressure and Gravity modes}{21}{subsection.3.1.1}% 
-\contentsline {chapter}{\chapternumberline {4}The Delta Scuti stars}{27}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}The pulsation HR-diagram and the driving mechanisms}{27}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Why Delta Sct stars?}{29}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}The delta Scuti stars 44 Tau and HD 187547}{30}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}44 Tau}{30}{subsection.4.3.1}% 
-\contentsline {subsection}{\numberline {4.3.2}HD 187547}{32}{subsection.4.3.2}% 
-\contentsline {chapter}{\chapternumberline {5}Computational tools}{35}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}MESA}{35}{section.5.1}% 
-\contentsline {subsection}{\numberline {5.1.1}Stellar structure and evolution}{35}{subsection.5.1.1}% 
-\contentsline {subsection}{\numberline {5.1.2}Output}{37}{subsection.5.1.2}% 
-\contentsline {subsection}{\numberline {5.1.3}Convection treatment}{37}{subsection.5.1.3}% 
-\contentsline {subsection}{\numberline {5.1.4}Element abundance mixtures}{39}{subsection.5.1.4}% 
-\contentsline {subsection}{\numberline {5.1.5}Equation of state}{40}{subsection.5.1.5}% 
-\contentsline {subsection}{\numberline {5.1.6}Opacity data}{41}{subsection.5.1.6}% 
-\contentsline {section}{\numberline {5.2}GYRE}{41}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}Input and output options}{42}{subsection.5.2.1}% 
-\contentsline {chapter}{\chapternumberline {6}Modeling 44 Tau and HD 187547}{45}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Choosing a grid}{45}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Resolution and varcontrol}{49}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}chi2 testing}{51}{section.6.3}% 
-\contentsline {subsection}{\numberline {6.3.1}Finding the best model}{51}{subsection.6.3.1}% 
-\contentsline {subsection}{\numberline {6.3.2}44 Tau}{52}{subsection.6.3.2}% 
-\contentsline {subsubsection}{\numberline {6.3.2.1}l=0 modes}{52}{subsubsection.6.3.2.1}% 
-\contentsline {subsubsection}{\numberline {6.3.2.2}l=0,1,2 modes}{56}{subsubsection.6.3.2.2}% 
-\contentsline {subsection}{\numberline {6.3.3}Results}{57}{subsection.6.3.3}% 
-\contentsline {section}{\numberline {6.4}HD 187547}{62}{section.6.4}% 
-\contentsline {subsection}{\numberline {6.4.1}Results}{64}{subsection.6.4.1}% 
-\contentsline {chapter}{\chapternumberline {7}Discussion and future work}{71}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Grid considerations}{71}{section.7.1}% 
-\contentsline {section}{\numberline {7.2}Stringent statistics}{72}{section.7.2}% 
-\contentsline {section}{\numberline {7.3}Non-adiabatic calculations}{73}{section.7.3}% 
-\contentsline {chapter}{\chapternumberline {8}Conclusion}{75}{chapter.8}% 
-\contentsline {chapter}{Bibliography}{77}{section*.46}% 
+\contentsline {chapter}{\chapternumberline {3}An introduction to asteroseismology}{21}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Stellar pulsations}{21}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Pressure and Gravity modes}{23}{subsection.3.1.1}% 
+\contentsline {chapter}{\chapternumberline {4}The Delta Scuti stars}{29}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}The pulsation HR-diagram and the driving mechanisms}{29}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Why Delta Sct stars?}{31}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}The delta Scuti stars 44 Tau and HD 187547}{32}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}44 Tau}{32}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}HD 187547}{34}{subsection.4.3.2}% 
+\contentsline {chapter}{\chapternumberline {5}Computational tools}{37}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}MESA}{37}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Stellar structure and evolution}{37}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}Output}{39}{subsection.5.1.2}% 
+\contentsline {subsection}{\numberline {5.1.3}Convection treatment}{39}{subsection.5.1.3}% 
+\contentsline {subsection}{\numberline {5.1.4}Element abundance mixtures}{41}{subsection.5.1.4}% 
+\contentsline {subsection}{\numberline {5.1.5}Equation of state}{42}{subsection.5.1.5}% 
+\contentsline {subsection}{\numberline {5.1.6}Opacity data}{43}{subsection.5.1.6}% 
+\contentsline {section}{\numberline {5.2}GYRE}{43}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Input and output options}{44}{subsection.5.2.1}% 
+\contentsline {chapter}{\chapternumberline {6}Modeling 44 Tau and HD 187547}{47}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Choosing a grid}{47}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Resolution and varcontrol}{51}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}chi2 testing}{53}{section.6.3}% 
+\contentsline {subsection}{\numberline {6.3.1}Finding the best model}{53}{subsection.6.3.1}% 
+\contentsline {subsection}{\numberline {6.3.2}44 Tau}{54}{subsection.6.3.2}% 
+\contentsline {subsubsection}{\numberline {6.3.2.1}l=0 modes}{54}{subsubsection.6.3.2.1}% 
+\contentsline {subsubsection}{\numberline {6.3.2.2}l=0,1,2 modes}{59}{subsubsection.6.3.2.2}% 
+\contentsline {subsection}{\numberline {6.3.3}Results}{59}{subsection.6.3.3}% 
+\contentsline {section}{\numberline {6.4}HD 187547}{66}{section.6.4}% 
+\contentsline {subsection}{\numberline {6.4.1}Results}{66}{subsection.6.4.1}% 
+\contentsline {chapter}{\chapternumberline {7}Discussion and future work}{73}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Grid considerations}{73}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Stringent statistics}{74}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}Non-adiabatic calculations}{75}{section.7.3}% 
+\contentsline {chapter}{\chapternumberline {8}Conclusion}{77}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}A}{79}{section.8.1}% 
+\contentsline {chapter}{Bibliography}{81}{section*.48}% 
