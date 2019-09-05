@@ -1241,6 +1241,33 @@
       \field{pages}{131}
       \range{pages}{1}
     \endentry
+    \entry{gough1996astereoasteroseismology}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e170ef94bf2f092d0629ea6a94bed2f6}{%
+           family={Gough},
+           familyi={G\bibinitperiod},
+           given={DO},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e170ef94bf2f092d0629ea6a94bed2f6}
+      \strng{fullhash}{e170ef94bf2f092d0629ea6a94bed2f6}
+      \strng{bibnamehash}{e170ef94bf2f092d0629ea6a94bed2f6}
+      \strng{authorbibnamehash}{e170ef94bf2f092d0629ea6a94bed2f6}
+      \strng{authornamehash}{e170ef94bf2f092d0629ea6a94bed2f6}
+      \strng{authorfullhash}{e170ef94bf2f092d0629ea6a94bed2f6}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Observatory}
+      \field{title}{Astereoasteroseismology}
+      \field{volume}{116}
+      \field{year}{1996}
+      \field{pages}{313\bibrangedash 315}
+      \range{pages}{3}
+    \endentry
     \entry{grevesse1993cosmic}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=7fb12246e1f839b7d17e335a49dfaef3}{%
@@ -1617,6 +1644,41 @@
       \field{title}{Stellar structure and evolution}
       \field{volume}{192}
       \field{year}{1990}
+    \endentry
+    \entry{kjeldsen2011amplitudes}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7f03feaa96379742c044b7c44af3bae9}{%
+           family={Kjeldsen},
+           familyi={K\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+        {{hash=caf48183c8ce1a2c770147f65297f2e4}{%
+           family={Bedding},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima R},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {EDP Sciences}%
+      }
+      \strng{namehash}{86748e4742e6de69ee7c3493bb7b24d5}
+      \strng{fullhash}{86748e4742e6de69ee7c3493bb7b24d5}
+      \strng{bibnamehash}{86748e4742e6de69ee7c3493bb7b24d5}
+      \strng{authorbibnamehash}{86748e4742e6de69ee7c3493bb7b24d5}
+      \strng{authornamehash}{86748e4742e6de69ee7c3493bb7b24d5}
+      \strng{authorfullhash}{86748e4742e6de69ee7c3493bb7b24d5}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astronomy \& Astrophysics}
+      \field{title}{Amplitudes of solar-like oscillations: a new scaling relation}
+      \field{volume}{529}
+      \field{year}{2011}
+      \field{pages}{L8}
+      \range{pages}{1}
     \endentry
     \entry{koch2010kepler}{article}{}
       \true{moreauthor}
@@ -2875,6 +2937,33 @@
       \field{pages}{713}
       \range{pages}{1}
     \endentry
+    \entry{shibahashi1979modal}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8e09b854a1dfc95a639b80c21de361ae}{%
+           family={Shibahashi},
+           familyi={S\bibinitperiod},
+           given={Hiromoto},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e09b854a1dfc95a639b80c21de361ae}
+      \strng{fullhash}{8e09b854a1dfc95a639b80c21de361ae}
+      \strng{bibnamehash}{8e09b854a1dfc95a639b80c21de361ae}
+      \strng{authorbibnamehash}{8e09b854a1dfc95a639b80c21de361ae}
+      \strng{authornamehash}{8e09b854a1dfc95a639b80c21de361ae}
+      \strng{authorfullhash}{8e09b854a1dfc95a639b80c21de361ae}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications of the Astronomical Society of Japan}
+      \field{title}{Modal analysis of stellar nonradial oscillations by an asymptotic method}
+      \field{volume}{31}
+      \field{year}{1979}
+      \field{pages}{87\bibrangedash 104}
+      \range{pages}{18}
+    \endentry
     \entry{smalley2011superwasp}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -3033,62 +3122,6 @@
       \field{year}{2000}
       \field{pages}{485}
       \range{pages}{1}
-    \endentry
-    \entry{tassoul1980}{article}{}
-      \name{author}{1}{}{%
-        {{hash=284e9909e45c9b53d071e5d026cb0783}{%
-           family={Tassoul},
-           familyi={T\bibinitperiod},
-           given={Monique},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{284e9909e45c9b53d071e5d026cb0783}
-      \strng{fullhash}{284e9909e45c9b53d071e5d026cb0783}
-      \strng{bibnamehash}{284e9909e45c9b53d071e5d026cb0783}
-      \strng{authorbibnamehash}{284e9909e45c9b53d071e5d026cb0783}
-      \strng{authornamehash}{284e9909e45c9b53d071e5d026cb0783}
-      \strng{authorfullhash}{284e9909e45c9b53d071e5d026cb0783}
-      \field{extraname}{1}
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Astrophysical Journal Supplement Series}
-      \field{title}{Asymptotic approximations for stellar nonradial pulsations}
-      \field{volume}{43}
-      \field{year}{1980}
-      \field{pages}{469\bibrangedash 490}
-      \range{pages}{22}
-    \endentry
-    \entry{tassoul1990}{article}{}
-      \name{author}{1}{}{%
-        {{hash=284e9909e45c9b53d071e5d026cb0783}{%
-           family={Tassoul},
-           familyi={T\bibinitperiod},
-           given={Monique},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{284e9909e45c9b53d071e5d026cb0783}
-      \strng{fullhash}{284e9909e45c9b53d071e5d026cb0783}
-      \strng{bibnamehash}{284e9909e45c9b53d071e5d026cb0783}
-      \strng{authorbibnamehash}{284e9909e45c9b53d071e5d026cb0783}
-      \strng{authornamehash}{284e9909e45c9b53d071e5d026cb0783}
-      \strng{authorfullhash}{284e9909e45c9b53d071e5d026cb0783}
-      \field{extraname}{2}
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Astrophysical Journal}
-      \field{title}{Second-order asymptotic approximations for stellar nonradial acoustic modes}
-      \field{volume}{358}
-      \field{year}{1990}
-      \field{pages}{313\bibrangedash 327}
-      \range{pages}{15}
     \endentry
     \entry{timmes2000accuracy}{article}{}
       \name{author}{2}{}{%
@@ -3583,7 +3616,6 @@
       \range{pages}{9}
     \endentry
   \enddatalist
-  \missing{kjeldsen}
 \endrefsection
 \endinput
 

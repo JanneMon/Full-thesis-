@@ -163,115 +163,79 @@ For the frequencies the $\sigma$ is naturally very small (in the order of $10d^{
 
 %There are both advantages and disadvantages for both methods. The first method does take the spacing into consideration, but it follows from this that the since the \chis are artificially enhanced, the scaling between the frequency \chis and rest of the parameters is off by the scaling factor $\alpha$. This can be found by finding the ratio $\frac{\chi_{freqs}}{\chi_{freqs}}$ for each model, j, and finding the mean. This method is slightly more complicated than the second method, however, the second method does not take the spacing in frequency between models into account, and the standard deviation is based only on two different frequencies. The order of magnitude of the \chis is different for the methods, but as mentioned earlier the numbers themselves are not representative of how well a model fits. 
 
-As of yet only l=0 modes have been fitted. Calculating corresponding l=1 and l=2 modes for all models is time consuming, and therefore a selection criteria is needed. This is done by first finding the model with the lowest \chis is for each track. From all of these the best 5\% are found for both observational parameter sets as listed in \tabref{obsparams}. These models and their initial parameters are shown in \tabref{bestchi_m1} and \tabref{bestchi_m2}. 
+As of yet only l=0 modes have been fitted. Calculating corresponding l=1 and l=2 modes for all models is time consuming, and therefore a selection criteria is needed. This is done by first finding the model with the lowest \chis is for each track. From all of these the best 5\% are found for both observational parameter sets as listed in \tabref{obsparams}. These models and their input parameters are shown in \tabref{bestchi_m1}. The difference between the different runts can be seen in the last column.  
 
-\begin{table}[htbp]
- \caption{List of models that are within the 5\% lowest \chis values for 44 Tau. }
-  \label{bestchi_m1}
-  \begin{tabular}{lllllll}
- Model &  $M[M_\odot]$ &X & Z & Y & $\alpha_{mlt}$ & $\alpha_{ov}$\\  \midrule
- 1238 & 1.50 &0.65  &  &  &  &      \\
- 1201 & 1.50&0.65 &  &  &  &     \\
- 1211 &  1.50 &0.65&  &  &  &    \\
- 1214& 1.50 &0.65 &  &  &  &     \\
- 1168 &  1.50&0.65&  &  &  &      \\
- 1190 & 1.55 &0.65&  &  &  &     \\
- 1411 &  1.60 &0.70&  &  &  &   \\
- 1434& 1.60 &0.70&  &  &  &    \\
- 1244 & 1.60 &0.70&  &  &  &    \\
- 1353& 1.60 &0.70&  &  &  &     \\
- 1204& 1.60 & 0.70&  &  &  & \\
- 1264 & 1.60 &0.70&  &  &  &   \\
- 1384& 1.65 &0.70&  &  &  &   \\
- 1428& 1.65 &0.70&  &  &  &   \\
- 1328& 1.65 &0.70&  &  &  &   \\
- 1289 & 1.65 &0.70&  &  &  &  \\
- 1140&  1.701& 0.75  &  &  &  &    \\
- 1144&  1.701 &  &  &  &  &    \\
- 1126&  1.701 &  &  &  &  &    \\
- 1273&  1.75 &  &  &  &  &    \\
- 1187&  1.75 &  &  &  &  &    \\
- 1216&  1.75 &  &  &  &  &   \\
- 1231&  1.75 &  &  &  &  &    \\
- 1158&  1.75 &  &  &  &  &  \\
- 1177&  1.80&  &  &  &  &    \\
- 1165&  1.80&  &  &  &  &   \\
- 1271&  1.85&  &  &  &  &   \\
- 1089&  1.85&  &  &  &  &    \\
- 1065&  1.85&  &  &  &  &   \\
- 1137&  1.85&  &  &  &  &  \\
- 1230&  1.85&  &  &  &  & \\
- 1025&  1.85 &  &  &  &  &  \\
- 1219& 1.90 &  &  &  &  & \\
- 1074&  1.90&  &  &  &  & \\
- 1071&  1.90 &  &  &  &  &\\
- 1086&  1.95 &  &  &  &  &\\
- 1072&  1.95 &  &  &  &  &\\
- 1023&  1.95 &  &  &  &  &\\
- 1088&  2.0&  &  &  &  &\\
- 1069&  2.0&  &  &  &  &\\
- 1050&  2.0&  &  &  &  &\\
- 1046&  2.0 &  &  &  &  &\\
- 1123&  2.0 &  &  &  &  &\\
- 1030&  2.0 &  &  &  &  &\\
- 1010&  2.0&  &  &  &  &\\
- 1151&  2.05&  &  &  &  &\\
- 1129&  2.05&  &  &  &  &\\
- 994&  2.05&  &  &  &  &\\
- 1156&  2.10&  &  &  &  &\\
- 1073&  2.10&  &  &  &  &\\
- 1090& 2.10 &  &  &  &  &\\
- 1010 & 2.15 &  &  &  &  &\\
- 1219&  2.20&  &  &  &  &\\
- 1055&  2.20&  &  &  &  &\\
- 1087&  2.20&  &  &  &  &\\
- 1034&  2.20&  &  &  &  &\\
- 979 &  2.20&  &  &  &  &\\
- 1068&  2.20&  &  &  &  &
-\end{tabular}
-\end{table}
-
-\begin{table}[htbp]
-  \caption{skinke}
-  \label{bestchi_m2}
-  \begin{tabular}{lllllllllll}
-    \toprule
-    Model & X & Z  & $M[M_\odot]$ & $\alpha_{mlt}$ & $\alpha_{ov}$ & $\log \text{T}_\text{eff}$  & $\log \text{L}$  & $\log \text{g}$ & $\chi^2$ & $\chi^2_{pum}$\\
-    \midrule
-          1356 & 1.50 & 0.65  & 0.01  & 0.2  & 0.1  &  &  &  &  &  \\
-          1247 & 1.50 & 0.65  & 0.01  & 0.5  & 0.1 &  &  &  &  &  \\
-          1218 & 1.50 & 0.65  & 0.01  & 0.8  & 0.1 &  &  &  &  &  \\
-          1443 & 1.55 & 0.70 & 0.01  & 0.2  & 0.3  &  &  &  &  &  \\
-          1297 & 1.55 & 0.70 & 0.01   & 0.5  & 0.3  &  &  &  &  &  \\
-          1257 & 1.55 & 0.70  & 0.01  & 0.8  & 0.3 &  &  &  &  &  \\
-         
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-          &  &  &  &  &  &  &  &  &  &  \\
-    \bottomrule
-\end{tabular}
-\end{table}
+%\begin{center}[htbp]
+\begin{longtable}{ccccccc} 
+\caption{List of models that are within the 5\% lowest \chis values for 44 Tau. } \label{bestchi_m1} \\
+\toprule
+Model &  $M[M_\odot]$ &X & Z & $\alpha_{mlt}$ & $\alpha_{ov}$ & Parameter set\\  
+\midrule
+1238 & 1.50 &0.65  & 0.01 & 0.2  & 0.3 & 1,2\\
+1201 & 1.50&0.65 & 0.01 & 0.5 &  0.1   & 1,2\\
+1211 &  1.50 &0.65& 0.01 & 0.5 &  0.3  & 1,2 \\
+1214& 1.50 &0.65 &  0.01& 0.8 &  0.2  & 1,2 \\
+1168 &  1.50&0.65&  0.01& 0.8 &  0.3  & 1,2\\
+1190 & 1.55 &0.65&  0.01& 0.2 &   0.2  & 1,2\\
+1411 &  1.60 &0.70&  0.01& 0.2 &  0.3 & 1,2 \\
+1434& 1.60 &0.70&  0.01& 0.5 &   0.3  & 1,2\\
+1244 & 1.60 &0.70&  0.01& 0.8 & 0.3   & 1,2\\
+1353& 1.60 &0.70&  0.01& 0.8 &  0.3    & 1,2 \\
+1204& 1.60 & 0.70& 0.01 & 0.5 & 0.1  & 1,2\\
+1264 & 1.60 &0.70& 0.01 & 0.8 &  0.1 & 1,2 \\
+1384& 1.65 &0.70& 0.01 &  0.2&   0.2  & 1,2\\
+1428& 1.65 &0.70&  0.01 & 0.5 &  0.2  & 1,2\\
+1328& 1.65 &0.70&  0.01& 0.2 &  0.2  & 1,2\\
+1289 & 1.65 &0.70&  0.01& 0.2 &  0.3 & 1,2\\
+1353&  1.701& 0.65& 0.02 & 0.2 &  0.1  & 2 \\
+1144&  1.701 & 0.65  & 0.02  & 0.5 & 0.2   & 1,2  \\
+1121&  1.701 & 0.65  & 0.02  & 0.8 & 0.1   & 2  \\
+1131 &  1.701 & 0.65  & 0.02  & 0.8 & 0.2   & 2  \\
+1140&  1.701& 0.75& 0.01 & 0.8 &  0.3  & 1 \\
+1290&  1.701& 0.75& 0.01 & 0.5 &  0.3  & 2 \\
+1148&  1.701& 0.75& 0.01 & 0.8 &  0.2  & 2 \\
+1126&  1.701 & 0.65 & 0.02 &  0.8&  0.1 & 1\\
+1273&  1.75 & 0.75 & 0.01 &  0.2& 0.2   & 1,2 \\
+1187&  1.75 &  0.75 & 0.01 &  0.5 &  0.2  & 1,2\\
+1216&  1.75 &  0.65 &0.02&   0.2&  0.2  & 1\\
+1231&  1.75 &  0.65 & 0.02 &  0.2&   0.3 & 1,2\\
+1158&  1.75 &  0.65 & 0.02 &  0.5  & 0.3 & 1,2 \\
+1177&  1.80&  0.70 &  0.02&  0.2  &   0.2 & 1,2 \\
+1165&  1.80&  0.70 & 0.02 &   0.5 &  0.3 & 1,2 \\
+1271&  1.85&  0.70 & 0.02 &  0.2 & 0.2   & 1,2 \\
+1089&  1.85& 0.70&  0.02 &  0.5 &   0.2  & 1,2\\
+1065&  1.85& 0.70 &  0.02& 0.8  &  0.2  & 1,2\\
+1137&  1.85&  0.65&  0.03 &  0.2  & 0.1  & 1,2\\
+1230&  1.85&  0.65& 0.03 &  0.2  & 0.3 & 1\\
+1025&  1.85 &  0.65& 0.03 &  0.8 &  0.2 & 1,2 \\
+1219& 1.90 & 0.70&  0.02&  0.2&  0.3  & 1,2\\
+1074&  1.90&  0.70& 0.02 &  0.5&  0.2  & 1,2\\
+1071&  1.90 &  0.70&  0.02&  0.8&  0.2  & 1,2\\
+1086&  1.95 &  0.75&  0.02&  0.5& 0.1 & 1 \\
+1072&  1.95 &  0.75&  0.02&  0.8& 0.1 & 1,2\\
+1023&  1.95 &  0.70& 0.03& 0.8  & 0.2 & 1,2\\
+1088&  2.0&  0.75&  0.02 &  0.5  & 0.1 & 1,2\\
+1069&  2.0&  0.75&  0.02&  0.5  & 0.2 & 1,2\\
+1050&  2.0&  0.75&  0.02&  0.8  & 0.1 & 1,2\\
+1046&  2.0 & 0.75 & 0.02 &  0.8  & 0.2  & 1,2\\
+1123&  2.0 &  0.70&  0.03&  0.2  & 0.2 & 1,2\\
+1030&  2.0 &  0.70&  0.03& 0.5  & 0.1 & 1,2\\
+1010&  2.0&  0.70&  0.03& 0.8  & 0.1 & 1,2\\
+1151&  2.05& 0.75 & 0.02 &  0.2& 0.1 & 1,2\\
+1129&  2.05&  0.70& 0.03 & 0.2 & 0.1 & 1,2\\
+994&  2.05&  0.70&  0.03&  0.8  &0.2 & 1,2\\
+1156&  2.10&  0.75&  0.02&  0.2  & 0.2 & 1,2\\
+1073&  2.10&  0.75&  0.02&  0.8  & 0. 3& 1,2\\
+1090& 2.10 &  0.70&  0.03&  0.5& 0.3 & 1,2\\
+1010 & 2.15 &  0.75 &  0.03 & 0.5  & 0.2 & 1,2\\
+1219&  2.20&  0.75&  0.03&  0.2  & 0.3  & 1,2\\
+1055&  2.20&  0.75& 0.03 &  0.5  & 0.1 & 1,2\\
+1087&  2.20& 0.75 &  0.03&  0.5  & 0.3 & 1,2\\
+1034&  2.20& 0.75 &  0.03&  0.8  &0. & 1,2\\
+979 &  2.20&  0.75 &  0.03& 0.8  & 0.2 & 1,2\\
+1068&  2.20& 0.75 & 0.03  & 0.8   & 0.3 & 1,2\\ \bottomrule
+\end{longtable}
+%\end{center}
 
  By first selecting the model with the lowest \chis value for each track, a wide range of parameter combinations is ensured. It forces an estimate on the evolutionary stage at all areas of the grid, including the very outskirts. The disadvantage of this is that it makes it more difficult to identify a the most likely parameter combination, since there cannot be more than one model in the 5\% range on a track. However, as the end goal is to find an estimated evolutionary stage and a single best model, the method is adequate.
 
@@ -359,6 +323,7 @@ As mentioned, this routine does not take the identified $l$ into account. The fi
 
 \subsection{Results}
 The best models found for the two different runs of 44 Tau are shown in \tabref{bestmodels} and \tabref{bestmodels_continued}. The variation from parameter set 1 and parameter set 2 does not affect the total result, as the $\chi_{tot}$ does not differ down until a factor $10^{-13}$. It does however shift the best found model if only including the observational parameters. The reason for this is that the frequencies weigh more in the \chis than the observational parameters. Artificially enhancing the frequencies does shift the model to a higher mass (closer to the mass estimated by \citet{lenz2010delta}), but the $\chi_{ tot}^2$ is higher for this model. Enhancing the uncertainties corresponds to adding a weight to the frequencies. However, the difference between the weighted and unweighted results is of order 1, not changing overall result that frequencies still dominates the final outcome. 
+
 
 \begin{sidewaystable}
 	\caption{Best models for the two different observed parameter sets for 44 Tau. The two different parameter sets yielded the same overall result for best model. The difference in the \chis between the two parameter sets is0 insignificant (in the order of $10\cdot^{-13}$ except for the best $\chi_{obs}^2$: The best frequency model is therefore the same as the total best model, since the $\chi_{freqs}^2$ completely dominates the $\chi_{tot}^2$, and there therefore is no significant difference between best $\chi_{tot}^2$ and $\chi_{freqs}^2$. }
@@ -455,26 +420,7 @@ On the contrary to 44 Tau, no modes are well enough determined to use an initial
 
 \noindent the frequency difference between two ($l$=0) consecutive frequencies with same $l$\footnote{This is not the same frequency separation as in \eqref{deltanu}. Thjs does not require $n \ll l$ and is not necessarily asymptotic. Therefore, the values calculated for $\Delta f$ are not to be compared with $\Delta \nu$. For \citet{antoci2011excitation} these were assumed to be the same as the HD 187547 was assumed to have solar-like oscillations in this region where the asymptotic relation applies.}.  The \chis can now be calculated using the observed large frequency separation of $3.5d^{-1}$ AND $7d^{-1}$ \citep{antoci2014role}. Results are shown shown in \tabref{tab:superstar}.
 
-\begin{sidewaystable}
-  \caption{hest}
-  \label{tab:superstar}
 
-	\begin{tabular}{llllllllllllll}
-	 Model & X & Z & $M[M_\odot]$ & $\alpha_{mlt}$ & $\alpha_{ov}$ & \teff  & \logg  & \lum & $\chi_{tot}^2$ &$\chi_{obs}^2$ & $\chi_{freqs}^2$ & $\chi_{pumped}^2$\\
-	 &  &  &  &  &  &  &  &  &  &  \\
- 	&  &  &  &  &  &  &  &  &  &  \\
- 	&  &  &  &  &  &  &  &  &  &  \\
-	 &  &  &  &  &  &  &  &  &  &  \\
- 	&  &  &  &  &  &  &  &  &  &  \\
-	 &  &  &  &  &  &  &  &  &  &  \\
-	 &  &  &  &  &  &  &  &  &  &  \\
-	 &  &  &  &  &  &  &  &  &  &  \\
-	 &  &  &  &  &  &  &  &  &  &  \\
-	 &  &  &  &  &  &  &  &  &  &  \\
- 	&  &  &  &  &  &  &  &  &  &  \\
- 	&  &  &  &  &  &  &  &  &  &  \\
-	\end{tabular}
-\end{sidewaystable}
 
 For modes higher than $l$=0, calculating the \chis for HD 187547 is more elaborate than for 44 Tau, since it is based on the large frequency separation. When $l$ becomes larger than zero, the frequency separation depends significantly on the mixed modes and radial order. Therefore, this part is beyond the scope of this work. 
 
