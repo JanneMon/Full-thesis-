@@ -407,6 +407,72 @@
       \field{pages}{481\bibrangedash 522}
       \range{pages}{42}
     \endentry
+    \entry{badnell2005updated}{article}{}
+      \name{author}{8}{}{%
+        {{hash=7dec4e97663b295937556e7d9516b868}{%
+           family={Badnell},
+           familyi={B\bibinitperiod},
+           given={Nigel\bibnamedelima R},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e87e729d2af74fb503047186e8ed5a68}{%
+           family={Bautista},
+           familyi={B\bibinitperiod},
+           given={MA},
+           giveni={M\bibinitperiod}}}%
+        {{hash=55d7748aaf9bf6dbaabbee82ad0e9b10}{%
+           family={Butler},
+           familyi={B\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7f605b79e375e97eacf116a928647f11}{%
+           family={Delahaye},
+           familyi={D\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=929d95f50c4ad4a00cfeb61041f776cb}{%
+           family={Mendoza},
+           familyi={M\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3e76e25b5fb1fcd78f626fdea983a5a3}{%
+           family={Palmeri},
+           familyi={P\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f7fb0cf15ab23deee3eee605f8f09d24}{%
+           family={Zeippen},
+           familyi={Z\bibinitperiod},
+           given={CJ},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cb2f478cd768851da443971ffab98d97}{%
+           family={Seaton},
+           familyi={S\bibinitperiod},
+           given={MJ},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell Science Ltd Oxford, UK}%
+      }
+      \strng{namehash}{a9a3d5c13aa00f8db4f39c39a09c8509}
+      \strng{fullhash}{2c05805ebe6491c88e3479aa62940163}
+      \strng{bibnamehash}{a9a3d5c13aa00f8db4f39c39a09c8509}
+      \strng{authorbibnamehash}{a9a3d5c13aa00f8db4f39c39a09c8509}
+      \strng{authornamehash}{a9a3d5c13aa00f8db4f39c39a09c8509}
+      \strng{authorfullhash}{2c05805ebe6491c88e3479aa62940163}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{number}{2}
+      \field{title}{Updated opacities from the Opacity Project}
+      \field{volume}{360}
+      \field{year}{2005}
+      \field{pages}{458\bibrangedash 464}
+      \range{pages}{7}
+    \endentry
     \entry{balona2011kepler}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1607,6 +1673,38 @@
       \field{year}{1967}
       \field{pages}{571\bibrangedash 626}
       \range{pages}{56}
+    \endentry
+    \entry{iglesias1996updated}{article}{}
+      \name{author}{2}{}{%
+        {{hash=20bed70fcabc737a1f9f94c85c4d62bf}{%
+           family={Iglesias},
+           familyi={I\bibinitperiod},
+           given={Carlos\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ac8e445af7d3918445cd7bff42d44589}{%
+           family={Rogers},
+           familyi={R\bibinitperiod},
+           given={Forrest\bibnamedelima J},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ba660649574bd28860d81906955cbdb}
+      \strng{fullhash}{9ba660649574bd28860d81906955cbdb}
+      \strng{bibnamehash}{9ba660649574bd28860d81906955cbdb}
+      \strng{authorbibnamehash}{9ba660649574bd28860d81906955cbdb}
+      \strng{authornamehash}{9ba660649574bd28860d81906955cbdb}
+      \strng{authorfullhash}{9ba660649574bd28860d81906955cbdb}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{title}{Updated OPAL opacities}
+      \field{volume}{464}
+      \field{year}{1996}
+      \field{pages}{943}
+      \range{pages}{1}
     \endentry
     \entry{kippenhahn1990stellar}{book}{}
       \name{author}{3}{}{%
@@ -2936,6 +3034,42 @@
       \field{year}{1995}
       \field{pages}{713}
       \range{pages}{1}
+    \endentry
+    \entry{seaton2004comparison}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cb2f478cd768851da443971ffab98d97}{%
+           family={Seaton},
+           familyi={S\bibinitperiod},
+           given={MJ},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7dec4e97663b295937556e7d9516b868}{%
+           family={Badnell},
+           familyi={B\bibinitperiod},
+           given={Nigel\bibnamedelima R},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell Science Ltd}%
+      }
+      \strng{namehash}{a9a2d4910ce3b15a9263bbf3d7ce053f}
+      \strng{fullhash}{a9a2d4910ce3b15a9263bbf3d7ce053f}
+      \strng{bibnamehash}{a9a2d4910ce3b15a9263bbf3d7ce053f}
+      \strng{authorbibnamehash}{a9a2d4910ce3b15a9263bbf3d7ce053f}
+      \strng{authornamehash}{a9a2d4910ce3b15a9263bbf3d7ce053f}
+      \strng{authorfullhash}{a9a2d4910ce3b15a9263bbf3d7ce053f}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{number}{2}
+      \field{title}{A comparison of Rosseland-mean opacities from OP and OPAL}
+      \field{volume}{354}
+      \field{year}{2004}
+      \field{pages}{457\bibrangedash 465}
+      \range{pages}{9}
     \endentry
     \entry{shibahashi1979modal}{article}{}
       \name{author}{1}{}{%

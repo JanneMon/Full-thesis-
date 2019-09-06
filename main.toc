@@ -28,13 +28,13 @@
 \contentsline {chapter}{\chapternumberline {6}Modeling 44 Tau and HD 187547}{47}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}Choosing a grid}{47}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Resolution and varcontrol}{51}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}$\chi ^2$ testing}{53}{section.6.3}% 
-\contentsline {subsection}{\numberline {6.3.1}Finding the best model}{53}{subsection.6.3.1}% 
+\contentsline {section}{\numberline {6.3}$\chi ^2$ testing}{52}{section.6.3}% 
+\contentsline {subsection}{\numberline {6.3.1}Finding the best model}{52}{subsection.6.3.1}% 
 \contentsline {subsection}{\numberline {6.3.2}44 Tau}{54}{subsection.6.3.2}% 
-\contentsline {subsubsection}{\numberline {6.3.2.1}l=0 modes}{54}{subsubsection.6.3.2.1}% 
-\contentsline {subsubsection}{\numberline {6.3.2.2}l=0,1,2 modes}{58}{subsubsection.6.3.2.2}% 
+\contentsline {subsubsection}{\numberline {6.3.2.1}Radial modes}{54}{subsubsection.6.3.2.1}% 
+\contentsline {subsubsection}{\numberline {6.3.2.2}Nonradial modes}{58}{subsubsection.6.3.2.2}% 
 \contentsline {subsection}{\numberline {6.3.3}Results}{59}{subsection.6.3.3}% 
-\contentsline {section}{\numberline {6.4}HD 187547}{64}{section.6.4}% 
+\contentsline {section}{\numberline {6.4}HD 187547}{65}{section.6.4}% 
 \contentsline {subsection}{\numberline {6.4.1}Results}{66}{subsection.6.4.1}% 
 \contentsline {chapter}{\chapternumberline {7}Discussion and future work}{71}{chapter.7}% 
 \contentsline {section}{\numberline {7.1}Grid considerations}{71}{section.7.1}% 

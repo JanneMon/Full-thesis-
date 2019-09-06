@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.8.20)  6 SEP 2019 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.8.20)  6 SEP 2019 22:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1355,7 +1355,7 @@ Package: fixme 2019/01/03 v4.5 Collaborative annotations for LaTeX2e
 \c@fxerrorcount=\count485
 \c@fxfatalcount=\count486
 )
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 183.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 185.
 
 (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1508,29 +1508,29 @@ File: danish.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 (./discussion.aux) (./conclusion.aux) (./Appendix.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 235.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 235.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 237.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 237.
 
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Info: Redefining \microtypecontext on input line 235.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Info: Redefining \microtypecontext on input line 237.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1593,11 +1593,11 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 235.
-Package biblatex Info: Reference segment=0 on input line 235.
+Package biblatex Info: Reference section=0 on input line 237.
+Package biblatex Info: Reference segment=0 on input line 237.
 \c@lstlisting=\count506
 \AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring ON on input line 235.
+Package hyperref Info: Link coloring ON on input line 237.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1610,45 +1610,45 @@ LaTeX Info: Redefining \Ref on input line 515.
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 235.
-LaTeX Info: Redefining \ref on input line 235.
-LaTeX Info: Redefining \pageref on input line 235.
-LaTeX Info: Redefining \nameref on input line 235.
+LaTeX Info: Redefining \nameref on input line 237.
+LaTeX Info: Redefining \ref on input line 237.
+LaTeX Info: Redefining \pageref on input line 237.
+LaTeX Info: Redefining \nameref on input line 237.
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Info: Redefining \Ref on input line 235.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 235.
+LaTeX Info: Redefining \Ref on input line 237.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 237.
 
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 235.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 237.
 
 
 (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 235
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 237
 .
 
 (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 235
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 237
 .
 
 (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 235.
+(Font)              <10.95> on input line 237.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 235.
+(Font)              <8> on input line 237.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 235.
-LaTeX Font Info:    Try loading font information for U+msa on input line 235.
+(Font)              <6> on input line 237.
+LaTeX Font Info:    Try loading font information for U+msa on input line 237.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1656,7 +1656,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 235.
+LaTeX Font Info:    Try loading font information for U+msb on input line 237.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1664,7 +1664,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 235
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 237
 .
 
 (/usr/share/texmf-dist/tex/latex/lm/ot1lmss.fd
@@ -1674,7 +1674,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 235
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 237
 .
 
 (/usr/share/texmf-dist/tex/latex/lm/ot1lmtt.fd
@@ -1685,30 +1685,30 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 238.
+(Font)              <12> on input line 240.
 <frontpage.png, id=184, 1652.1725pt x 1297.84875pt>
 File: frontpage.png Graphic file (type png)
 <use frontpage.png>
-Package pdftex.def Info: frontpage.png  used on input line 244.
+Package pdftex.def Info: frontpage.png  used on input line 246.
 (pdftex.def)             Requested size: 442.79887pt x 347.82959pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./frontpage.png (PNG copy)
 >]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 250.
+(Font)              <10> on input line 251.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 250.
+(Font)              <7> on input line 251.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 250.
+(Font)              <5> on input line 251.
 LaTeX Font Info:    Try loading font information for T1+newtxtt on input line 2
-52.
+53.
 
 (/usr/share/texmf-dist/tex/latex/newtxtt/t1newtxtt.fd
 File: t1newtxtt.fd 2014/12/23 Font definitions for T1/newtxtt.
 )
 LaTeX Font Info:    Font shape `T1/newtxtt/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 252.
+(Font)              scaled to size 9.49997pt on input line 253.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `newtxtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1932,17 +1932,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
 
 ] [38]
-Overfull \hbox (22.02997pt too wide) in paragraph at lines 65--66
-\T1/lmr/m/n/10.95 (-20) out-put file for this is needed. This is done with the 
-\T1/newtxtt/m/n/10.95 write_pulse_data_with_profile
+Overfull \hbox (46.5155pt too wide) in paragraph at lines 65--66
+\T1/lmr/m/n/10.95 (-20) out-put file for this is needed. This is done by adding
+ the \T1/newtxtt/m/n/10.95 write_pulse_data_with_profile
  []
 
 [39]
-<mlt.png, id=819, 2081.376pt x 1053.6966pt>
+<mlt.png, id=820, 2081.376pt x 1053.6966pt>
 File: mlt.png Graphic file (type png)
 <use mlt.png>
 Package pdftex.def Info: mlt.png  used on input line 84.
-(pdftex.def)             Requested size: 295.20113pt x 149.44589pt.
+(pdftex.def)             Requested size: 369.0pt x 186.7953pt.
  [40 <./mlt.png>]
 Package epstopdf Info: Source file: <overshoots_example.eps>
 (epstopdf)                    date: 2019-08-28 21:34:43
@@ -1954,7 +1954,7 @@ Package epstopdf Info: Source file: <overshoots_example.eps>
 verted-to.pdf overshoots_example.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
-<overshoots_example-eps-converted-to.pdf, id=831, 2081.3761pt x 1046.46967pt>
+<overshoots_example-eps-converted-to.pdf, id=834, 2081.3761pt x 1046.46967pt>
 File: overshoots_example-eps-converted-to.pdf Graphic file (type pdf)
 <use overshoots_example-eps-converted-to.pdf>
 Package pdftex.def Info: overshoots_example-eps-converted-to.pdf  used on input
@@ -1968,7 +1968,10 @@ Package pdftex.def Info: overshoots_example-eps-converted-to.pdf  used on input
 
 
 
-] [47]
+]
+LaTeX Font Info:    Font shape `T1/newtxtt/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 12.
+ [47]
 Package epstopdf Info: Source file: <test_z.eps>
 (epstopdf)                    date: 2019-09-04 12:42:15
 (epstopdf)                    size: 51024 bytes
@@ -1979,29 +1982,29 @@ Package epstopdf Info: Source file: <test_z.eps>
 f test_z.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
-<test_z-eps-converted-to.pdf, id=969, 2081.3761pt x 1046.46967pt>
+<test_z-eps-converted-to.pdf, id=986, 2081.3761pt x 1046.46967pt>
 File: test_z-eps-converted-to.pdf Graphic file (type pdf)
 <use test_z-eps-converted-to.pdf>
 Package pdftex.def Info: test_z-eps-converted-to.pdf  used on input line 17.
 (pdftex.def)             Requested size: 369.0pt x 185.51413pt.
-<test_x.png, id=974, 2081.376pt x 1046.4696pt>
+<test_x.png, id=991, 2081.376pt x 1046.4696pt>
 File: test_x.png Graphic file (type png)
 <use test_x.png>
 Package pdftex.def Info: test_x.png  used on input line 26.
 (pdftex.def)             Requested size: 369.0pt x 185.51413pt.
  [48 <./test_z-eps-converted-to.pdf>]
-<tramper.png, id=1034, 1174.3875pt x 1132.23pt>
+<tramper.png, id=1053, 1174.3875pt x 1132.23pt>
 File: tramper.png Graphic file (type png)
 <use tramper.png>
 Package pdftex.def Info: tramper.png  used on input line 35.
 (pdftex.def)             Requested size: 295.20113pt x 284.5944pt.
  [49 <./test_x.png>] [50 <./tramper.png>]
-<resolution_stages.png, id=1058, 2081.376pt x 1053.6966pt>
+<resolution_stages.png, id=1076, 2081.376pt x 1053.6966pt>
 File: resolution_stages.png Graphic file (type png)
 <use resolution_stages.png>
 Package pdftex.def Info: resolution_stages.png  used on input line 74.
 (pdftex.def)             Requested size: 369.0pt x 186.7953pt.
- [51 <./resolution_stages.png>]
+ [51]
 Package epstopdf Info: Source file: <varcontrol_res_2.eps>
 (epstopdf)                    date: 2019-09-04 15:12:33
 (epstopdf)                    size: 58654 bytes
@@ -2012,14 +2015,12 @@ Package epstopdf Info: Source file: <varcontrol_res_2.eps>
 rted-to.pdf varcontrol_res_2.eps>
 (epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
-<varcontrol_res_2-eps-converted-to.pdf, id=1068, 2081.3761pt x 1046.46967pt>
+<varcontrol_res_2-eps-converted-to.pdf, id=1084, 2081.3761pt x 1046.46967pt>
 File: varcontrol_res_2-eps-converted-to.pdf Graphic file (type pdf)
 <use varcontrol_res_2-eps-converted-to.pdf>
 Package pdftex.def Info: varcontrol_res_2-eps-converted-to.pdf  used on input l
 ine 86.
 (pdftex.def)             Requested size: 442.79887pt x 222.62335pt.
-
-[52 <./varcontrol_res_2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <resolution_overshoot.eps>
 (epstopdf)                    date: 2019-08-29 12:21:24
 (epstopdf)                    size: 53451 bytes
@@ -2031,7 +2032,7 @@ Package epstopdf Info: Source file: <resolution_overshoot.eps>
 onverted-to.pdf resolution_overshoot.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
-<resolution_overshoot-eps-converted-to.pdf, id=1132, 2081.3761pt x 1046.46967pt
+<resolution_overshoot-eps-converted-to.pdf, id=1088, 2081.3761pt x 1046.46967pt
 >
 File: resolution_overshoot-eps-converted-to.pdf Graphic file (type pdf)
 <use resolution_overshoot-eps-converted-to.pdf>
@@ -2055,7 +2056,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 102.
 
-[53 <./resolution_overshoot-eps-converted-to.pdf>]
+[52 <./resolution_stages.png>] [53 <./varcontrol_res_2-eps-converted-to.pdf> <.
+/resolution_overshoot-eps-converted-to.pdf>]
 Overfull \hbox (3.45474pt too wide) detected at line 138
 []
  []
@@ -2071,13 +2073,13 @@ Package epstopdf Info: Source file: <scatter_v2.eps>
 o.pdf scatter_v2.eps>
 (epstopdf)             \includegraphics on input line 287.
 Package epstopdf Info: Output file is already uptodate.
-<scatter_v2-eps-converted-to.pdf, id=1212, 2184.16pt x 1322.9425pt>
+<scatter_v2-eps-converted-to.pdf, id=1229, 2184.16pt x 1322.9425pt>
 File: scatter_v2-eps-converted-to.pdf Graphic file (type pdf)
 <use scatter_v2-eps-converted-to.pdf>
 Package pdftex.def Info: scatter_v2-eps-converted-to.pdf  used on input line 28
 7.
 (pdftex.def)             Requested size: 553.5pt x 335.25658pt.
- [57 <./scatter_v2-eps-converted-to.pdf>] [58]
+ [57] [58 <./scatter_v2-eps-converted-to.pdf>]
 Overfull \hbox (21.30241pt too wide) in paragraph at lines 332--342
 [][] 
  []
@@ -2092,13 +2094,12 @@ Package epstopdf Info: Source file: <final_44tau.eps>
 to.pdf final_44tau.eps>
 (epstopdf)             \includegraphics on input line 365.
 Package epstopdf Info: Output file is already uptodate.
-<final_44tau-eps-converted-to.pdf, id=1307, 2184.16pt x 1322.9425pt>
+<final_44tau-eps-converted-to.pdf, id=1322, 2184.16pt x 1322.9425pt>
 File: final_44tau-eps-converted-to.pdf Graphic file (type pdf)
 <use final_44tau-eps-converted-to.pdf>
 Package pdftex.def Info: final_44tau-eps-converted-to.pdf  used on input line 3
 65.
 (pdftex.def)             Requested size: 479.70113pt x 290.5436pt.
-[59] [60] [61 <./final_44tau-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <freqsfit_bestmodel.eps>
 (epstopdf)                    date: 2019-09-02 19:02:37
 (epstopdf)                    size: 40754 bytes
@@ -2109,7 +2110,7 @@ Package epstopdf Info: Source file: <freqsfit_bestmodel.eps>
 verted-to.pdf freqsfit_bestmodel.eps>
 (epstopdf)             \includegraphics on input line 376.
 Package epstopdf Info: Output file is already uptodate.
-<freqsfit_bestmodel-eps-converted-to.pdf, id=1396, 2184.16pt x 1322.9425pt>
+<freqsfit_bestmodel-eps-converted-to.pdf, id=1328, 2184.16pt x 1322.9425pt>
 File: freqsfit_bestmodel-eps-converted-to.pdf Graphic file (type pdf)
 <use freqsfit_bestmodel-eps-converted-to.pdf>
 Package pdftex.def Info: freqsfit_bestmodel-eps-converted-to.pdf  used on input
@@ -2126,17 +2127,17 @@ Package epstopdf Info: Source file: <freqsfit_bestpumped_2.eps>
 converted-to.pdf freqsfit_bestpumped_2.eps>
 (epstopdf)             \includegraphics on input line 383.
 Package epstopdf Info: Output file is already uptodate.
-<freqsfit_bestpumped_2-eps-converted-to.pdf, id=1399, 2184.16pt x 1322.9425pt>
+<freqsfit_bestpumped_2-eps-converted-to.pdf, id=1331, 2184.16pt x 1322.9425pt>
 File: freqsfit_bestpumped_2-eps-converted-to.pdf Graphic file (type pdf)
 <use freqsfit_bestpumped_2-eps-converted-to.pdf>
 Package pdftex.def Info: freqsfit_bestpumped_2-eps-converted-to.pdf  used on in
 put line 383.
 (pdftex.def)             Requested size: 442.79887pt x 268.19719pt.
- [62 <./freqsfit_bestmodel-eps-converted-to.pdf>]
-<lenzdiss.png, id=1455, 1693.32625pt x 1288.815pt>
+[59] [60] [61 <./final_44tau-eps-converted-to.pdf>]
+<lenzdiss.png, id=1427, 1693.32625pt x 1288.815pt>
 File: lenzdiss.png Graphic file (type png)
 <use lenzdiss.png>
-Package pdftex.def Info: lenzdiss.png  used on input line 394.
+Package pdftex.def Info: lenzdiss.png  used on input line 395.
 (pdftex.def)             Requested size: 369.0pt x 280.84598pt.
 Package epstopdf Info: Source file: <frequency_fit.eps>
 (epstopdf)                    date: 2019-08-29 13:22:03
@@ -2146,13 +2147,13 @@ Package epstopdf Info: Source file: <frequency_fit.eps>
 (epstopdf)                    size: 14766 bytes
 (epstopdf)             Command: <repstopdf --outfile=frequency_fit-eps-converte
 d-to.pdf frequency_fit.eps>
-(epstopdf)             \includegraphics on input line 401.
+(epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
-<frequency_fit-eps-converted-to.pdf, id=1458, 2184.16pt x 1322.9425pt>
+<frequency_fit-eps-converted-to.pdf, id=1430, 2184.16pt x 1322.9425pt>
 File: frequency_fit-eps-converted-to.pdf Graphic file (type pdf)
 <use frequency_fit-eps-converted-to.pdf>
 Package pdftex.def Info: frequency_fit-eps-converted-to.pdf  used on input line
- 401.
+ 402.
 (pdftex.def)             Requested size: 442.79887pt x 268.19719pt.
 Package epstopdf Info: Source file: <final_hrd_44tau_lum1.eps>
 (epstopdf)                    date: 2019-08-29 13:13:13
@@ -2163,21 +2164,21 @@ Package epstopdf Info: Source file: <final_hrd_44tau_lum1.eps>
 (epstopdf)                    size: 52117 bytes
 (epstopdf)             Command: <repstopdf --outfile=final_hrd_44tau_lum1-eps-c
 onverted-to.pdf final_hrd_44tau_lum1.eps>
-(epstopdf)             \includegraphics on input line 408.
+(epstopdf)             \includegraphics on input line 409.
 Package epstopdf Info: Output file is already uptodate.
-<final_hrd_44tau_lum1-eps-converted-to.pdf, id=1461, 2184.16pt x 1322.9425pt>
+<final_hrd_44tau_lum1-eps-converted-to.pdf, id=1433, 2184.16pt x 1322.9425pt>
 File: final_hrd_44tau_lum1-eps-converted-to.pdf Graphic file (type pdf)
 <use final_hrd_44tau_lum1-eps-converted-to.pdf>
 Package pdftex.def Info: final_hrd_44tau_lum1-eps-converted-to.pdf  used on inp
-ut line 408.
+ut line 409.
 (pdftex.def)             Requested size: 442.79887pt x 268.19719pt.
- [63 <./freqsfit_bestpumped_2-eps-converted-to.pdf>]
+ [62 <./freqsfit_bestmodel-eps-converted-to.pdf>] [63 <./freqsfit_bestpumped_2-
+eps-converted-to.pdf>]
+[64 <./lenzdiss.png> <./frequency_fit-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `tab:superstar' on page 64 undefined on input line 421
+LaTeX Warning: Reference `tab:superstar' on page 65 undefined on input line 422
 .
 
-[64 <./lenzdiss.png>] [65 <./frequency_fit-eps-converted-to.pdf> <./final_hrd_4
-4tau_lum1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <final_superstar_35.eps>
 (epstopdf)                    date: 2019-09-01 13:16:35
 (epstopdf)                    size: 198222 bytes
@@ -2186,16 +2187,16 @@ Package epstopdf Info: Source file: <final_superstar_35.eps>
 (epstopdf)                    size: 57276 bytes
 (epstopdf)             Command: <repstopdf --outfile=final_superstar_35-eps-con
 verted-to.pdf final_superstar_35.eps>
-(epstopdf)             \includegraphics on input line 431.
+(epstopdf)             \includegraphics on input line 432.
 Package epstopdf Info: Output file is already uptodate.
-<final_superstar_35-eps-converted-to.pdf, id=1629, 2079.77pt x 1094.0875pt>
+<final_superstar_35-eps-converted-to.pdf, id=1573, 2079.77pt x 1094.0875pt>
 File: final_superstar_35-eps-converted-to.pdf Graphic file (type pdf)
 <use final_superstar_35-eps-converted-to.pdf>
 Package pdftex.def Info: final_superstar_35-eps-converted-to.pdf  used on input
- line 431.
+ line 432.
 (pdftex.def)             Requested size: 442.79887pt x 232.93709pt.
-
-Overfull \hbox (30.97597pt too wide) in paragraph at lines 441--455
+[65 <./final_hrd_44tau_lum1-eps-converted-to.pdf>]
+Overfull \hbox (30.97597pt too wide) in paragraph at lines 442--456
 [][] 
  []
 
@@ -2207,23 +2208,14 @@ Package epstopdf Info: Source file: <final_superstar_7_2.eps>
 (epstopdf)                    size: 55377 bytes
 (epstopdf)             Command: <repstopdf --outfile=final_superstar_7_2-eps-co
 nverted-to.pdf final_superstar_7_2.eps>
-(epstopdf)             \includegraphics on input line 461.
+(epstopdf)             \includegraphics on input line 462.
 Package epstopdf Info: Output file is already uptodate.
-<final_superstar_7_2-eps-converted-to.pdf, id=1633, 2079.77pt x 1094.0875pt>
+<final_superstar_7_2-eps-converted-to.pdf, id=1650, 2079.77pt x 1094.0875pt>
 File: final_superstar_7_2-eps-converted-to.pdf Graphic file (type pdf)
 <use final_superstar_7_2-eps-converted-to.pdf>
 Package pdftex.def Info: final_superstar_7_2-eps-converted-to.pdf  used on inpu
-t line 461.
+t line 462.
 (pdftex.def)             Requested size: 442.79887pt x 232.93709pt.
-
-LaTeX Warning: Reference `plotfreqsvsevol' on page 66 undefined on input line 4
-69.
-
-
-LaTeX Warning: Reference `plotfreqsvsevol' on page 66 undefined on input line 4
-69.
-
-[66] [67]
 Package epstopdf Info: Source file: <freqsvsevol.eps>
 (epstopdf)                    date: 2019-09-03 12:57:10
 (epstopdf)                    size: 44929 bytes
@@ -2232,16 +2224,16 @@ Package epstopdf Info: Source file: <freqsvsevol.eps>
 (epstopdf)                    size: 159737 bytes
 (epstopdf)             Command: <repstopdf --outfile=freqsvsevol-eps-converted-
 to.pdf freqsvsevol.eps>
-(epstopdf)             \includegraphics on input line 473.
+(epstopdf)             \includegraphics on input line 474.
 Package epstopdf Info: Output file is already uptodate.
-<freqsvsevol-eps-converted-to.pdf, id=1653, 2079.77pt x 1094.0875pt>
+<freqsvsevol-eps-converted-to.pdf, id=1657, 2079.77pt x 1094.0875pt>
 File: freqsvsevol-eps-converted-to.pdf Graphic file (type pdf)
 <use freqsvsevol-eps-converted-to.pdf>
 Package pdftex.def Info: freqsvsevol-eps-converted-to.pdf  used on input line 4
-73.
+74.
 (pdftex.def)             Requested size: 442.79887pt x 232.93709pt.
-) [68 <./final_superstar_35-eps-converted-to.pdf>] [69 <./final_superstar_7_2-e
-ps-converted-to.pdf>] [70 <./freqsvsevol-eps-converted-to.pdf>]
+) [66] [67] [68 <./final_superstar_35-eps-converted-to.pdf>] [69 <./final_super
+star_7_2-eps-converted-to.pdf>] [70 <./freqsvsevol-eps-converted-to.pdf>]
 \openout2 = `discussion.aux'.
 
 
@@ -2499,7 +2491,7 @@ df>
 s-converted-to.pdf appendix_stuff/plotchis.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
-<appendix_stuff/plotchis-eps-converted-to.pdf, id=2634, 2079.77pt x 1094.0875pt
+<appendix_stuff/plotchis-eps-converted-to.pdf, id=2650, 2079.77pt x 1094.0875pt
 >
 File: appendix_stuff/plotchis-eps-converted-to.pdf Graphic file (type pdf)
 <use appendix_stuff/plotchis-eps-converted-to.pdf>
@@ -2710,7 +2702,7 @@ Overfull \hbox (55.62366pt too wide) in paragraph at lines 181--182
 
 
 ]
-Overfull \hbox (2.68095pt too wide) in paragraph at lines 306--306
+Overfull \hbox (2.68095pt too wide) in paragraph at lines 307--307
 [][]\T1/lmr/m/n/10.95 (-20) Herwig, Falk (2004). ^^P  Evo-lu-tion and yields of
  ex-tremely metal-poor intermediate-
  []
@@ -2727,15 +2719,15 @@ FiXme Summary: Number of notes: 0,
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 311.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
  (./main.aux (./motivation.aux) (./stellar_evol.aux) (./Introduction.aux)
 (./Delta_Scuti_variables.aux) (./Stellar_modelling.aux) (./modelling44tau.aux)
 (./discussion.aux) (./conclusion.aux) (./Appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 311.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 311.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7ABAF025029BCB3BDBED8545FA19DC07;2991.
+(rerunfilecheck)             Checksum: EBC9C52D1E2A9A98A7F6684F84A9E9F5;2996.
 
 
 LaTeX Warning: There were undefined references.
@@ -2745,13 +2737,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40527 strings out of 492623
- 728238 string characters out of 6135669
- 1455434 words of memory out of 5000000
- 42131 multiletter control sequences out of 15000+600000
- 687542 words of font info for 268 fonts, out of 8000000 for 9000
+ 40553 strings out of 492623
+ 728815 string characters out of 6135669
+ 1461340 words of memory out of 5000000
+ 42143 multiletter control sequences out of 15000+600000
+ 688278 words of font info for 274 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,101p,2318b,3957s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,15n,101p,2320b,3957s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
 nts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.
 enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-d
@@ -2774,10 +2766,10 @@ dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public
 e/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1
 /public/lm/lmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msam10.pfb></usr/share/texmf-dist/fonts/type1/public/newtxtt/newtxtt.pfb>
-Output written on main.pdf (106 pages, 8739716 bytes).
+Output written on main.pdf (106 pages, 8742092 bytes).
 PDF statistics:
- 3590 PDF objects out of 4296 (max. 8388607)
- 2694 compressed objects within 27 object streams
- 1483 named destinations out of 1728 (max. 500000)
- 52773 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 3607 PDF objects out of 4296 (max. 8388607)
+ 2707 compressed objects within 28 object streams
+ 1487 named destinations out of 1728 (max. 500000)
+ 53285 words of extra memory for PDF output out of 61914 (max. 10000000)
 

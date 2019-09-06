@@ -1,21 +1,21 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[22] biber:315> INFO - === Thu Sep  5, 2019, 21:57:24
-[38] Biber.pm:371> INFO - Reading 'main.bcf'
-[131] Biber.pm:889> INFO - Found 79 citekeys in bib section 0
-[141] Biber.pm:4093> INFO - Processing section 0
-[150] Biber.pm:4254> INFO - Looking for bibtex format file 'bib.bib' for section 0
-[153] bibtex.pm:1523> INFO - LaTeX decoding ...
-[267] bibtex.pm:1340> INFO - Found BibTeX data source 'bib.bib'
-[272] Utils.pm:193> WARN - Duplicate entry key: 'dupret2005time' in file 'bib.bib', skipping ...
-[273] Utils.pm:193> WARN - Duplicate entry key: 'hog2000tycho' in file 'bib.bib', skipping ...
-[802] Utils.pm:193> WARN - BibTeX subsystem: /tmp/LK5gQUlONN/bib.bib_19286.utf8, line 922, warning: 2 characters of junk seen at toplevel
-[802] Utils.pm:193> WARN - BibTeX subsystem: /tmp/LK5gQUlONN/bib.bib_19286.utf8, line 932, warning: 2 characters of junk seen at toplevel
-[803] Utils.pm:193> WARN - BibTeX subsystem: /tmp/LK5gQUlONN/bib.bib_19286.utf8, line 946, warning: 4 characters of junk seen at toplevel
-[878] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[878] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[878] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[879] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[941] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[968] bbl.pm:739> INFO - Output to main.bbl
-[968] Biber.pm:110> INFO - WARNINGS: 5
+[20] biber:315> INFO - === Fri Sep  6, 2019, 21:58:34
+[37] Biber.pm:371> INFO - Reading 'main.bcf'
+[126] Biber.pm:889> INFO - Found 82 citekeys in bib section 0
+[137] Biber.pm:4093> INFO - Processing section 0
+[145] Biber.pm:4254> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[148] bibtex.pm:1523> INFO - LaTeX decoding ...
+[276] bibtex.pm:1340> INFO - Found BibTeX data source 'bib.bib'
+[282] Utils.pm:193> WARN - Duplicate entry key: 'dupret2005time' in file 'bib.bib', skipping ...
+[282] Utils.pm:193> WARN - Duplicate entry key: 'hog2000tycho' in file 'bib.bib', skipping ...
+[856] Utils.pm:193> WARN - BibTeX subsystem: /tmp/zTgQZU3OV4/bib.bib_4625.utf8, line 922, warning: 2 characters of junk seen at toplevel
+[856] Utils.pm:193> WARN - BibTeX subsystem: /tmp/zTgQZU3OV4/bib.bib_4625.utf8, line 932, warning: 2 characters of junk seen at toplevel
+[857] Utils.pm:193> WARN - BibTeX subsystem: /tmp/zTgQZU3OV4/bib.bib_4625.utf8, line 946, warning: 4 characters of junk seen at toplevel
+[939] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[939] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[939] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[939] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[1003] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1033] bbl.pm:739> INFO - Output to main.bbl
+[1033] Biber.pm:110> INFO - WARNINGS: 5
