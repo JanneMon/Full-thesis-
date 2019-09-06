@@ -23,7 +23,7 @@ Numerical results for increasing initial abundances at fixed metallicity can be 
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=1\textwidth]{test_x.png}
+	\includegraphics[width=1\textwidth]{test_x.eps}
 	\caption{Stellar evolution tracks for two different masses with two different metal abundances. Each track has $Z=0.01$, $\alpha_{mlt}=0.5$ and $\alpha_{ov}=0.3$. The red lines indicates tracks with masses of $M=1.75M_\odot$, and black lines indicate $M=1.85M_\odot$. The full lines have $X = 0.75$ and dashed lines $X = 0.65$. The black dashed box indicates the three sigma uncertainties on \lum and \teff (from \citet{lenz2010delta}).}
 	\label{diffx}
 \end{figure}
@@ -71,7 +71,7 @@ As mentioned previously in \secref{sec:mesa}, they way \texttt{MESA} works is to
 \begin{figure}[htbp]
     \centering
     %\includegraphics[width=1\textwidth]{resolution_stages.png}
-    	\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{resolution_stages}}%
+    	\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{freqsplot.eps}}%
     \caption{Resolution at different stages of an evolution of a track with M=1.85\msun, X=0.75, Z=0.02, $\alpha_{mlt} = 0.5$, $\alpha_{ov} = 0.3$. The beginning of the MS is marked with a bold "1", continuing until "2" where the post-MS contraction phase starts. At "3" all hydrogen has been exhausted in the core, and the star is in the post-MS expansion phase. Middle panel: Here the fundamental frequency is plotted as a function of time. The dashed lines indicate the stages corresponding to those in the middle panel. Lower panel: Shows the absolute difference in fundamental frequency between two subsequent models.}
     \label{resstage}
 \end{figure}
@@ -331,12 +331,12 @@ The best models found for the two different runs of 44 Tau are shown in \tabref{
 	
 	\begin{tabular}{lllllllllll}
 		\toprule
-		Profile & $M[M_\odot]$  & X & Z & $\alpha_{mlt}$ & $\alpha_{ov}$ & $\chi_{tot}^2$ &$\chi_{freqs}^2$ & $\chi_{obs}^2$ & $\chi_{p}^2$ & Observation\\
+		Profile & $M[M_\odot]$  & X & Z & $\alpha_{mlt}$ & $\alpha_{ov}$ & $\chi_{tot}^2$ &$\chi_{freqs}^2$ & $\chi_{obs}^2$ & $\chi_{p}^2$ & Parameter set reference\\
 		\midrule
-		1190 &1. 55 & 0.65  & 0.01  & 0.8  & 0.1  & \textcolor{red}{$6.2814 \cdot 10^{9}$} &  \textcolor{red}{$6.2814 \cdot 10^{9}$} & 5.5763 & $6.1377 \cdot 10^{9}$ &  \citet{lenz2010delta}/\citet{brown2018gaia}\\
-		1411 & 1.60 & 0.70  & 0.01  & 0.2  & 0.2 &  $9.0844\cdot 10^{10}$ & $9.0844\cdot 10^{10}$ & \textcolor{red}{0.2238} & $1.6366 \cdot^{10}$ &  \citet{lenz2010delta}  \\
-		1384 & 1.65 & 0.70 & 0.01 & 0.2  & 0.2  & $1.6275\cdot10^{10}$    & $1.6275 \cdot 10^{10} $ & 3.75058  & \textcolor{red}{$3.1659 \cdot 10^{9} $} & \citet{lenz2010delta}/\citet{brown2018gaia}\\
-		1090 & 2.10 & 0.70 & 0.03 & 0.5  & 0.3  &  $1.6487\cdot10^{10}$    & $1.6487 \cdot 10^{10} $ & \textcolor{red}{1.3523}  & $3.1659 \cdot 10^{9} $ & \citet{brown2018gaia}\\
+		1190 &1.55 & 0.65  & 0.01  & 0.8  & 0.1  & \textcolor{red}{$6.2814 \cdot 10^{8}$} &  \textcolor{red}{$6.2814 \cdot 10^{8}$} & 5.5763 & $6.1377 \cdot 10^{8}$ &  \citet{lenz2010delta}/\citet{brown2018gaia}\\
+		1411 & 1.60 & 0.70  & 0.01  & 0.2  & 0.2 &  $9.0844\cdot 10^{9}$ & $9.0844\cdot 10^{9}$ & \textcolor{red}{0.2238} & $1.6366 \cdot 10^{9}$ &  \citet{lenz2010delta}  \\
+		1384 & 1.65 & 0.70 & 0.01 & 0.2  & 0.2  & $1.6275\cdot10^{9}$    & $1.6275 \cdot 10^{9} $ & 3.7506  & \textcolor{red}{$3.1659 \cdot 10^{9} $} & \citet{lenz2010delta}/\citet{brown2018gaia}\\
+		1090 & 2.10 & 0.70 & 0.03 & 0.5  & 0.3  &  $1.6487\cdot10^{10}$    & $1.6487 \cdot 10^{10} $ & \textcolor{red}{1.3523}  & $1.2282 \cdot 10^{10} $ & \citet{brown2018gaia}\\
 	\bottomrule
 	\end{tabular}
 \end{sidewaystable}
@@ -348,12 +348,12 @@ The best models found for the two different runs of 44 Tau are shown in \tabref{
 	
 	\begin{tabular}{lllll}
 		\toprule
-		Profile &  \teff & \logg & \lum & age \\
+		Profile &  \teff & \logg & \lum & age [Gyr] \\
 		\midrule
-		1190 &1.55 & 0.65  & 0.01  &\\
-		1411 & 1.60 & 0.70  & 0.01  &\\
-		1384 & 1.65 & 0.70 & 0.01 &\\
-		1090 & 2.10 & 0.70 & 0.03 &\\
+		1190 &3.8542 & 3.6405  & 1.3582  & 1.1966\\
+		1411 & 3.8399 & 3.6450  & 1.3100  & 1.6019\\
+		1384 & 3.8506 & 3.6488 & 1.3624 &  1.4652\\
+		1090 & 3.8400& 3.6900 & 1.3819 &  1.1188\\
 		\bottomrule
 	\end{tabular}
 \end{table}
