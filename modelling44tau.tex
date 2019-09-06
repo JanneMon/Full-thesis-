@@ -19,7 +19,7 @@ The mass has not been observationally determined, but since both stars have been
 	\label{diffz}
 \end{figure}
 
-Numerical results for the initial hydrogen abundances can be seen on \figref{diffx}. The line and color convention corresponds to that of \figref{diffz}, with the difference being the line type indicating the values of $X$ instead. Here it is also clear that the initial hydrogen abundance affects the luminosity (however less than $Z$). Higher hydrogen abundances causes $\kappa$ to increase, hence decreasing \lum.
+Numerical results for increasing initial abundances at fixed metallicity can be seen in \figref{diffx}. The line and color convention corresponds to that of \figref{diffz}, with the difference being the line type indicating the values of $X$ instead. Here it is also clear that the initial hydrogen abundance affects the luminosity (however less than $Z$). Higher hydrogen abundances causes $\kappa$ to increase, hence decreasing \lum.
 
 \begin{figure}[htbp]
 	\centering
@@ -66,7 +66,7 @@ It is unclear why these exact combinations have numerical issues, and further in
 \section{Resolution and varcontrol}
 \label{sec:res}
 
-As mentioned previously in \secref{sec:mesa}, they way \texttt{MESA} works is to fulfill calculations in time steps that are non-equidistant. As a result of this, models on a track can be far apart, particularly if the evolution is fast. This means that models on the main-sequence are well resolved, while the models on fast stages (particularly post-ms contraction phase) are fare apart in terms of structure. Since every model calculated in \texttt{MESA} produces one corresponding model in \texttt{GYRE}, this also results in the frequencies being very different from one model to another, which should be considered when calculating the \chis (see \secref{sec:chis}). An example can be seen on \figref{resstage} where, the radial fundamental mode is plotted as a function of timestep. The upper panel shows an HRD with the evolution divided into three stages MS (1), post-MS contraction (2), and post-MS expansion (3). The lower panel of \figref{resstage} is the same models corresponding to middle panel but where the radial fundamental mode frequency difference between models, $f_1(i+1) - f_1(i)$, is plotted as a function of time. This shows that the resolution in the frequency space is as high as ~0.18 $d^{-1}$ for this track\footnote{Some tracks have poorer resolution of ~0.2$d^{-1}$}. The highest point is on the MS which should be taken into account for HD 187547. For 44 Tau, the focus for the resolution control should be much later on the post-MS.      
+As mentioned previously in \secref{sec:mesa}, they way \texttt{MESA} works is to fulfill calculations in time steps that are non-equidistant. As a result of this, models on a track can be far apart, particularly if the evolution is fast. This means that models on the main-sequence are well resolved, while the models on fast stages (particularly post-MS contraction phase) are far apart in terms of structure. This also results in the frequencies being very different from one model to another, which should be considered when calculating the \chis (see \secref{sec:chis}). An example can be seen on \figref{resstage} where, the radial fundamental mode is plotted as a function of timestep. The upper panel shows an HRD with the evolution divided into three stages MS (1), post-MS contraction (2), and post-MS expansion (3). The lower panel of \figref{resstage} is the same models corresponding to middle panel but where the radial fundamental mode frequency difference between models, $f_1(i+1) - f_1(i)$, is plotted as a function of time. This shows that the resolution in the frequency space is as high as ~0.18 $d^{-1}$ for this track\footnote{Some tracks have poorer resolution of ~0.2$d^{-1}$}. The highest point is on the MS which should be taken into account for HD 187547. For 44 Tau, the focus for the resolution control should be much later on the post-MS.      
 
 \begin{figure}[htbp]
     \centering
@@ -78,7 +78,7 @@ As mentioned previously in \secref{sec:mesa}, they way \texttt{MESA} works is to
 
 Since 44 Tau has earlier been identified to be in the post-MS phase and the low value of \lum for HD 187547 indicates an earlier stage on MS, the resolution of the models in \texttt{MESA} needs to be adjusted to allow for a higher chance of finding a good fit, particularly within these stages. It is possible to simply force smaller time steps, but this is not ideal since it would not only increase the computation time on the fast evolutionary stages, but the entire track. It is therefore favorable to consider an alternative parameter that does not spend computation in areas where it is not needed. 
 
-There are more than one way of doing so. It is possible to set a limit for magnitude of maximum change in temperature and photosphere with the \texttt{delta\_lgTeff\_limit}, or alter the minimum and maximum number of grid points in a model with \texttt{mesh\_delta\_coeff} (a higher value decreases the number). The parameter found to be most efficient in this project is the \texttt{varcontrol\_target} parameter. This parameter is assigned a value describing the relative variation in the structure from one model to the next. The timestep then adjust accordingly, depending if the variation is smaller or larger than the value. Increasing the resolution through this value does also increase the computation time, however, reasonably. An example of this can be seen on \figref{varcontrol} where the same track is plotted with different values of \texttt{varcontrol\_target}. It is here found that a value of $5\cdot10^{-5}$ is sufficient in making the resolution satisfactory for this work. 
+There are more than one way of doing so. It is possible to set a limit for magnitude of maximum change in temperature and photosphere with the \texttt{delta\_lgTeff\_limit}, or alter the minimum and maximum number of grid points in a model with \texttt{mesh\_delta\_coeff} (a higher value decreases the number). The parameter found to be most efficient in this project is the \texttt{varcontrol\_target} parameter. This parameter is assigned a value describing the relative variation in the structure from one model to the next. The timestep then adjust accordingly, depending if the variation is smaller or larger than the value. Increasing the resolution through this value does also increase the computation time. An example of this can be seen on \figref{varcontrol} where the same track is plotted with different values of \texttt{varcontrol\_target}. It is here found that a value of $5\cdot10^{-5}$ is sufficient in making the resolution satisfactory for this work. 
 
 \begin{figure}[htbp]
     \centering
@@ -99,7 +99,7 @@ Some tracks are still better resolved than others. A general tendency from the c
   \end{figure}
 
 
-\section{chi2 testing}
+\section{$\chi^2$ testing}
 \label{sec:chis}
 
 \subsection{Finding the best model}
@@ -130,7 +130,7 @@ For 44 Tau, the frequencies of the fundamental mode and first overtone are well-
 \chi^2_j & = & \left(\frac{\nu^{\text{fund,obs}}-\nu_j^{\text{fund,theo}}}{\sigma_{\text{fund},j}}\right)^2 
  + \left(\frac{\nu^{\text{first,obs}}-\nu_j^{\text{first,theo}}}{\sigma_{\text{first},j}}\right)^2 
  +
-\left(\frac{\text{T}_\text{eff}^{obs}-\text{T}_{\text{eff},j}^{\text{theo}}}{\sigma_{\text{T}_\text{eff},j}}\right)^2 \\
+\left(\frac{\text{T}_\text{eff}^{obs}-\text{T}_{\text{eff},j}^{\text{theo}}}{\sigma_{\text{T}_\text{eff},j}}\right)^2 \nonumber \\
 & & +
 \left(\frac{\log \text{g}^\text{obs}-\log \text{g}^\text{theo}_j}{\sigma_{\log \text{g},j}}\right)^2 
  + \left(\frac{\log \text{L}^{\text{obs}}-\log \text{L}^\text{theo}_j}{\sigma_{\log \text{L},j}}\right)^2, 

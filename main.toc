@@ -28,7 +28,7 @@
 \contentsline {chapter}{\chapternumberline {6}Modeling 44 Tau and HD 187547}{47}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}Choosing a grid}{47}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Resolution and varcontrol}{51}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}chi2 testing}{53}{section.6.3}% 
+\contentsline {section}{\numberline {6.3}$\chi ^2$ testing}{53}{section.6.3}% 
 \contentsline {subsection}{\numberline {6.3.1}Finding the best model}{53}{subsection.6.3.1}% 
 \contentsline {subsection}{\numberline {6.3.2}44 Tau}{54}{subsection.6.3.2}% 
 \contentsline {subsubsection}{\numberline {6.3.2.1}l=0 modes}{54}{subsubsection.6.3.2.1}% 
@@ -41,5 +41,8 @@
 \contentsline {section}{\numberline {7.2}Stringent statistics}{72}{section.7.2}% 
 \contentsline {section}{\numberline {7.3}Non-adiabatic calculations}{73}{section.7.3}% 
 \contentsline {chapter}{\chapternumberline {8}Conclusion}{75}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}A}{77}{section.8.1}% 
-\contentsline {chapter}{Bibliography}{79}{section*.45}% 
+\contentsline {section}{\numberline {8.1}Inlist files from MESA and GYRE}{77}{section.8.1}% 
+\contentsline {subsection}{\numberline {8.1.1}MESA inlist}{77}{subsection.8.1.1}% 
+\contentsline {subsection}{\numberline {8.1.2}GYRE input file to output}{78}{subsection.8.1.2}% 
+\contentsline {section}{\numberline {8.2}\ensuremath {\chi ^2}\xspace routine}{83}{section.8.2}% 
+\contentsline {chapter}{Bibliography}{101}{section*.46}% 

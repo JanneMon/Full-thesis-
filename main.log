@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.8.20)  6 SEP 2019 01:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.8.20)  6 SEP 2019 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1686,7 +1686,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 238.
-<frontpage.png, id=172, 1652.1725pt x 1297.84875pt>
+<frontpage.png, id=184, 1652.1725pt x 1297.84875pt>
 File: frontpage.png Graphic file (type png)
 <use frontpage.png>
 Package pdftex.def Info: frontpage.png  used on input line 244.
@@ -1716,7 +1716,12 @@ Package microtype Info: Loading generic protrusion settings for font family
  [2] [3
 
 ] (./main.toc
-[4]) [5]
+[4]
+Overfull \hbox (1.91618pt too wide) detected at line 48
+ \T1/lmr/bx/n/10.95 101
+ []
+
+) [5]
 \openout2 = `motivation.aux'.
 
  (./motivation.tex [6
@@ -1739,7 +1744,7 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 103.
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [11]
-<convection_zones.png, id=315, 2394.9475pt x 831.105pt>
+<convection_zones.png, id=330, 2394.9475pt x 831.105pt>
 File: convection_zones.png Graphic file (type png)
 <use convection_zones.png>
 Package pdftex.def Info: convection_zones.png  used on input line 113.
@@ -1748,12 +1753,12 @@ Package pdftex.def Info: convection_zones.png  used on input line 113.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 129.
  [13] [14]
-<iben.png, id=364, 943.525pt x 1133.23375pt>
+<iben.png, id=378, 943.525pt x 1133.23375pt>
 File: iben.png Graphic file (type png)
 <use iben.png>
 Package pdftex.def Info: iben.png  used on input line 153.
 (pdftex.def)             Requested size: 295.20113pt x 354.54968pt.
-<STAGES.png, id=369, 1333.98375pt x 1093.08376pt>
+<STAGES.png, id=383, 1333.98375pt x 1093.08376pt>
 File: STAGES.png Graphic file (type png)
 <use STAGES.png>
 Package pdftex.def Info: STAGES.png  used on input line 160.
@@ -1769,7 +1774,7 @@ Package epstopdf Info: Source file: <stellarparams.eps>
 d-to.pdf stellarparams.eps>
 (epstopdf)             \includegraphics on input line 184.
 Package epstopdf Info: Output file is already uptodate.
-<stellarparams-eps-converted-to.pdf, id=392, 2081.3761pt x 1046.46967pt>
+<stellarparams-eps-converted-to.pdf, id=406, 2081.3761pt x 1046.46967pt>
 File: stellarparams-eps-converted-to.pdf Graphic file (type pdf)
 <use stellarparams-eps-converted-to.pdf>
 Package pdftex.def Info: stellarparams-eps-converted-to.pdf  used on input line
@@ -1785,7 +1790,7 @@ Package epstopdf Info: Source file: <conv_cores.eps>
 o.pdf conv_cores.eps>
 (epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
-<conv_cores-eps-converted-to.pdf, id=393, 2081.3761pt x 1046.46967pt>
+<conv_cores-eps-converted-to.pdf, id=407, 2081.3761pt x 1046.46967pt>
 File: conv_cores-eps-converted-to.pdf Graphic file (type pdf)
 <use conv_cores-eps-converted-to.pdf>
 Package pdftex.def Info: conv_cores-eps-converted-to.pdf  used on input line 19
@@ -1801,7 +1806,7 @@ ores-eps-converted-to.pdf>]
 
 
 ] [21]
-<nonradial.png, id=519, 2155.05125pt x 645.41125pt>
+<nonradial.png, id=533, 2155.05125pt x 645.41125pt>
 File: nonradial.png Graphic file (type png)
 <use nonradial.png>
 Package pdftex.def Info: nonradial.png  used on input line 35.
@@ -1813,23 +1818,23 @@ Package pdftex.def Info: nonradial.png  used on input line 35.
                                                   \fi \fi 
 l.44 
       <./nonradial.png>]
-<pandgmodes.png, id=537, 866.23625pt x 1065.9825pt>
+<pandgmodes.png, id=552, 866.23625pt x 1065.9825pt>
 File: pandgmodes.png Graphic file (type png)
 <use pandgmodes.png>
 Package pdftex.def Info: pandgmodes.png  used on input line 57.
 (pdftex.def)             Requested size: 221.40225pt x 272.44817pt.
  [23]
-<propagation1.png, id=553, 2521.42pt x 1374.13374pt>
+<propagation1.png, id=567, 2521.42pt x 1374.13374pt>
 File: propagation1.png Graphic file (type png)
 <use propagation1.png>
 Package pdftex.def Info: propagation1.png  used on input line 87.
 (pdftex.def)             Requested size: 332.09775pt x 189.66792pt.
-<propagation2.png, id=555, 2506.36375pt x 1387.1825pt>
+<propagation2.png, id=569, 2506.36375pt x 1387.1825pt>
 File: propagation2.png Graphic file (type png)
 <use propagation2.png>
 Package pdftex.def Info: propagation2.png  used on input line 94.
 (pdftex.def)             Requested size: 332.09775pt x 192.67653pt.
-<propagation3.png, id=557, 2491.3075pt x 1385.175pt>
+<propagation3.png, id=571, 2491.3075pt x 1385.175pt>
 File: propagation3.png Graphic file (type png)
 <use propagation3.png>
 Package pdftex.def Info: propagation3.png  used on input line 101.
@@ -1839,7 +1844,7 @@ Package pdftex.def Info: propagation3.png  used on input line 101.
 LaTeX Warning: Float too large for page by 53.16519pt on input line 107.
 
 [24 <./pandgmodes.png>]
-<propagationrays.png, id=565, 1100.11pt x 1046.91125pt>
+<propagationrays.png, id=579, 1100.11pt x 1046.91125pt>
 File: propagationrays.png Graphic file (type png)
 <use propagationrays.png>
 Package pdftex.def Info: propagationrays.png  used on input line 124.
@@ -1873,7 +1878,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<hrpuls.png, id=595, 872.25874pt x 1101.11375pt>
+<hrpuls.png, id=609, 872.25874pt x 1101.11375pt>
 File: hrpuls.png Graphic file (type png)
 <use hrpuls.png>
 Package pdftex.def Info: hrpuls.png  used on input line 6.
@@ -1904,12 +1909,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--140
  []
 
 [33]
-<superstarspectrum.jpg, id=694, 28.45276pt x 11.19142pt>
+<superstarspectrum.jpg, id=708, 28.45276pt x 11.19142pt>
 File: superstarspectrum.jpg Graphic file (type jpg)
 <use superstarspectrum.jpg>
 Package pdftex.def Info: superstarspectrum.jpg  used on input line 148.
 (pdftex.def)             Requested size: 369.0pt x 145.2174pt.
-<superstar2.jpg, id=699, 28.45276pt x 41.82555pt>
+<superstar2.jpg, id=713, 28.45276pt x 41.82555pt>
 File: superstar2.jpg Graphic file (type jpg)
 <use superstar2.jpg>
 Package pdftex.def Info: superstar2.jpg  used on input line 155.
@@ -1933,7 +1938,7 @@ Overfull \hbox (22.02997pt too wide) in paragraph at lines 65--66
  []
 
 [39]
-<mlt.png, id=805, 2081.376pt x 1053.6966pt>
+<mlt.png, id=819, 2081.376pt x 1053.6966pt>
 File: mlt.png Graphic file (type png)
 <use mlt.png>
 Package pdftex.def Info: mlt.png  used on input line 84.
@@ -1949,7 +1954,7 @@ Package epstopdf Info: Source file: <overshoots_example.eps>
 verted-to.pdf overshoots_example.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
-<overshoots_example-eps-converted-to.pdf, id=816, 2081.3761pt x 1046.46967pt>
+<overshoots_example-eps-converted-to.pdf, id=831, 2081.3761pt x 1046.46967pt>
 File: overshoots_example-eps-converted-to.pdf Graphic file (type pdf)
 <use overshoots_example-eps-converted-to.pdf>
 Package pdftex.def Info: overshoots_example-eps-converted-to.pdf  used on input
@@ -1974,24 +1979,24 @@ Package epstopdf Info: Source file: <test_z.eps>
 f test_z.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
-<test_z-eps-converted-to.pdf, id=955, 2081.3761pt x 1046.46967pt>
+<test_z-eps-converted-to.pdf, id=969, 2081.3761pt x 1046.46967pt>
 File: test_z-eps-converted-to.pdf Graphic file (type pdf)
 <use test_z-eps-converted-to.pdf>
 Package pdftex.def Info: test_z-eps-converted-to.pdf  used on input line 17.
 (pdftex.def)             Requested size: 369.0pt x 185.51413pt.
-<test_x.png, id=960, 2081.376pt x 1046.4696pt>
+<test_x.png, id=974, 2081.376pt x 1046.4696pt>
 File: test_x.png Graphic file (type png)
 <use test_x.png>
 Package pdftex.def Info: test_x.png  used on input line 26.
 (pdftex.def)             Requested size: 369.0pt x 185.51413pt.
  [48 <./test_z-eps-converted-to.pdf>]
-<tramper.png, id=1020, 1174.3875pt x 1132.23pt>
+<tramper.png, id=1034, 1174.3875pt x 1132.23pt>
 File: tramper.png Graphic file (type png)
 <use tramper.png>
 Package pdftex.def Info: tramper.png  used on input line 35.
 (pdftex.def)             Requested size: 295.20113pt x 284.5944pt.
  [49 <./test_x.png>] [50 <./tramper.png>]
-<resolution_stages.png, id=1044, 2081.376pt x 1053.6966pt>
+<resolution_stages.png, id=1058, 2081.376pt x 1053.6966pt>
 File: resolution_stages.png Graphic file (type png)
 <use resolution_stages.png>
 Package pdftex.def Info: resolution_stages.png  used on input line 74.
@@ -2007,7 +2012,7 @@ Package epstopdf Info: Source file: <varcontrol_res_2.eps>
 rted-to.pdf varcontrol_res_2.eps>
 (epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
-<varcontrol_res_2-eps-converted-to.pdf, id=1054, 2081.3761pt x 1046.46967pt>
+<varcontrol_res_2-eps-converted-to.pdf, id=1068, 2081.3761pt x 1046.46967pt>
 File: varcontrol_res_2-eps-converted-to.pdf Graphic file (type pdf)
 <use varcontrol_res_2-eps-converted-to.pdf>
 Package pdftex.def Info: varcontrol_res_2-eps-converted-to.pdf  used on input l
@@ -2026,14 +2031,31 @@ Package epstopdf Info: Source file: <resolution_overshoot.eps>
 onverted-to.pdf resolution_overshoot.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
-<resolution_overshoot-eps-converted-to.pdf, id=1117, 2081.3761pt x 1046.46967pt
+<resolution_overshoot-eps-converted-to.pdf, id=1132, 2081.3761pt x 1046.46967pt
 >
 File: resolution_overshoot-eps-converted-to.pdf Graphic file (type pdf)
 <use resolution_overshoot-eps-converted-to.pdf>
 Package pdftex.def Info: resolution_overshoot-eps-converted-to.pdf  used on inp
 ut line 96.
 (pdftex.def)             Requested size: 369.0pt x 185.51413pt.
- [53 <./resolution_overshoot-eps-converted-to.pdf>]
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 102.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\chi' on input line 102.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 102.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 102.
+
+[53 <./resolution_overshoot-eps-converted-to.pdf>]
 Overfull \hbox (3.45474pt too wide) detected at line 138
 []
  []
@@ -2049,7 +2071,7 @@ Package epstopdf Info: Source file: <scatter_v2.eps>
 o.pdf scatter_v2.eps>
 (epstopdf)             \includegraphics on input line 287.
 Package epstopdf Info: Output file is already uptodate.
-<scatter_v2-eps-converted-to.pdf, id=1199, 2184.16pt x 1322.9425pt>
+<scatter_v2-eps-converted-to.pdf, id=1212, 2184.16pt x 1322.9425pt>
 File: scatter_v2-eps-converted-to.pdf Graphic file (type pdf)
 <use scatter_v2-eps-converted-to.pdf>
 Package pdftex.def Info: scatter_v2-eps-converted-to.pdf  used on input line 28
@@ -2070,7 +2092,7 @@ Package epstopdf Info: Source file: <final_44tau.eps>
 to.pdf final_44tau.eps>
 (epstopdf)             \includegraphics on input line 365.
 Package epstopdf Info: Output file is already uptodate.
-<final_44tau-eps-converted-to.pdf, id=1294, 2184.16pt x 1322.9425pt>
+<final_44tau-eps-converted-to.pdf, id=1307, 2184.16pt x 1322.9425pt>
 File: final_44tau-eps-converted-to.pdf Graphic file (type pdf)
 <use final_44tau-eps-converted-to.pdf>
 Package pdftex.def Info: final_44tau-eps-converted-to.pdf  used on input line 3
@@ -2087,7 +2109,7 @@ Package epstopdf Info: Source file: <freqsfit_bestmodel.eps>
 verted-to.pdf freqsfit_bestmodel.eps>
 (epstopdf)             \includegraphics on input line 376.
 Package epstopdf Info: Output file is already uptodate.
-<freqsfit_bestmodel-eps-converted-to.pdf, id=1383, 2184.16pt x 1322.9425pt>
+<freqsfit_bestmodel-eps-converted-to.pdf, id=1396, 2184.16pt x 1322.9425pt>
 File: freqsfit_bestmodel-eps-converted-to.pdf Graphic file (type pdf)
 <use freqsfit_bestmodel-eps-converted-to.pdf>
 Package pdftex.def Info: freqsfit_bestmodel-eps-converted-to.pdf  used on input
@@ -2104,14 +2126,14 @@ Package epstopdf Info: Source file: <freqsfit_bestpumped_2.eps>
 converted-to.pdf freqsfit_bestpumped_2.eps>
 (epstopdf)             \includegraphics on input line 383.
 Package epstopdf Info: Output file is already uptodate.
-<freqsfit_bestpumped_2-eps-converted-to.pdf, id=1386, 2184.16pt x 1322.9425pt>
+<freqsfit_bestpumped_2-eps-converted-to.pdf, id=1399, 2184.16pt x 1322.9425pt>
 File: freqsfit_bestpumped_2-eps-converted-to.pdf Graphic file (type pdf)
 <use freqsfit_bestpumped_2-eps-converted-to.pdf>
 Package pdftex.def Info: freqsfit_bestpumped_2-eps-converted-to.pdf  used on in
 put line 383.
 (pdftex.def)             Requested size: 442.79887pt x 268.19719pt.
  [62 <./freqsfit_bestmodel-eps-converted-to.pdf>]
-<lenzdiss.png, id=1442, 1693.32625pt x 1288.815pt>
+<lenzdiss.png, id=1455, 1693.32625pt x 1288.815pt>
 File: lenzdiss.png Graphic file (type png)
 <use lenzdiss.png>
 Package pdftex.def Info: lenzdiss.png  used on input line 394.
@@ -2126,7 +2148,7 @@ Package epstopdf Info: Source file: <frequency_fit.eps>
 d-to.pdf frequency_fit.eps>
 (epstopdf)             \includegraphics on input line 401.
 Package epstopdf Info: Output file is already uptodate.
-<frequency_fit-eps-converted-to.pdf, id=1445, 2184.16pt x 1322.9425pt>
+<frequency_fit-eps-converted-to.pdf, id=1458, 2184.16pt x 1322.9425pt>
 File: frequency_fit-eps-converted-to.pdf Graphic file (type pdf)
 <use frequency_fit-eps-converted-to.pdf>
 Package pdftex.def Info: frequency_fit-eps-converted-to.pdf  used on input line
@@ -2143,7 +2165,7 @@ Package epstopdf Info: Source file: <final_hrd_44tau_lum1.eps>
 onverted-to.pdf final_hrd_44tau_lum1.eps>
 (epstopdf)             \includegraphics on input line 408.
 Package epstopdf Info: Output file is already uptodate.
-<final_hrd_44tau_lum1-eps-converted-to.pdf, id=1448, 2184.16pt x 1322.9425pt>
+<final_hrd_44tau_lum1-eps-converted-to.pdf, id=1461, 2184.16pt x 1322.9425pt>
 File: final_hrd_44tau_lum1-eps-converted-to.pdf Graphic file (type pdf)
 <use final_hrd_44tau_lum1-eps-converted-to.pdf>
 Package pdftex.def Info: final_hrd_44tau_lum1-eps-converted-to.pdf  used on inp
@@ -2166,7 +2188,7 @@ Package epstopdf Info: Source file: <final_superstar_35.eps>
 verted-to.pdf final_superstar_35.eps>
 (epstopdf)             \includegraphics on input line 431.
 Package epstopdf Info: Output file is already uptodate.
-<final_superstar_35-eps-converted-to.pdf, id=1616, 2079.77pt x 1094.0875pt>
+<final_superstar_35-eps-converted-to.pdf, id=1629, 2079.77pt x 1094.0875pt>
 File: final_superstar_35-eps-converted-to.pdf Graphic file (type pdf)
 <use final_superstar_35-eps-converted-to.pdf>
 Package pdftex.def Info: final_superstar_35-eps-converted-to.pdf  used on input
@@ -2187,7 +2209,7 @@ Package epstopdf Info: Source file: <final_superstar_7_2.eps>
 nverted-to.pdf final_superstar_7_2.eps>
 (epstopdf)             \includegraphics on input line 461.
 Package epstopdf Info: Output file is already uptodate.
-<final_superstar_7_2-eps-converted-to.pdf, id=1620, 2079.77pt x 1094.0875pt>
+<final_superstar_7_2-eps-converted-to.pdf, id=1633, 2079.77pt x 1094.0875pt>
 File: final_superstar_7_2-eps-converted-to.pdf Graphic file (type pdf)
 <use final_superstar_7_2-eps-converted-to.pdf>
 Package pdftex.def Info: final_superstar_7_2-eps-converted-to.pdf  used on inpu
@@ -2212,7 +2234,7 @@ Package epstopdf Info: Source file: <freqsvsevol.eps>
 to.pdf freqsvsevol.eps>
 (epstopdf)             \includegraphics on input line 473.
 Package epstopdf Info: Output file is already uptodate.
-<freqsvsevol-eps-converted-to.pdf, id=1640, 2079.77pt x 1094.0875pt>
+<freqsvsevol-eps-converted-to.pdf, id=1653, 2079.77pt x 1094.0875pt>
 File: freqsvsevol-eps-converted-to.pdf Graphic file (type pdf)
 <use freqsvsevol-eps-converted-to.pdf>
 Package pdftex.def Info: freqsvsevol-eps-converted-to.pdf  used on input line 4
@@ -2238,20 +2260,462 @@ ps-converted-to.pdf>] [70 <./freqsvsevol-eps-converted-to.pdf>]
 \openout2 = `Appendix.aux'.
 
 
-(./Appendix.tex) [77
+(./Appendix.tex
+Overfull \hbox (13.69029pt too wide) in paragraph at lines 7--8
+\T1/lmr/m/n/10.95 (-20) the dif-fer-ent \T1/newtxtt/m/n/10.95 step_overshoot_f 
+\T1/lmr/m/n/10.95 (-20) com-mands changes the val-ues of $\OML/lmm/m/it/10.95 X
+; Z; M; []; []$
+ []
+
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 9.
+
+(/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+(./appendix_stuff/inlist_premainmade [77
 
 
 
-] [78
+])
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(./appendix_stuff/gyre_tofreqs_44tau.sh [78]
+Overfull \hbox (198.77461pt too wide) in paragraph at lines 21--22
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[79]
+Overfull \hbox (7.9617pt too wide) in paragraph at lines 107--108
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][] 
+ []
+
+[80] [81] [82])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\chi' on input line 15.
 
 
-] [79]
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 15.
+
+
+Overfull \hbox (10.24837pt too wide) in paragraph at lines 20--21
+[]\T1/lmr/m/n/10.95 (-20) First, all pro-files for all tracks lo-cated in the g
+rid di-rec-tory (\T1/newtxtt/m/n/10.95 output_smallgrid\T1/lmr/m/n/10.95 (-20) 
+)
+ []
+
+(./appendix_stuff/call_chi.py [83]
+Overfull \hbox (104.34804pt too wide) in paragraph at lines 41--42
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+
+Overfull \hbox (132.47032pt too wide) in paragraph at lines 53--56
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[84]) (./appendix_stuff/call_chi_actually.py
+Overfull \hbox (238.36264pt too wide) in paragraph at lines 18--19
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (65.11113pt too wide) in paragraph at lines 19--21
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][] 
+ []
+
+[85]
+Overfull \hbox (274.65741pt too wide) in paragraph at lines 64--65
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (270.28262pt too wide) in paragraph at lines 91--93
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (68.49861pt too wide) in paragraph at lines 95--96
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[86]
+Overfull \hbox (107.66791pt too wide) in paragraph at lines 96--98
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][] 
+ []
+
+
+Overfull \hbox (0.19557pt too wide) in paragraph at lines 98--101
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][] 
+ []
+
+
+Overfull \hbox (74.50034pt too wide) in paragraph at lines 106--107
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (150.55862pt too wide) in paragraph at lines 128--130
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (185.97131pt too wide) in paragraph at lines 134--135
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (91.51254pt too wide) in paragraph at lines 140--142
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (40.07018pt too wide) in paragraph at lines 146--147
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [87] (./appendix_stuff/plot_chis_actually.py
+Overfull \hbox (113.20932pt too wide) in paragraph at lines 29--30
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[88]
+Overfull \hbox (111.9567pt too wide) in paragraph at lines 81--82
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (76.40543pt too wide) in paragraph at lines 99--100
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+[89]
+Overfull \hbox (47.97383pt too wide) in paragraph at lines 100--102
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+
+Overfull \hbox (22.69412pt too wide) in paragraph at lines 102--103
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (110.15073pt too wide) in paragraph at lines 118--119
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (75.4562pt too wide) in paragraph at lines 142--143
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (294.39973pt too wide) in paragraph at lines 150--153
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[90])
+Package epstopdf Info: Source file: <appendix_stuff/plotchis.eps>
+(epstopdf)                    date: 2019-09-06 16:00:06
+(epstopdf)                    size: 43124 bytes
+(epstopdf)             Output file: <appendix_stuff/plotchis-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-09-06 16:05:21
+(epstopdf)                    size: 159787 bytes
+(epstopdf)             Command: <repstopdf --outfile=appendix_stuff/plotchis-ep
+s-converted-to.pdf appendix_stuff/plotchis.eps>
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+<appendix_stuff/plotchis-eps-converted-to.pdf, id=2634, 2079.77pt x 1094.0875pt
+>
+File: appendix_stuff/plotchis-eps-converted-to.pdf Graphic file (type pdf)
+<use appendix_stuff/plotchis-eps-converted-to.pdf>
+Package pdftex.def Info: appendix_stuff/plotchis-eps-converted-to.pdf  used on 
+input line 36.
+(pdftex.def)             Requested size: 369.0pt x 194.1059pt.
+ (./appendix_stuff/getl1l2_actually.py [91 <./appendix_stuff/plotchis-eps-conve
+rted-to.pdf>]
+Overfull \hbox (104.1794pt too wide) in paragraph at lines 32--33
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (95.25153pt too wide) in paragraph at lines 50--51
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (86.83691pt too wide) in paragraph at lines 61--62
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (344.38878pt too wide) in paragraph at lines 65--66
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][] 
+ []
+
+
+Overfull \hbox (82.81902pt too wide) in paragraph at lines 66--67
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (979.83698pt too wide) in paragraph at lines 67--68
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][] 
+ []
+
+[92]
+Overfull \hbox (214.27948pt too wide) in paragraph at lines 79--80
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.11217pt too wide) in paragraph at lines 88--89
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (251.50397pt too wide) in paragraph at lines 95--97
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (391.45747pt too wide) in paragraph at lines 111--112
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (120.82025pt too wide) in paragraph at lines 113--114
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+[93]
+Overfull \hbox (252.1975pt too wide) in paragraph at lines 154--155
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (190.72513pt too wide) in paragraph at lines 155--156
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (84.11484pt too wide) in paragraph at lines 156--158
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (135.89252pt too wide) in paragraph at lines 163--164
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[94]
+Overfull \hbox (89.4994pt too wide) in paragraph at lines 203--204
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (62.93094pt too wide) in paragraph at lines 204--205
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Overfull \hbox (55.2338pt too wide) in paragraph at lines 208--43
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (127.16096pt too wide) in paragraph at lines 45--46
+\T1/lmr/m/n/10.95 (-20) which pro-duces the fi-nal out-put file. This file is t
+hen opened in \T1/newtxtt/m/n/10.95 test_l012_results_actually_version2.py\T1/l
+mr/m/n/10.95 (-20) . 
+ []
+
+(./appendix_stuff/test_l012_results_actually_version2.py [95]
+Overfull \hbox (90.41594pt too wide) in paragraph at lines 41--42
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (83.11026pt too wide) in paragraph at lines 43--44
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./appendix_stuff/calculate_chis_ff1_superstar_withcorrectsep.py [96]
+[97]
+Overfull \hbox (87.56961pt too wide) in paragraph at lines 90--92
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (214.67854pt too wide) in paragraph at lines 106--107
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][] 
+ []
+
+[98]
+Overfull \hbox (90.84476pt too wide) in paragraph at lines 123--125
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.80377pt too wide) in paragraph at lines 167--168
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (144.38812pt too wide) in paragraph at lines 168--169
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][] 
+ []
+
+[99]
+Overfull \hbox (133.20688pt too wide) in paragraph at lines 176--177
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (76.76451pt too wide) in paragraph at lines 180--181
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (55.62366pt too wide) in paragraph at lines 181--182
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+)) [100] [101
+
+
+]
 Overfull \hbox (2.68095pt too wide) in paragraph at lines 306--306
 [][]\T1/lmr/m/n/10.95 (-20) Herwig, Falk (2004). ^^P  Evo-lu-tion and yields of
  ex-tremely metal-poor intermediate-
  []
 
-[80] [81] [82] [83]
+[102] [103] [104] [105]
 
 FiXme Summary: Number of notes: 0,
 (FiXme)        Number of warnings: 0,
@@ -2259,7 +2723,7 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[84]
+[106]
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -2271,7 +2735,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9AC862BC7F25EF012E557747C969AF1F;2764.
+(rerunfilecheck)             Checksum: 7ABAF025029BCB3BDBED8545FA19DC07;2991.
 
 
 LaTeX Warning: There were undefined references.
@@ -2281,16 +2745,16 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38141 strings out of 492623
- 696563 string characters out of 6135669
- 1318750 words of memory out of 5000000
- 40959 multiletter control sequences out of 15000+600000
- 687883 words of font info for 270 fonts, out of 8000000 for 9000
+ 40527 strings out of 492623
+ 728238 string characters out of 6135669
+ 1455434 words of memory out of 5000000
+ 42131 multiletter control sequences out of 15000+600000
+ 687542 words of font info for 268 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,92p,2318b,2910s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dis
-t/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mat
-hit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-d
+ 58i,15n,101p,2318b,3957s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
+nts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.
+enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-d
 ist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-
 mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/newtxtt/txttAec.enc}</usr/sha
 re/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/typ
@@ -2304,16 +2768,16 @@ hare/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/typ
 e1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></u
 sr/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf-dist/fonts
 /type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmro10
-.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-
-dist/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/
-lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share
-/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/ne
-wtxtt/newtxtt.pfb>
-Output written on main.pdf (84 pages, 8450731 bytes).
+.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-
+dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public
+/lm/lmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1
+/public/lm/lmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/newtxtt/newtxtt.pfb>
+Output written on main.pdf (106 pages, 8739716 bytes).
 PDF statistics:
- 2045 PDF objects out of 2073 (max. 8388607)
- 1205 compressed objects within 13 object streams
- 304 named destinations out of 1000 (max. 500000)
- 51208 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 3590 PDF objects out of 4296 (max. 8388607)
+ 2694 compressed objects within 27 object streams
+ 1483 named destinations out of 1728 (max. 500000)
+ 52773 words of extra memory for PDF output out of 61914 (max. 10000000)
 

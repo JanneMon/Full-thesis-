@@ -1,0 +1,87 @@
+! For the sake of future readers of this file (yourself included),
+! ONLY include the controls you are actually using.  DO NOT include
+! all of the other controls that simply have their default values.
+
+&star_job
+
+  ! begin with a pre-main sequence model
+  !  create_pre_main_sequence_model = .true.
+    load_saved_model = .true.
+    saved_model_name = 'pre_ms17.mod'
+
+    set_uniform_initial_composition = .true.
+    initial_zfracs = 2 
+    initial_h1 = 0.7
+    initial_h2 = 0
+    initial_he3 = 0.000028
+    initial_he4 = 0.279972
+    
+    relax_initial_mass = .true.
+    new_mass = 2.0
+    lg_max_abs_mdot = -100 
+    
+    kappa_file_prefix = 'gn93'     
+    kappa_lowT_prefix = 'lowT_fa05_gn93'
+    
+  ! save a model at the end of the run
+  !  save_model_when_terminate = .true.
+  !  save_model_filename = 'premain.mod'
+
+  ! display on-screen plots
+    pgstar_flag = .true.
+
+/ !end of star_job namelist
+
+
+&controls
+
+  ! starting specifications
+  !  initial_mass = 2.1
+
+  ! stop when the star nears ZAMS (Lnuc/L > 0.99)
+  !  Lnuc_div_L_zams_limit = 0.99d0
+  !  stop_near_zams = .false.
+
+  ! Stop when logg = 3.6848
+  ! log_g_upper_limit = 3.6848
+
+  ! stop when the center mass fraction of h1 drops below this limit
+  !  xa_central_lower_limit_species(1) = 'h1'
+  !  xa_central_lower_limit(1) = 1d-3
+
+  ! Stop when Teff is smaller than this limit
+  ! Teff_lower_limit = 7668    
+  ! log_L_upper_limit = 1.4
+  ! My own initial parameters:
+    
+  !  initial_z = 0.027
+  !  initial_y = 0.29
+    
+    mixing_length_alpha = 0.4
+    step_overshoot_f_above_burn_h_core = 0.25
+    overshoot_f0_above_burn_h_core = 0.01
+    step_overshoot_f_above_burn_h_shell = 0.25
+    overshoot_f0_above_burn_h_shell = 0.01
+    step_overshoot_f_below_burn_h_shell = 0.25
+    overshoot_f0_below_burn_h_shell = 0.01
+    which_atm_option = 'Eddington_grey'
+
+  ! Create model for GYRE to load 
+    
+    write_pulse_data_with_profile = .true.
+    pulse_data_format = 'GYRE'
+    add_atmosphere_to_pulse_data = .true.    
+    
+  !  write_gyre_for_best_model = .true.
+  !  best_model_gyre_filenam = '44tau.mesa'
+    log_directory = 'LOGS'
+    history_interval = 1
+    profile_interval = 1 
+    max_num_profile_models = 100000
+    power_he_burn_upper_limit = 1d-20
+    max_num_profile_zones = 2
+   
+  !  delta_lgTeff_limit = 0.0003
+    varcontrol_target = 5d-5
+
+/ ! end of controls namelist
