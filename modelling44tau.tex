@@ -284,7 +284,7 @@ parameter space is. This also means that the \chis for the frequency space can d
 \begin{figure}[htbp]
 	\centering
 	%\includegraphics[width=1\textwidth]{scatter_all_v2.eps}
-	\makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{scatter_v2.eps}}%
+	\makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{scatter_final.eps}}%
 	\caption{Scatter plots showing \teff, \logg color coded with nine different parameters for the 5\% best models (without resolution control). The plots color coded with \teff and \logg are plotted to show that the plotting method works correctly. The run was made with the Lenz obsevational parameters set. }
 	\label{scatter}
 \end{figure}
@@ -362,7 +362,7 @@ The best models found for the two different runs of 44 Tau are shown in \tabref{
 \begin{figure}[htbp]
 	\centering
 	%\includegraphics[width=1\textwidth]{scatter_all_v2.eps}
-	\makebox[\textwidth][c]{\includegraphics[width=1.3\textwidth]{final_44tau.eps}}%
+	\makebox[\textwidth][c]{\includegraphics[width=1.3\textwidth]{final44tau.eps}}%
 	\caption{HRD where the best model is estimated to be $M=1.55$\msun, $X=0.65$, $Z=0.01$, $\alpha_{mlt} = 0.5$, $\alpha_{ov} = 0.1$. The best total model is marked with a cyan blue dot, on the track marked with red. The green points shows the best 5\% models if the criteria is the total \chis. Blue dots are the 5\% best models if only observational parameters is included in the \chis, whereas the red dots is the 5\% if the \chis is only calculated from the frequency fits. The green tracks shows the best track with the black dot marking the best model if the frequency uncertainties have been artificially enhanced as in \eqref{sigma}. This track has the parameter combination of $M =2.05$ ,$X = 0.70$, $Z=0.03$, $\alpha_{mlt}=0.5$ and $\alpha_{ov}=0.3$.}
 	\label{hrd44taulenz}
 \end{figure}
@@ -429,7 +429,7 @@ For modes higher than $l$=0, calculating the \chis for HD 187547 is more elabora
 The best models for the two different HD 1987547 runs can be seen in \tabref{bestchisuper}. The best model of the respective \chis is marked with red. For $\Delta \nu=3.5 d^{-1}$ the best model based on $\chi_{tot}^2$ with a theoretical $\Delta f = 3.5672$. Only looking at the $\chi_{sep}^2$, the best model will be slightly shifted, and obtain a significantly higher $\chi_{tot}^2=1254$. This is indicates that if the large frequency separation fits well, the observable parameters will not fit nearly as well. The model with the best $\chi_{obs}^2$ does indeed have a $\Delta f \approx 6d^{-1}$, significantly higher than $3.5d^{-1}$. This strengthens the suspicion that $3.5 d^{-1}$ is too low to match the observed parameters. This can also be seen on \figref{finalsuper}, as the best total track is forced outside the bounds of the instability strip.  From the placement of the 5\% best models it can be seen that the separation is closely related to the evolutionary stage (as they tend to line up along the same stage of the tracks. ) There is not overlap between the models for $\chi_{sep}^2$ and $\chi_{obs}^2$. The best combined modes therefore match the luminosity relatively, but is not within the errrorbox of the \teff, or \lum. The best model (marked in black) does place HD 187547 on the main-sequence, however to the right of the red edge, pushing it outside of the instability strip. 
 \begin{figure}[htbp]
 	\centering
-	\makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{final_superstar_35.eps}}%
+	\makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{finalsuperstar_35.eps}}%
 	\caption{HRD for HD 187537. The tracks for which $\chi_{tot}^2$ icds lowest is marked with red. The black tracks have the same parameter combinations as the best track but with masses varying from $M=1.55$ to $M=2.2$ \msun. The red dots are the plotted 5\% best models based on the \chis from the separation only ($\chi_{sep}^2$).  Here, $\Delta \nu = 7^d{-1}$ The blue points are the best 5\% for observed parameters $\chi_{obs}$, and the green dots for the combined $\chi_{tot}^2$. The orange dots indicates best models for \chis calculated based on \lum. Three sigma observed uncertainties are marked with a black dashed line as an errorbox. The instability strip is marked with the blue and red edges from \citet{murphy2019gaia}.}
 	\label{finalsuper}
 \end{figure}
@@ -443,11 +443,11 @@ The best models for the two different HD 1987547 runs can be seen in \tabref{bes
 		\toprule
 		profile & M[$M_\odot$] & X & Z & $\alpha_{mlt}$ & $\alpha_{ov}$ & \teff & \logg & \lum & Age [Gyr]& $\chi_{tot}^2$ & $\chi_{obs}^2$ & $\chi_{sep}^2$ & $\Delta f_{theo}$&$\Delta\nu_{obs} [d^{-1}]$\\
 		\midrule
-		  1144  &  1.50  & 0.65   & 0.03   & 0.2   & 0.3  & 3.727  & 3.604  & 0.873 &2.540 & \textcolor{red}{70.399}  & 68.595  & 1.8049 & 3.5672 &3.5   \\
-		  964  &  1.50  & 0.75   & 0.01    & 0.8   & 0.2  & 3.873  & 4.201  & 0.859 &  1.254 &  2728.3 & \textcolor{red}{2.3180}  &  2726.0 & 6.1105 &3.5    \\
-	     1128  & 1.75    & 0.75  & 0.02     & 0.2  & 0.2  & 3.808  & 3.840 & 1.025 & 1.802 & 2605.9  & 2605.9  & \textcolor{red}{$1.2759 \cdot 10^{-9}$}& 3.5000  &  3.5  \\
+		  1144  &  1.50  & 0.65   & 0.03   & 0.2   & 0.3  & 3.7793 & 3.8257  & 0.8587 &2.1183 & \textcolor{red}{70.399}  & 68.595  & 1.8049 & 3.5672 &3.5   \\
+		  964  &  1.50  & 0.75   & 0.01    & 0.8   & 0.2  & 3.8730  & 4.2010  & 0.8586 &  1.2542 &  2728.3 & \textcolor{red}{2.3180}  &  2726.0 & 6.1105 &3.5    \\
+	     1128  & 1.75    & 0.75  & 0.02     & 0.2  & 0.2  & 3.8076  & 3.8394 & 1.0254 & 1.8019 & 2605.9  & 2605.9  & \textcolor{red}{$1.2759 \cdot 10^{-9}$}& 3.5000  &  3.5  \\
 		  991  &  1.55  &  0.75  & 0.01       & 0.5  & 0.1 &  3.8933  & 4.2949  & 0.8601  & 0.6093   &  \textcolor{red}{6.5110} & 6.4926  & 0.0166  & 6.9932 &7.0 \\
-	      964 &  1.50  & 0.75  & 0.01      & 0.8  & 0.2  &  3.873 & 4.201   & 0.859 & 1.254  &  318.77 &  \textcolor{red}{2.318} &  316.46 &
+	      964 &  1.50  & 0.75  & 0.01      & 0.8  & 0.2  &  3.8730 & 4.2010   & 0.8586 & 1.2542  &  318.77 &  \textcolor{red}{2.3180,0} &  316.46 &
 	      6.1105 &7.0 \\
 		  966 &  2.05 & 0.70  & 0.01      & 0.2  & 0.1  &  4.0244 & 4.3283 & 1.4721 &  0.0061   &  35171  & 35171 &   \textcolor{red}{$9.5566 \cdot 10^{-9}$}  & 7.0000 &7.0     \\         
 		 \bottomrule
@@ -459,7 +459,7 @@ Increasing the large frequency separation to $\Delta \nu = 7d^{-1}$ yields the r
 
 \begin{figure}[htbp]
 	\centering
-	\makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{final_superstar_7_2.eps}}%
+	\makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{finalsuperstar_7.eps}}%
 	\caption{HR diagram for HD 187537, corresponding to \figref{finalsuper} but with $\Delta \nu = 3.5^{-1}$ . The tracks for which the total \chis is lowest is marked with red. The black tracks have the same parameter combinations as the best track but with masses varying from $M=1.55$ to $M=2.2$ \msun. The red dots are the plotted 5\% best models based on the \chis from the separation only ($\chi_{sep}^2$). The blue points are the best 5\% for observed parameters $\chi_{obs}$, and the green dots for the combined $\chi_{tot}^2$. The orange dots indicates best models for \chis calculated based on \lum. Three sigma observed uncertainties are marked with a black dashed line as an errorbox. The instability strip is marked with the blue and red edges from \citet{murphy2019gaia}.}
 	\label{finalsuper7}
 \end{figure}
