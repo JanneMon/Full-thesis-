@@ -10,7 +10,7 @@ A star in hydrostatic equilibrium balances its own gravitation with the gas pres
     \frac{dP}{dr} = - \frac{GM(r)}{r^2}\rho
 \end{equation}
 
-\noindent where $G$ is the gravitational constant and $P$ is the pressure. This equation states that the pressure obtained from gas and radiation must be equal to that of gravitation in order to maintain hydrostatic equilibrium. A star is also assumed to follow the equation of mass-conservation 
+\noindent where $G$ is the gravitational constant, $P$ is the pressure at a distance $r$ and $\rho$ is the density. This equation states that the pressure obtained from gas and radiation must be equal to that of gravitation in order to maintain hydrostatic equilibrium. A star is also assumed to follow the equation of mass-conservation 
 \begin{equation}
     \frac{dM(r)}{dr}  = 4\pi r^2 \rho,
 \end{equation}
@@ -23,20 +23,20 @@ A star in hydrostatic equilibrium balances its own gravitation with the gas pres
 
 \noindent From these equations it is possible to derive expressions for the minimum value of the central pressure $P_c$, the mean pressure $\Tilde{P}$ and temperature $\Tilde{T}$ for the case of a homogeneous star. Here, no knowledge on the composition is required, only the mass distribution.
 
-The energy in a star is defined by the energy creation (and loss)  in a certain layer. The conservation is then defined
+The energy in a star is defined by the energy generation (and loss)  in a certain layer. The conservation of energy is then defined as
 
 \begin{equation}
-     \frac{dL}{dM(r)} = \eta = \eta_{nuc} - \eta_{\nu} - T\frac{\partial s}{\partial T},
+     \frac{dL}{dM(r)} = \epsilon = \epsilon_{nuc} - \epsilon_{\nu} - T\frac{\partial s}{\partial T},
 \end{equation} 
 
-\noindent where $\eta_{nuc}$ is nuclear energy generation rate, $\eta_{\nu}$ is the neutrino loss rate and $T\frac{\partial s}{\partial T}$ is the gravitational energy rate describing energy that is released or absorbed by the contraction or expansion of the star. The energy can be transported through radiation. The temperature gradient required to carry the entire luminosity of a star by radiation can be written as 
+\noindent where $\epsilon_{nuc}$ is nuclear energy generation rate, $\epsilon_{\nu}$ is the neutrino loss rate and $T\frac{\partial s}{\partial T}$ is the gravitational energy rate describing energy that is released or absorbed by the contraction or expansion of the star. The energy can be transported through radiation. The temperature gradient required to carry the entire luminosity of a star by radiation can be written as 
 
 \begin{equation}
 \label{transportradiative}
 	\frac{dT}{dr} = -\frac{3 \rho}{64\pi^2 \sigma }\frac{\kappa L}{r^4 T^3},
 \end{equation}
 
-\noindent also called the equation of radiative transport. Here L is the luminosity, $\kappa$ is the opacity, $\rho$ is the density and $\sigma$ is the Stefan-Boltzmann constant. This equation is valid as long a the \textit{diffusion approximation} is valid. This breaks down at the stellar surface. In this case the full, and much more complicated, equations of radiative transfer must be solved.
+\noindent also called the equation of radiative transport. Here $L$ is the luminosity, $\kappa$ is the opacity, $\rho$ is the density and $\sigma$ is the Stefan-Boltzmann constant. This equation is valid as long a the \textit{diffusion approximation} is valid. This breaks down at the stellar surface of the star when the gas becomes optically thin. In this case the full, and much more complicated, equations of radiative transfer must be solved.
 
 For a more thorough description of stellar structure, the properties of the matter need to be assessed. Describing the thermodynamical properties in detail is no simple task, but the fundamental assumption is that at any point in the star, the gas is assumed to be in \textit{thermodynamic equilibrium}, which means that there are no net macroscopic flows. This approximation ensures that instead of considering detailed reactions between particles, the average properties of the gas can be described by local state variables. The relations between these specifies the \textit{equation of state} (EOS) of the gas. It is also assumed that there is no change in the gas conditions over the distance of the mean-free-path of a particle located in the gas, or over the time between collisions. These assumptions are well applied in stellar interiors, but in order to describe conditions in the atmosphere, a more detailed description is needed. 
 
@@ -46,7 +46,7 @@ Since temperatures in the interiors are high, most of the gas will be fully ioni
     PV = N k_B T,
 \end{equation}
 
-\noindent where $N$ is the number of particles in a gas with volume V, and $k_B$ is Boltzmann's constant. From this, general relations between pressure and internal energy can be derived. Stellar structure and evolution solves both equations of hydrostatic equilibrium and the EOS of the star. The modules used in this project will be described in \chapref{compute}. 
+\noindent where $N$ is the number of particles in a gas with volume $V$, and $k_B$ is Boltzmann's constant. From this, general relations between pressure and internal energy can be derived. Stellar structure and evolution solves both equations of hydrostatic equilibrium and the EOS of the star. The modules used in this project will be described in \chapref{compute}. 
 
 
 \section{Energy transport by convection}
@@ -96,7 +96,7 @@ known as the \textit{Ledoux criterion}. Under the assumptions mentioned earlier,
     \nabla_{rad} < \nabla_{ad}.
 \end{equation}
 
-\noindent This assumption does not apply well to evolving stars where elements are not necessarily produced in  the same layer (as heavier elements are produced below lighter). 
+\noindent This assumption does not apply well to evolved stars where elements are not necessarily produced in  the same layer (as heavier elements are produced below lighter). 
 Instability to convection thus occurs when the left hand side becomes larger than the right hand side. The small perturbations will grow until the layers is filled with convection. This occurs if
 
 \begin{itemize}
@@ -117,7 +117,7 @@ To sum up, the first condition consequently allows for convection in the core of
 
 The stars in this project lies in the \textit{intermediate mass} range which is usually stars of masses between 1.5\msun and 2.2\msun. They cover the transition from deep convective envelopes and convective cores. The motivation for using such stars will be discussed further in \secref{sec:why}.
 
-If \eqref{stability2} leads to stability it follows that $\nabla = \nabla_{rad}$ for the entire layer. The  last possibility is that one of \eqref{stability2} and \eqref{stability3} says stability whereas the other says instability. This is called the Twilight zone, see \citep{kippenhahn1990stellar} for more details.
+If \eqref{stability2} leads to stability it follows that $\nabla = \nabla_{rad}$ for the entire layer. The  last possibility is that one of \eqref{stability2} and \eqref{stability3} says stability whereas the other says instability, see \citep{kippenhahn1990stellar} for more details.
  
 This prescription gives a very simplified picture of where convection is expected to occur within a star. However, in reality a local treatment is complicated since convective motion is not only dependent on local forces, but forces between layers as well (such as momentum and inertia). The border of a convective zone is thereby not well-defined and precise as elements accelerated from one layer might flow into another. This will be discussed further in \secref{sec:conv_prescriptions}. 
 Convection flows in the laboratory is relatively well described by reasonable approximations. However, in stars convection is happening in much more violent conditions where compression of gas and turbulent motion depends on density, pressure and gravity of very high orders.  Taking such effects into consideration is not simple by any means, but efforts have been made to implement convection by making full two- and three-dimensional hydro dynamical simulations (e.g. \citet{nordlund19903}). Such codes do not treat the convection as separate homogeneous bubbles, but as a fully coupled time-dependent system. Such codes give a much more detailed and realistic picture of convection for single models. However, since the computation time for the full convective solution of a model is much longer than a simplified version, calculating a full track is not yet feasible. Therefore, the most used method is the \textit{standard mixing length theory} \citep{weiss2004cox}, which is a time-independent assessment. This is not sufficient to describe full hydrodynamical convection, but allows approximations to give a simplified local treatment, where convection can be described as macroscopic mass elements transferring energy. The mean free path is described with \textit{the mixing length}. There are several ways to implement this in stellar modeling which will be described in \secref{sec:conv_prescriptions}. 
@@ -140,7 +140,7 @@ The ZAMS is where the star begins the life on the main-sequence where it spends 
 \end{equation}
 
 
-\noindent where X, Y and Z is the hydrogen, helium and metal fraction respectively. It follows form the ideal gas law that $\text{P} \propto \rho \text{T}$. The pressure must balance the weight of the overlaying layers, hence it cannot decrease. Instead, $\rho T$ compensates for the increase in $\mu$. The core will start contracting to increase $\rho$ and gravitational potential energy energy is released, which further causes an increase in T (from the Virial theorem\footnote{See Chapter 3 in \citet{kippenhahn1990stellar}}. As the opacity follows $\kappa \propto \text{T}^{-3.5}$, an increase in temperature will cause a decrease in opacity. Thus, the photons can escape more easily, and the luminosity increases. This also follows from the equation of radiative transport \eqref{transportradiative} where $L\propto 1/\kappa$.
+\noindent where X, Y and Z is the hydrogen, helium and metal fraction respectively. It follows from the ideal gas law that $P \propto \rho T$. The pressure must balance the weight of the overlaying layers, hence it cannot decrease. Instead, $\rho T$ compensates for the increase in $\mu$. The core will start contracting to increase $\rho$ and gravitational potential energy energy is released, which further causes an increase in T (from the Virial theorem\footnote{See Chapter 3 in \citet{kippenhahn1990stellar}}. As the opacity follows $\kappa \propto \text{T}^{-3.5}$, an increase in temperature will cause a decrease in opacity. Thus, the photons can escape more easily, and the luminosity increases. This also follows from the equation of radiative transport \eqref{transportradiative} where $L\propto 1/\kappa$.
 
 It is more complicated to explain the change in global parameters such as the effective temperature and radius. The radius increases in general as the star evolves, but the rate of this expansion is mass dependent. For stars that have low masses (close to 1\msun ) expansion is slow and the increase in luminosity will lead to an increase in the effective temperature as well, while it is the opposite for stars with higher masses and higher expansion rates. Since the star heats from the inside, the outer layers will have expanded before the temperature can increase in this region, hence the effective temperature decreases. 
 
@@ -169,7 +169,7 @@ At point 5-6 , the star will then move back up the Hyashi track as a red giant. 
 
 It has been shown how a star's luminosity changes as a function of effective temperature throughout its evolution. As mentioned in the beginning of the chapter, assumptions on hydrostatic equilibrium and equation of state can provide us with solutions that relates several other properties. The numerical solutions to the radius $R$,  surface gravity  $g$, core density $\rho$ and convective core mass are shown on \figref{stellarparams} as a function of time. The red vertical lines from left to right indicate the beginning of the MS, post-MS contraction and post-MS expansion phases. As for the radius, the star contracts for the entirety of the PMS. As it burns hydrogen on the MS it slowly expands (as the temperature in the core increases slightly with time) until the post-MS where it again contracts. After hydrogen exhaustion the star undergoes fast overall expansion. Another parameter which is highly relevant for the frequencies is the surface gravity, as we shall see in \secref{chap:asteroseismology}. From theory we know that $g \propto M/R^2$, which is equivalent to the numerical results shown on \figref{stellarparams}. The density in the center increases rapidly on the Hyashi track when the star contracts, and follows the linear tendency $\rho_c \propto \frac{3M}{\pi R^3}$ on the MS (by assuming $\rho$ is a linear function of the fractional radius $r$. At the immediate post-MS phase it increases again as the core contracts rapidly. 
 
-An important parameter to also look at is the mass of the convective core. On the Hyashi track, the star is fully convective as it contracts. As the star burns hydrogen, the convective core mass slowly decreases until the point where hydrogen is exhausted in the core.  On \figref{convcore}, numerical results for the convective core mass ratio to the total stellar mass is plotted as a function of stellar age in Gyrs for tracks with different masses. It can here be seen that higher stellar masses leads to higher convective core masses. Since stars with higher mass also have shorter lifetimes on the ms, which is also well-depicted on the figure as the convective core mass drops to zero when nuclear fusion in the core ends, which occurs sooner for higher masses. At this point, the core will not longer have high enough temperature to be convective. The smaller inset window on \figref{convcore} shows the convective core mass evolution on the PMS to the MS. Higher masses enter the hyashi track at a lower age than stars with smaller masses again indicating a faster evolution in general.  
+An important parameter to also look at is the mass of the convective core. On the Hyashi track, the star is fully convective as it contracts. As the star burns hydrogen, the convective core mass slowly decreases until the point where hydrogen is exhausted in the core.  On \figref{convcore}, numerical results for the convective core mass ratio to the total stellar mass is plotted as a function of stellar age in Gyrs for tracks with different masses. It can here be seen that higher stellar masses leads to higher convective core masses. Since stars with higher mass also have shorter lifetimes on the MS, which is also well-depicted on the figure as the convective core mass drops to zero when nuclear fusion in the core ends, which occurs sooner for higher masses. At this point, the core will not longer have high enough temperature to be convective. The smaller inset window on \figref{convcore} shows the convective core mass evolution on the PMS to the MS. Higher masses enter the hyashi track at a lower age than stars with smaller masses again indicating a faster evolution in general.  
 %\begin{itemize}
  %   \item log g / age 
  %   \item log R / log g
@@ -181,7 +181,7 @@ An important parameter to also look at is the mass of the convective core. On th
 
 \begin{figure}[htbp]
     \centering
-   \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{stellarparams.eps}}%
+   \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{stellarparams.eps}}%
     \caption{Numerically calculated stellar parameters for a track with 1.75\msun, X=0.75, Z=0.02, $\alpha_{mlt}$=0.5, $\alpha_{ov}$=0.3. The dashed lines marks the different stages of the evolution, leftmost being thew beginning of the main-sequence, middle one the post- MS contraction phase and rightmost the post-MS expansion phase.}
     \label{stellarparams}
 \end{figure}
@@ -189,9 +189,9 @@ An important parameter to also look at is the mass of the convective core. On th
 
 \begin{figure}[htbp]
     \centering
-    \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{conv_cores.eps}}%
+    \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{conv_cores.eps}}%
     %\includegraphics[width=1\textwidth]{conv_cores.png}
-    \caption{Numerical results for stars with masses ranging from 1.5\msun to 2.2\msun, X = 0.70, Z = 0.02, $\alpha_{mlt} = 0.5$ and $\alpha_{ov} = 0.3$. The convective core mass ratio is plotted as a function of stellar age. The small window shows a zoom in of the plot at the age where the convective core is established (on the ms)}
+    \caption{Numerical results for stars with masses ranging from 1.5\msun to 2.2\msun, X = 0.70, Z = 0.02, $\alpha_{mlt} = 0.5$ and $\alpha_{ov} = 0.3$. The convective core mass ratio is plotted as a function of stellar age. The small window shows a zoom in of the plot at the age where the convective core is established (on the MS)}
     \label{convcore}
 \end{figure}
 

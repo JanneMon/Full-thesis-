@@ -1,23 +1,24 @@
-\chapter*{Appendix}
+\chapter{Appendix}
 \section{Inlist files from MESA and GYRE}
 \label{inlist}
 
 \subsection{MESA inlist}
 
-The standard inlist file used ofr \texttt{MESA} grid construction is shown here. The \texttt{initial\_h1},\texttt{initial\_he3},\texttt{initial\_he4}, \texttt{mixing\_length\_alpha}, \texttt{new\_mass} and the different \texttt{step\_overshoot\_f} commands changes the values of $X,Z,M,\alpha_{mlt},\alpha_{ov}$ respectively. This is done through a bash script searching and replacing the correct values. 
+The standard inlist file used in \texttt{MESA} grid construction for this work is shown here. The \texttt{initial\_h1},\texttt{initial\_he3},\texttt{initial\_he4}, \texttt{mixing\_length\_alpha}, \texttt{new\_mass} and the different \texttt{step\_overshoot\_f} commands changes the values of $X,Z,M,\alpha_{mlt},\alpha_{ov}$ respectively. This is done through a bash script searching and replacing the correct values. 
 
 \lstinputlisting[language=Fortran]{appendix_stuff/inlist_premainmade}
 
 \subsection{GYRE input file to output}
 
+This section shows a bash script which creates an inlist file to run GYRE on a profiles.data.GYRE output file, and create an output file. This code has the option to call radial orders only.
 \lstinputlisting[language=Bash]{appendix_stuff/gyre_tofreqs_44tau.sh}
 
 \section{\chis routine}
 \label{chisroutine}
 
-For the purpose of calculating the \chis, multiple codes are used. Here, only some of them are presented. All files used in this project can be seen on the webpage \url{github}. 
+For the purpose of calculating the \chis, multiple codes are used. Here, only some of them are presented. All files used in this project can be seen on the webpage \url{https://github.com/JanneMon/Thesis-codes}. 
 
-First, all profiles for all tracks located in the grid directory (\texttt{output\_smallgrid}) are read into \textit{call\_chi.py} which is the main file. This calls several files (not listed here) to extract input parameters, observational properties and pulsations.  A file with all the information is created for each track and put into a separate directory \texttt{Results\_l0}\footnote{The "l0" indicates that the luminosity comes from the first dataset}. 
+First, all profiles for all tracks located in the grid directory (\texttt{output\_smallgrid}) are read into \texttt{call\_chi.py} which is the main file. This calls several files (not listed here) to extract input parameters, observational properties and pulsations.  A file with all the information is created for each track and put into a separate directory \texttt{Results\_l0}\footnote{The "l0" indicates that the luminosity comes from the first dataset}. 
 
 \lstinputlisting[language=python]{appendix_stuff/call_chi.py}
 
@@ -25,7 +26,7 @@ This also does call an initially used \chis code \texttt{calculate\_chis\_ff1.py
 
 \lstinputlisting[language=python]{appendix_stuff/call_chi_actually.py}
 
-The output files created contains all \chis information $\chi_{tot}^2$,$\chi_{freqs}^2$, $\chi_{obs}^2$ and the artificially pumped total \chis and frequencies$\chi_{tot, enhanced}^2$,$\chi_{freqs,enhanced}^2$. For each file (containing information for an entire track) the lowest $\chi_{ tot}^2$ is found. Among these, the best 5\% models are found. These selections happens in \texttt{plot\_chis\_actually.py}:
+The output files created contains all \chis information $\chi_{tot}^2$,$\chi_{freqs}^2$, $\chi_{obs}^2$ and the artificially pumped total \chis and frequencies $\chi_{p}^2$, $\chi_{freqs,p}^2$. For each file (containing information for an entire track) the lowest $\chi_{ tot}^2$ is found. Among these, the best 5\% models are found. These selections happens in \texttt{plot\_chis\_actually.py}:
 
 \lstinputlisting[language=python]{appendix_stuff/plot_chis_actually.py}
 

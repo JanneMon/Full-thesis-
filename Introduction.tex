@@ -13,7 +13,7 @@ Pulsations in stars are treated three-dimensionally, and usually assumes a spher
 \begin{align}
     & \xi_r(r,\theta,\phi,t) = a(r)Y^{m}_l(\theta,\phi)e^{-i2\pi\nu t}  \\
     & \xi_\Theta(r,\theta,\phi,t) = b(r)\frac{\partial Y^{m}_l(\theta,\phi)}{\partial \theta}e^{-i2\pi\nu t}  \\
-    & \xi_\Theta(r,\theta,\phi,t) = \frac{b(r)}{\sin(\theta)}\frac{\partial Y^{m}_l(\theta,\phi)}{\partial \phi}e^{-i2\pi\nu t},
+    & \xi_\phi(r,\theta,\phi,t) = \frac{b(r)}{\sin(\theta)}\frac{\partial Y^{m}_l(\theta,\phi)}{\partial \phi}e^{-i2\pi\nu t},
 \end{align}
 
 \noindent where $a(r)$ and $b(r)$ are the amplitudes, $\nu$ is the oscillation frequency (1/Period) and $Y^{m}_l(\theta,\phi)$ are the spherical harmonics given by 
@@ -40,7 +40,7 @@ Pulsations in stars are treated three-dimensionally, and usually assumes a spher
 Generally we can divide stellar pulsations into radial and non-radial pulsations. Radial pulsations is the case for which $l=0$, with the very simplest geometry being the $n=1$ or \textit{radial fundamental mode}. In this case there is a node only at the center with the corresponding anti-node at the surface, meaning that the entire star pulsates. $n=2$ is the first radial overtone with one node, $n=3$ the second overtone has two radial nodes and so on. %The cases for the radial modes can be seen on \figref{radial}.
 If we assume that the star is uniform in temperature and chemical composition we would expect the ratio between the fundamental mode and the first overtone to be similar to that of an organ pipe \citep{aerts2010}. However, since we know that the temperature and chemical composition in the star changes with radius, we can exploit the fact that the sound speed changes accordingly, hence affecting the ratio. For instance we expect a ratio between the fundamental mode $F$ and first overtone $1H$ to be $F/1H = 0.77$ for $\delta$ Sct stars, but only $F/1H=0.71$ for Cepheids (as they are slightly more evolved). Hence, we can already say something about the interiors based only on two observed frequencies. As for the non-radial modes, the $dipole$ mode is the simplest with $l=1$. 
 
-As mentioned earlier we have assumed that the star behaves symmetrically, and that for non-radial modes all $|m|$ values have the same frequency as the $|m|=0$. However, it can cause the star to deviate from the assumption of spherical symmetry and lift this degeneracy such that all frequencies in $m$ for a given $l$ are different. The Coriolis and centrifugal forces will cause the wave to divert to either slightly lower or higher frequencies. Traveling with the rotation yields the $prograde$ modes (lower frequencies), whereas traveling against rotation are $retrograde$ modes (higher rotation)\footnote{The sign of the quantum number $m$ indicates whether the mode is prograde or retrograde, depending on the convention used.}. Assuming that the rotation still behaves uniformly we can write 
+As mentioned earlier we have assumed that the star behaves symmetrically, and that for non-radial modes all $|m|$ values have the same frequency as the $|m|=0$. However, it can cause the star to deviate from the assumption of spherical symmetry and lift this degeneracy such that all frequencies in $m$ for a given $l$ are different. The Coriolis and centrifugal forces will cause the wave to divert to either slightly lower or higher frequencies. Traveling against the rotation yields the $prograde$ modes (lower frequencies), whereas traveling with rotation are $retrograde$ modes\footnote{The sign of the quantum number $m$ indicates whether the mode is prograde or retrograde, depending on the convention used.}. Assuming that the rotation still behaves uniformly we can write 
 
 \begin{equation}
     \nu_{nlm} = \nu_{nl0}+ m(1-C_{nl})\Omega/2\pi,
@@ -55,7 +55,7 @@ Pulsations in stars can generally be divided into two groups: pressure modes (p 
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.6\textwidth]{pandgmodes.png}
-    \caption{Frequencies of p and g modes for a solar model. For p modes, the frequency increases with overtone $n$ and spherical degree $l$. For g modes the it decreases with overtone. Lines are chosen to illustrate the modes for clarity, but is should be noted that individual modes are discrete points. Figure from \citet{aerts2010}. }
+    \caption{Frequencies of p- and g modes for a solar model. For p modes, the frequency increases with overtone $n$ and spherical degree $l$. For g modes the it decreases with overtone. Lines are chosen to illustrate the modes for clarity, but is should be noted that individual modes are discrete points. Figure from \citet{aerts2010}. }
     \label{pandgmodes}
 \end{figure}
 
@@ -102,7 +102,7 @@ Energy from modes are mainly distributed to layers where a pulsation can propaga
 		\caption{Frequencies of p and g modes on the post-MS expansion phase. }
 		\label{fig:five over x}
 	\end{subfigure}
-	\caption{ Left panels shows the propagation diagrams of p and g modes in a 1.9 \msun star as a function fractional radius (0.0 being the center). Right panels shows the evolutionary track for the corresponding propagation diagram, with the current stage marked with a black dot. Credit Patrick Lenz.  }
+	\caption{ Left panels shows the propagation diagrams of p and g modes for all quadropole modes within the given frequency range for a 1.9\msun star. Radial modes are marked with circles. Right panels shows the evolutionary track for the corresponding propagation diagram, with the current stage marked with a black dot. Credit Patrick Lenz.  }
 	\label{pandg}
 \end{figure}
 
@@ -122,7 +122,7 @@ We can also exploit that different pulsation modes penetrate to different layers
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.8\textwidth]{propagationrays.png}
-    \caption{Schematic view of the propagating p modes in a star. The rays penetrate the star to a depth depending  on the spherical degree, $l$. The ray reaches an point where it will turn around. This is due to the increasing sound speed with depth. After the turnaround, the star will eventually be reflected near the surface, due to a fast decrease in density. The straight line shows the acoustic ray paths of $l$= 0 , 2,20,25 and 7 \citep{aerts2010}.}
+    \caption{Schematic view of the propagating p modes in a star. The rays penetrate the star to a depth depending  on the spherical degree, $l$. The ray reaches an point where it will turn around. This is due to the increasing sound speed with depth. After the turnaround, the star will eventually be reflected near the surface, due to a fast decrease in density. The straight line shows the acoustic ray paths of $l$= 0,2,20,25 and 7 \citep{aerts2010}.}
     \label{rays}
 \end{figure}
 
@@ -155,5 +155,5 @@ The asymptotic relation for g modes states that the periods of g modes are given
 
 \noindent where $N$ is the Brunt-Väisälä frequency and the integral is over a cavity in which a given g mode propagates.
 
-There are many more aspects pf the theory of stellar oscillations that can be investigated. This chapter provided an overview of the general theory and these can now be applied to the specific cases of $\Delta$ Sct stars. 
+There are many more aspects of the theory of stellar oscillations that can be investigated. This chapter provided an overview of the general theory and these can now be applied to the specific cases of $\delta$ Sct stars. 
 
